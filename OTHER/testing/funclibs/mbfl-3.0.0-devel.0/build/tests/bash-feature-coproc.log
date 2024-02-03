@@ -1,0 +1,8 @@
+dotest: coproc-1.1 -- start
+dotest: coproc-1.1 -- success
+
+Test file "../tests/bash-feature-coproc.test"
+	Number of executed tests: 1
+	Number of failed tests:   0
+
+PASS tests/bash-feature-coproc.test (exit status: 0)

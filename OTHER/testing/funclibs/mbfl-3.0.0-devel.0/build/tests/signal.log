@@ -1,0 +1,48 @@
+dotest: signal-1.1 -- start
+*** signaltest ***: executing test script
+*** signaltest ***: test script pid: 104000
+signaltest.sh: debug: running: pid 104000
+signaltest.sh: debug: attached 'handler_one' to signal SIGUSR1
+signaltest.sh: debug: attached 'handler_two' to signal SIGUSR1
+signaltest.sh: debug: attached 'handler_three' to signal SIGUSR2
+signaltest.sh: debug: attached 'handler_four' to signal SIGUSR2
+signaltest.sh: debug: waiting for SIGCONT
+*** signaltest ***: sending SIGUSR1 signal to pid '104000'
+*** signaltest ***: sending SIGCONT signal to pid '104000' to wake it up
+*** signaltest ***: waiting for pid '104000'
+signaltest.sh: debug: received signal 'SIGUSR1'
+signaltest.sh: debug: registered handler: handler_one
+signaltest.sh: debug: interrupted by signal (handler one)
+signaltest.sh: debug: registered handler: handler_two
+signaltest.sh: debug: interrupted by signal (handler two)
+signaltest.sh: debug: exiting
+signaltest.sh: debug: exiting after interruption (SIGUSR1, 2 handlers)
+*** signaltest ***: received finalisation of pid '104000'
+dotest: signal-1.1 -- success
+dotest: signal-1.2 -- start
+*** signaltest ***: executing test script
+*** signaltest ***: test script pid: 104069
+signaltest.sh: debug: running: pid 104069
+signaltest.sh: debug: attached 'handler_one' to signal SIGUSR1
+signaltest.sh: debug: attached 'handler_two' to signal SIGUSR1
+signaltest.sh: debug: attached 'handler_three' to signal SIGUSR2
+signaltest.sh: debug: attached 'handler_four' to signal SIGUSR2
+signaltest.sh: debug: waiting for SIGCONT
+*** signaltest ***: sending SIGUSR2 signal to pid '104069'
+*** signaltest ***: sending SIGCONT signal to pid '104069' to wake it up
+*** signaltest ***: waiting for pid '104069'
+signaltest.sh: debug: received signal 'SIGUSR2'
+signaltest.sh: debug: registered handler: handler_three
+signaltest.sh: debug: interrupted by signal (handler_three)
+signaltest.sh: debug: registered handler: handler_four
+signaltest.sh: debug: interrupted by signal (handler_four)
+signaltest.sh: debug: exiting
+signaltest.sh: debug: exiting after interruption (SIGUSR2, 2 handlers)
+*** signaltest ***: received finalisation of pid '104069'
+dotest: signal-1.2 -- success
+
+Test file "../tests/signal.test"
+	Number of executed tests: 2
+	Number of failed tests:   0
+
+PASS tests/signal.test (exit status: 0)

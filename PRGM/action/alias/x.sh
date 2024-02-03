@@ -1,0 +1,1 @@
+. ./PRGM/action/alias/examine.sh

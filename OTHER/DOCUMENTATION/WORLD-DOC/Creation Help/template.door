@@ -1,0 +1,12 @@
+@Start
+@Prop
+`Weight=100`
+@Door
+`Locked=false`
+`Message='What is written when you go through the door'`
+`Where='/Path/to/where/it/goes'`
+`LockMess='What it says when locked'`
+`Key=0001`
+@Disc
+What it looks like.
+@End

@@ -1,0 +1,11 @@
+
+)who:action "p1" p2~"Message";
+
+Where	'who' is the character it came from,
+	'action' is what they did to you,
+	'p1' is a parameter in quotes,
+	'p2' is also a parameter,
+	'Message' is the message to be displayed by the recipient.
+
+Examples of Transfer Format:
+)deverell:hug~"Deverell hugs you tightly!";

@@ -1,0 +1,36 @@
+dotest: times-and-dates--current-1.1 -- start
+dotest: times-and-dates--current-1.1 -- success
+2023
+dotest: times-and-dates--current-1.2 -- start
+dotest: times-and-dates--current-1.2 -- success
+01
+dotest: times-and-dates--current-1.3 -- start
+dotest: times-and-dates--current-1.3 -- success
+03
+dotest: times-and-dates--current-1.4 -- start
+dotest: times-and-dates--current-1.4 -- success
+15
+dotest: times-and-dates--current-1.5 -- start
+dotest: times-and-dates--current-1.5 -- success
+03
+dotest: times-and-dates--current-1.6 -- start
+dotest: times-and-dates--current-1.6 -- success
+00
+dotest: times-and-dates--current-1.7 -- start
+dotest: times-and-dates--current-1.7 -- success
+2023-01-03
+dotest: times-and-dates--current-1.8 -- start
+dotest: times-and-dates--current-1.8 -- success
+15:03:00
+dotest: times-and-dates--current-2.1 -- start
+dotest: times-and-dates--current-2.1 -- success
+Tue, 03 Jan 2023 15:03:00 -0700
+dotest: times-and-dates--current-2.2 -- start
+dotest: times-and-dates--current-2.2 -- success
+2023-01-03T15:03:00,071493953-07:00
+
+Test file "../tests/times-and-dates.test"
+	Number of executed tests: 10
+	Number of failed tests:   0
+
+PASS tests/times-and-dates.test (exit status: 0)

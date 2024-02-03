@@ -1,0 +1,44 @@
+dotest: program-1.1 -- start
+dotest: program-1.1 -- success
+dotest: program-1.2 -- start
+dotest: program-1.2 -- success
+dotest: program-1.3 -- start
+dotest: program-1.3 -- success
+dotest: program-1.4 -- start
+dotest: program-1.4 -- success
+dotest: program-3.1 -- start
+dotest: program-3.1 -- success
+dotest: program-3.2 -- start
+dotest: program-3.2 -- success
+dotest: program-3.3 -- start
+dotest: program-3.3 -- success
+dotest: program-3.4 -- start
+<unknown>: error: invalid pathname for program "unexistent": ""
+dotest: program-3.4 -- success
+dotest: program-3.5 -- start
+dotest: program-3.5 -- success
+dotest: program-4.1 -- start
+dotest: program-4.1 -- success
+dotest: program-4.2 -- start
+dotest: program-4.2 -- success
+dotest: program-split-path-1.1 -- start
+dotest: program-split-path-1.1 -- success
+../tests
+./tests
+../src/lib
+/home/deverell-manning/.local/bin
+/usr/local/sbin
+/usr/local/bin
+/usr/sbin
+/usr/bin
+/sbin
+/bin
+/usr/local/games
+/usr/games
+/snap/bin
+
+Test file "../tests/program.test"
+	Number of executed tests: 12
+	Number of failed tests:   0
+
+PASS tests/program.test (exit status: 0)

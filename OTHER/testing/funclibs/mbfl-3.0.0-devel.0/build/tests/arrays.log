@@ -1,0 +1,22 @@
+dotest: array-inspection-1.1 -- start
+dotest: array-inspection-1.1 -- success
+dotest: array-inspection-1.2 -- start
+dotest: array-inspection-1.2 -- success
+dotest: array-inspection-2.1 -- start
+dotest: array-inspection-2.1 -- success
+dotest: array-inspection-2.2 -- start
+dotest: array-inspection-2.2 -- success
+dotest: array-length-1.1 -- start
+dotest: array-length-1.1 -- success
+dotest: array-length-1.2 -- start
+dotest: array-length-1.2 -- success
+dotest: array-length-var-1.1 -- start
+dotest: array-length-var-1.1 -- success
+dotest: array-length-var-1.2 -- start
+dotest: array-length-var-1.2 -- success
+
+Test file "../tests/arrays.test"
+	Number of executed tests: 8
+	Number of failed tests:   0
+
+PASS tests/arrays.test (exit status: 0)

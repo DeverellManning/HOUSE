@@ -1,0 +1,28 @@
+dotest: locations-01.1 -- start
+dotest: locations-01.1 -- success
+dotest: locations-02.1 -- start
+dotest: locations-02.1 -- success
+dotest: locations-02.2 -- start
+dotest: locations-02.2 -- success
+dotest: locations-03.1 -- start
+dotest: locations-03.1 -- success
+dotest: locations-03.2 -- start
+dotest: locations-03.2 -- success
+dotest: locations-04.1 -- start
+dotest: locations-04.1 -- success
+dotest: locations-05.1 -- start
+dotest: locations-05.1 -- success
+dotest: locations-06.1 -- start
+dotest: locations-06.1 -- success
+dotest: locations-98.1 -- start
+dotest: locations-98.1 -- success
+dotest: locations-98.2 -- start
+dotest: locations-98.2 -- success
+dotest: locations-99.1 -- start
+dotest: locations-99.1 -- success
+
+Test file "../tests/locations.test"
+	Number of executed tests: 11
+	Number of failed tests:   0
+
+PASS tests/locations.test (exit status: 0)

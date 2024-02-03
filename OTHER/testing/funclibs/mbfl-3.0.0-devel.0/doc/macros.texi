@@ -1,0 +1,550 @@
+@c ------------------------------------------------------------
+@c Macros.
+@c ------------------------------------------------------------
+
+@macro version{}
+@value{VERSION}
+@end macro
+
+@macro gnu{}
+@acronym{GNU}
+@end macro
+
+@macro gpl{}
+@acronym{GPL}
+@end macro
+
+@macro lgpl{}
+@acronym{LGPL}
+@end macro
+
+@macro fdl{}
+@acronym{FDL}
+@end macro
+
+
+@c page
+@c ------------------------------------------------------------
+@c Special notes.
+@c ------------------------------------------------------------
+
+@macro forunix{}
+@strong{Unix:}
+@end macro
+
+@macro fixme{TEXT}
+@strong{FIXME: \TEXT\}
+@end macro
+
+@c page
+@c ------------------------------------------------------------
+@c Miscellaneous acronyms.
+@c ------------------------------------------------------------
+
+@c *** KEEP ALPHABETIC ORDER ***
+
+@macro acpi{}
+@acronym{ACPI}
+@end macro
+
+@macro alsa{}
+@acronym{ALSA}
+@end macro
+
+@macro adsl{}
+@acronym{ADSL}
+@end macro
+
+@macro ansi{}
+@acronym{ANSI}
+@end macro
+
+@macro api{}
+@acronym{API}
+@end macro
+
+@macro ascii{}
+@acronym{ASCII}
+@end macro
+
+@macro asciiz{}
+@acronym{ASCIIZ}
+@end macro
+
+@c Remember that @url is already used by Texinfo.
+@macro aurl{}
+@acronym{URL}
+@end macro
+
+@c Remember that @xml is already used by Texinfo.
+@macro axml{}
+@acronym{XML}
+@end macro
+
+@c ------------------------------------------------------------
+
+@macro cdrom{}
+@acronym{CDROM}
+@end macro
+
+@macro cli{}
+@acronym{CLI}
+@end macro
+
+@macro cpu{}
+@acronym{CPU}
+@end macro
+
+@macro csv{}
+@acronym{CSV}
+@end macro
+
+@c ------------------------------------------------------------
+
+@macro dhcp{}
+@acronym{DHCP}
+@end macro
+
+@macro dns{}
+@acronym{DNS}
+@end macro
+
+@macro dtd{}
+@acronym{DTD}
+@end macro
+
+@c ------------------------------------------------------------
+
+@macro eof{}
+@acronym{EOF}
+@end macro
+
+@c ------------------------------------------------------------
+
+@macro ffi{}
+@acronym{FFI}
+@end macro
+
+@macro fifo{}
+@acronym{FIFO}
+@end macro
+
+@macro ftp{}
+@acronym{FTP}
+@end macro
+
+@c ------------------------------------------------------------
+
+@macro git{}
+@acronym{GIT}
+@end macro
+
+@c ------------------------------------------------------------
+
+@macro http{}
+@acronym{HTTP}
+@end macro
+
+@c ------------------------------------------------------------
+
+@macro ieee{}
+@acronym{IEEE}
+@end macro
+
+@macro imap{}
+@acronym{IMAP}
+@end macro
+
+@macro ip{}
+@acronym{IP}
+@end macro
+
+@macro iso{}
+@acronym{ISO}
+@end macro
+
+@macro isp{}
+@acronym{ISP}
+@end macro
+
+@c ------------------------------------------------------------
+
+@macro mime{}
+@acronym{MIME}
+@end macro
+
+@macro mpeg{}
+@acronym{MPEG}
+@end macro
+
+@c ------------------------------------------------------------
+
+@macro oob{}
+@acronym{OOB}
+@end macro
+
+@macro os{}
+@acronym{OS}
+@end macro
+
+@c ------------------------------------------------------------
+
+@macro posix{}
+@acronym{POSIX}
+@end macro
+
+@macro ppp{}
+@acronym{PPP}
+@end macro
+
+@c ------------------------------------------------------------
+
+@macro rfc{}
+@acronym{RFC}
+@end macro
+
+@c ------------------------------------------------------------
+
+@macro sftp{}
+@acronym{SFTP}
+@end macro
+
+@macro smtp{}
+@acronym{SMTP}
+@end macro
+
+@macro snmp{}
+@acronym{SNMP}
+@end macro
+
+@macro sql{}
+@acronym{SQL}
+@end macro
+
+@macro ssh{}
+@acronym{SSH}
+@end macro
+
+@macro ssl{}
+@acronym{SSL}
+@end macro
+
+@c ------------------------------------------------------------
+
+@macro tai{}
+@acronym{TAI}
+@end macro
+
+@macro tcp{}
+@acronym{TCP}
+@end macro
+
+@macro tls{}
+@acronym{TLS}
+@end macro
+
+@c ------------------------------------------------------------
+
+@macro udp{}
+@acronym{UDP}
+@end macro
+
+@macro utf{}
+@acronym{UTF}
+@end macro
+
+@macro utc{}
+@acronym{UTC}
+@end macro
+
+@macro uri{}
+@acronym{URI}
+@end macro
+
+@macro urldate{DATE}
+(@acronym{URL} last verified \DATE\)
+@end macro
+
+@macro usb{}
+@acronym{USB}
+@end macro
+
+@c ------------------------------------------------------------
+
+@macro vlc{}
+@acronym{VLC}
+@end macro
+
+@c ------------------------------------------------------------
+
+
+
+@c page
+@c ------------------------------------------------------------
+@c Software acronyms.
+@c ------------------------------------------------------------
+
+@macro bash{}
+@command{bash}
+@end macro
+
+@macro ffmpeg{}
+@acronym{FFMPEG}
+@end macro
+
+@macro gpg{}
+@acronym{GPG}
+@end macro
+
+@macro gmp{}
+@acronym{GMP}
+@end macro
+
+@macro gcc{}
+@acronym{GCC}
+@end macro
+
+@macro cretwo{}
+@acronym{CRE2}
+@end macro
+
+@macro mfour{}
+@command{m4}
+@end macro
+
+@macro mbfl{}
+@acronym{MBFL}
+@end macro
+
+@macro retwo{}
+@acronym{RE2}
+@end macro
+
+@c page
+@c ------------------------------------------------------------
+@c C language macros.
+@c ------------------------------------------------------------
+
+@macro cfunc{NAME}
+@code{\NAME\()}
+@end macro
+
+@macro cnull{}
+@code{NULL}
+@end macro
+
+@c page
+@c ------------------------------------------------------------
+@c Macros for references to external documents.
+@c ------------------------------------------------------------
+
+@macro glibcref{NODE, TITLE}
+@ref{\NODE\,\TITLE\,\TITLE\,libc}
+@end macro
+
+@macro autoconfref{NODE, TITLE}
+@ref{\NODE\,\TITLE\,\TITLE\,autoconf}
+@end macro
+
+@macro bashref{NODE, TITLE}
+@ref{\NODE\,\TITLE\,\TITLE\,bash}
+@end macro
+
+@macro bibref{TAG}
+@code{[\TAG\]}
+@end macro
+
+@c page
+@c ------------------------------------------------------------
+@c RNRS document macros.
+@c ------------------------------------------------------------
+
+@c ------------------------------------------------------------
+@c To be used in normal text.
+
+@macro meta{THING}
+<\THING\>
+@end macro
+
+@macro metao{THING}
+<\THING\0>
+@end macro
+
+@macro metai{THING}
+<\THING\1>
+@end macro
+
+@macro metaii{THING}
+<\THING\2>
+@end macro
+
+@macro metaiii{THING}
+<\THING\3>
+@end macro
+
+@macro metan{THING}
+<\THING\N>
+@end macro
+
+@macro metani{THING}
+<\THING\N+1>
+@end macro
+
+@c ------------------------------------------------------------
+@c To be used inside @example environment and @samp directives.
+
+@macro cmeta{THING}
+<\THING\>
+@end macro
+
+@macro cmetao{THING}
+<\THING\0>
+@end macro
+
+@macro cmetai{THING}
+<\THING\1>
+@end macro
+
+@macro cmetaii{THING}
+<\THING\2>
+@end macro
+
+@macro cmetaiii{THING}
+<\THING\3>
+@end macro
+
+@macro cmetan{THING}
+<\THING\N>
+@end macro
+
+@macro cmetani{THING}
+<\THING\N+1>
+@end macro
+
+@c ------------------------------------------------------------
+@c To be used inside argument lists.
+
+@macro ameta{THING}
+<\THING\>
+@end macro
+
+@macro ametao{THING}
+<\THING\0>
+@end macro
+
+@macro ametai{THING}
+<\THING\1>
+@end macro
+
+@macro ametaii{THING}
+<\THING\2>
+@end macro
+
+@macro ametaiii{THING}
+<\THING\3>
+@end macro
+
+@macro ametan{THING}
+<\THING\N>
+@end macro
+
+@macro ametani{THING}
+<\THING\N+1>
+@end macro
+
+@c ------------------------------------------------------------
+
+@macro hyper{THING}
+<\THING\>
+@end macro
+
+@macro hyperi{THING}
+<\THING\1>
+@end macro
+
+@macro hyperii{THING}
+<\THING\2>
+@end macro
+
+@macro hyperiii{THING}
+<\THING\3>
+@end macro
+
+@macro hypern{THING}
+<\THING\n>
+@end macro
+
+@c ------------------------------------------------------------
+
+@macro varo{THING}
+@var{\THING\0}
+@end macro
+
+@macro vari{THING}
+@var{\THING\1}
+@end macro
+
+@macro varii{THING}
+@var{\THING\2}
+@end macro
+
+@macro variii{THING}
+@var{\THING\3}
+@end macro
+
+@macro variv{THING}
+@var{\THING\4}
+@end macro
+
+@macro varn{THING}
+@var{\THING\n}
+@end macro
+
+@macro vark{THING}
+@var{\THING\k}
+@end macro
+
+@macro varj{THING}
+@var{\THING\j}
+@end macro
+
+@c page
+@c ------------------------------------------------------------
+@c Bash custom macros.
+@c ------------------------------------------------------------
+
+@macro func{NAME}
+@code{\NAME\()}
+@end macro
+
+@macro CindexCommand{COMMAND}
+@cindex @command{\COMMAND\}, command
+@cindex Command @command{\COMMAND\}
+@cindex Executing command @command{\COMMAND\}
+@end macro
+
+@macro DocVarVariant{}
+The function variant @code{_var} stores the result in the variable @var{_RV}, rather than print it;
+@ref{overview rv, Result variables}.
+@end macro
+
+@macro ExitCode{}
+;$? @result{}
+@end macro
+
+@macro stdin{}
+@code{stdin}
+@end macro
+
+@macro stdout{}
+@code{stdout}
+@end macro
+
+@macro stderr{}
+@code{stderr}
+@end macro
+
+@c Local Variables:
+@c mode: texinfo
+@c TeX-master: t
+@c End:

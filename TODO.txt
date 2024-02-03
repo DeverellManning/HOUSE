@@ -1,0 +1,59 @@
+NEw, Better Parser
+- 'I' actor support
+
+-Prepositions for Look 
+
+
+Edible Food 
+
+
+-Like Strawberrys 
+
+
+Lockable Doors 
+
+
+Weather 
+
+
+Officialize _or var 
+
+
+Add Discrition Text Parser 
+
+
+-\n becomes newline 
+
+
+Finish Look.cmd Property Part 
+
+
+Improve Second Floor 
+
+
+Furcode Support? 
+
+
+ 
+
+
+No Furcode Support 
+
+test
+Add Functionality!
+ 
+Close Target when leaving room
+
+BUG:  Game Closes when it tries to load a character from the menu after it quits from a character.give command
+-give Arina the Cupcake
+read 
+fix Deverell's max energy
+increase energy adsorbtion rate
+Special Function for sourcing bash scripts in world, gives them info like their own path, etc.
+ 
+fix player location tracker
+fix Active Region Function in Master so it works with multiple player locations and duplicates
+add bug note feature
+ 
+add exit, out, in, enter doors in room prop
+testing from house-client

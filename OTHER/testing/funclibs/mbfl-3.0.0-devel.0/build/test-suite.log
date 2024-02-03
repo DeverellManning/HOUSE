@@ -1,0 +1,727 @@
+===================================================================
+   Marcos Bash Functions Library 3.0.0-devel.0: ./test-suite.log
+===================================================================
+
+# TOTAL: 17
+# PASS:  14
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  3
+# XPASS: 0
+# ERROR: 0
+
+.. contents:: :depth: 2
+
+FAIL: tests/file
+================
+
+dotest: file-append-1.1 -- start
+dotest: file-append-1.1 -- success
+dotest: file-backwards-looking-at-double-dot-1.1 -- start
+dotest: file-backwards-looking-at-double-dot-1.1 -- success
+dotest: file-backwards-looking-at-double-dot-1.2 -- start
+dotest: file-backwards-looking-at-double-dot-1.2 -- success
+dotest: file-backwards-looking-at-double-dot-1.3 -- start
+dotest: file-backwards-looking-at-double-dot-1.3 -- success
+dotest: file-backwards-looking-at-double-dot-1.4 -- start
+dotest: file-backwards-looking-at-double-dot-1.4 -- success
+dotest: file-backwards-looking-at-double-dot-1.5 -- start
+dotest: file-backwards-looking-at-double-dot-1.5 -- success
+dotest: file-backwards-looking-at-double-dot-1.6 -- start
+dotest: file-backwards-looking-at-double-dot-1.6 -- success
+dotest: file-compression-bzip2-1.1 -- start
+dotest: file-compression-bzip2-1.1 -- success
+dotest: file-compression-bzip2-1.2 -- start
+dotest: file-compression-bzip2-1.2 -- success
+dotest: file-compression-bzip2-1.3 -- start
+dotest: file-compression-bzip2-1.3 -- success
+dotest: file-compression-bzip2-1.4 -- start
+dotest: file-compression-bzip2-1.4 -- success
+dotest: file-compression-gzip-1.1 -- start
+dotest: file-compression-gzip-1.1 -- success
+dotest: file-compression-gzip-1.2 -- start
+dotest: file-compression-gzip-1.2 -- success
+dotest: file-compression-gzip-1.3 -- start
+dotest: file-compression-gzip-1.3 -- success
+dotest: file-compression-gzip-1.4 -- start
+dotest: file-compression-gzip-1.4 -- success
+dotest: file-compression-lzip-1.1 -- start
+<unknown>: error: invalid pathname for program "lzip": ""
+dotest: file-compression-lzip-1.1 -- *** FAILED ***
+
+dotest: file-compression-lzip-1.2 -- start
+<unknown>: error: invalid pathname for program "lzip": ""
+dotest: file-compression-lzip-1.2 -- *** FAILED ***
+
+dotest: file-compression-lzip-1.3 -- start
+<unknown>: error: invalid pathname for program "lzip": ""
+dotest: file-compression-lzip-1.3 -- *** FAILED ***
+
+dotest: file-compression-lzip-1.4 -- start
+<unknown>: error: invalid pathname for program "lzip": ""
+dotest: file-compression-lzip-1.4 -- *** FAILED ***
+
+dotest: file-compression-xz-1.1 -- start
+dotest: file-compression-xz-1.1 -- success
+dotest: file-compression-xz-1.2 -- start
+dotest: file-compression-xz-1.2 -- success
+dotest: file-compression-xz-1.3 -- start
+dotest: file-compression-xz-1.3 -- success
+dotest: file-compression-xz-1.4 -- start
+dotest: file-compression-xz-1.4 -- success
+dotest: file-copy-1.1 -- start
+dotest: file-copy-1.1 -- success
+dotest: file-copy-2.1 -- start
+dotest: file-copy-2.1 -- success
+dotest: file-directory-is-executable-1.1 -- start
+dotest: file-directory-is-executable-1.1 -- success
+dotest: file-directory-is-executable-1.2 -- start
+dotest: file-directory-is-executable-1.2 -- success
+dotest: file-directory-is-executable-1.3 -- start
+dotest: file-directory-is-executable-1.3 -- success
+dotest: file-directory-is-readable-1.1 -- start
+dotest: file-directory-is-readable-1.1 -- success
+dotest: file-directory-is-readable-1.2 -- start
+dotest: file-directory-is-readable-1.2 -- success
+dotest: file-directory-is-readable-1.3 -- start
+dotest: file-directory-is-readable-1.3 -- success
+dotest: file-directory-is-writable-1.1 -- start
+dotest: file-directory-is-writable-1.1 -- success
+dotest: file-directory-is-writable-1.2 -- start
+dotest: file-directory-is-writable-1.2 -- success
+dotest: file-directory-is-writable-1.3 -- start
+dotest: file-directory-is-writable-1.3 -- success
+dotest: file-dirname-1.1 -- start
+dotest: file-dirname-1.1 -- success
+dotest: file-dirname-1.10 -- start
+dotest: file-dirname-1.10 -- success
+dotest: file-dirname-1.11 -- start
+dotest: file-dirname-1.11 -- success
+dotest: file-dirname-1.12 -- start
+dotest: file-dirname-1.12 -- success
+dotest: file-dirname-1.13 -- start
+dotest: file-dirname-1.13 -- success
+dotest: file-dirname-1.14 -- start
+dotest: file-dirname-1.14 -- success
+dotest: file-dirname-1.2 -- start
+dotest: file-dirname-1.2 -- success
+dotest: file-dirname-1.3 -- start
+dotest: file-dirname-1.3 -- success
+dotest: file-dirname-1.4 -- start
+dotest: file-dirname-1.4 -- success
+dotest: file-dirname-1.5 -- start
+dotest: file-dirname-1.5 -- success
+dotest: file-dirname-1.6 -- start
+dotest: file-dirname-1.6 -- success
+dotest: file-dirname-1.7 -- start
+dotest: file-dirname-1.7 -- success
+dotest: file-dirname-1.8 -- start
+dotest: file-dirname-1.8 -- success
+dotest: file-dirname-1.9 -- start
+dotest: file-dirname-1.9 -- success
+dotest: file-dirname-var-1.1 -- start
+dotest: file-dirname-var-1.1 -- success
+dotest: file-dirname-var-1.10 -- start
+dotest: file-dirname-var-1.10 -- success
+dotest: file-dirname-var-1.11 -- start
+dotest: file-dirname-var-1.11 -- success
+dotest: file-dirname-var-1.12 -- start
+dotest: file-dirname-var-1.12 -- success
+dotest: file-dirname-var-1.13 -- start
+dotest: file-dirname-var-1.13 -- success
+dotest: file-dirname-var-1.14 -- start
+dotest: file-dirname-var-1.14 -- success
+dotest: file-dirname-var-1.2 -- start
+dotest: file-dirname-var-1.2 -- success
+dotest: file-dirname-var-1.3 -- start
+dotest: file-dirname-var-1.3 -- success
+dotest: file-dirname-var-1.4 -- start
+dotest: file-dirname-var-1.4 -- success
+dotest: file-dirname-var-1.5 -- start
+dotest: file-dirname-var-1.5 -- success
+dotest: file-dirname-var-1.6 -- start
+dotest: file-dirname-var-1.6 -- success
+dotest: file-dirname-var-1.7 -- start
+dotest: file-dirname-var-1.7 -- success
+dotest: file-dirname-var-1.8 -- start
+dotest: file-dirname-var-1.8 -- success
+dotest: file-dirname-var-1.9 -- start
+dotest: file-dirname-var-1.9 -- success
+dotest: file-extension-1.1 -- start
+dotest: file-extension-1.1 -- success
+dotest: file-extension-1.2 -- start
+dotest: file-extension-1.2 -- success
+dotest: file-extension-1.3 -- start
+dotest: file-extension-1.3 -- success
+dotest: file-extension-1.4 -- start
+dotest: file-extension-1.4 -- success
+dotest: file-extension-1.5 -- start
+dotest: file-extension-1.5 -- success
+dotest: file-extension-1.6 -- start
+dotest: file-extension-1.6 -- success
+dotest: file-extension-1.7 -- start
+dotest: file-extension-1.7 -- success
+dotest: file-extension-1.8 -- start
+dotest: file-extension-1.8 -- success
+dotest: file-extension-var-1.1 -- start
+dotest: file-extension-var-1.1 -- success
+dotest: file-extension-var-1.2 -- start
+dotest: file-extension-var-1.2 -- success
+dotest: file-extension-var-1.3 -- start
+dotest: file-extension-var-1.3 -- success
+dotest: file-extension-var-1.4 -- start
+dotest: file-extension-var-1.4 -- success
+dotest: file-extension-var-1.5 -- start
+dotest: file-extension-var-1.5 -- success
+dotest: file-extension-var-1.6 -- start
+dotest: file-extension-var-1.6 -- success
+dotest: file-extension-var-1.7 -- start
+dotest: file-extension-var-1.7 -- success
+dotest: file-extension-var-1.8 -- start
+dotest: file-extension-var-1.8 -- success
+dotest: file-extension-var-1.9 -- start
+dotest: file-extension-var-1.9 -- success
+dotest: file-get-permissions-1.1 -- start
+dotest: file-get-permissions-1.1 -- success
+dotest: file-get-permissions-2.1 -- start
+dotest: file-get-permissions-2.1 -- success
+dotest: file-is-directory-1.1 -- start
+dotest: file-is-directory-1.1 -- success
+dotest: file-is-directory-1.2 -- start
+dotest: file-is-directory-1.2 -- success
+dotest: file-is-executable-1.1 -- start
+dotest: file-is-executable-1.1 -- success
+dotest: file-is-executable-1.2 -- start
+dotest: file-is-executable-1.2 -- success
+dotest: file-is-executable-1.3 -- start
+dotest: file-is-executable-1.3 -- success
+dotest: file-is-file-1.1 -- start
+dotest: file-is-file-1.1 -- success
+dotest: file-is-file-1.2 -- start
+dotest: file-is-file-1.2 -- success
+dotest: file-is-readable-1.1 -- start
+dotest: file-is-readable-1.1 -- success
+dotest: file-is-readable-1.2 -- start
+dotest: file-is-readable-1.2 -- success
+dotest: file-is-readable-1.3 -- start
+dotest: file-is-readable-1.3 -- success
+dotest: file-is-writable-1.1 -- start
+dotest: file-is-writable-1.1 -- success
+dotest: file-is-writable-1.2 -- start
+dotest: file-is-writable-1.2 -- success
+dotest: file-is-writable-1.3 -- start
+dotest: file-is-writable-1.3 -- success
+dotest: file-looking-at-component-beginning-1.1.1 -- start
+dotest: file-looking-at-component-beginning-1.1.1 -- success
+dotest: file-looking-at-component-beginning-1.1.2 -- start
+dotest: file-looking-at-component-beginning-1.1.2 -- success
+dotest: file-looking-at-component-beginning-1.2.1 -- start
+dotest: file-looking-at-component-beginning-1.2.1 -- success
+dotest: file-looking-at-component-beginning-1.2.2 -- start
+dotest: file-looking-at-component-beginning-1.2.2 -- success
+dotest: file-looking-at-component-beginning-1.3 -- start
+dotest: file-looking-at-component-beginning-1.3 -- success
+dotest: file-mkdir-1.1 -- start
+dotest: file-mkdir-1.1 -- success
+dotest: file-move-1.1 -- start
+dotest: file-move-1.1 -- success
+dotest: file-move-1.2 -- start
+dotest: file-move-1.2 -- success
+dotest: file-move-2.1 -- start
+dotest: file-move-2.1 -- success
+dotest: file-move-2.2 -- start
+dotest: file-move-2.2 -- success
+dotest: file-normalise-1.1 -- start
+dotest: file-normalise-1.1 -- success
+dotest: file-normalise-1.2 -- start
+dotest: file-normalise-1.2 -- success
+dotest: file-normalise-1.4 -- start
+dotest: file-normalise-1.4 -- success
+dotest: file-normalise-1.5 -- start
+dotest: file-normalise-1.5 -- success
+dotest: file-normalise-1.6 -- start
+dotest: file-normalise-1.6 -- success
+dotest: file-normalise-1.7 -- start
+dotest: file-normalise-1.7 -- success
+dotest: file-normalise-2.3 -- start
+dotest: file-normalise-2.3 -- success
+dotest: file-normalise-2.4 -- start
+dotest: file-normalise-2.4 -- success
+dotest: file-normalise-2.5 -- start
+dotest: file-normalise-2.5 -- success
+dotest: file-normalise-2.6 -- start
+dotest: file-normalise-2.6 -- success
+dotest: file-owner-1.1 -- start
+dotest: file-owner-1.1 -- success
+dotest: file-owner-var-1.1 -- start
+dotest: file-owner-var-1.1 -- success
+dotest: file-read-1.1 -- start
+dotest: file-read-1.1 -- success
+dotest: file-realpath-1.1 -- start
+dotest: file-realpath-1.1 -- success
+dotest: file-realpath-1.2 -- start
+/usr/bin/realpath: a/b/c: No such file or directory
+dotest: file-realpath-1.2 -- success
+dotest: file-realpath-var-1.1 -- start
+dotest: file-realpath-var-1.1 -- success
+dotest: file-remove-1.1 -- start
+dotest: file-remove-1.1 -- success
+dotest: file-remove-1.2 -- start
+dotest: file-remove-1.2 -- success
+dotest: file-remove-1.3 -- start
+dotest: file-remove-1.3 -- success
+dotest: file-remove-1.4 -- start
+dotest: file-remove-1.4 -- success
+dotest: file-rootname-1.1 -- start
+dotest: file-rootname-1.1 -- success
+dotest: file-rootname-1.10 -- start
+dotest: file-rootname-1.10 -- success
+dotest: file-rootname-1.11 -- start
+dotest: file-rootname-1.11 -- success
+dotest: file-rootname-1.12 -- start
+dotest: file-rootname-1.12 -- success
+dotest: file-rootname-1.2 -- start
+dotest: file-rootname-1.2 -- success
+dotest: file-rootname-1.3 -- start
+dotest: file-rootname-1.3 -- success
+dotest: file-rootname-1.4.1 -- start
+dotest: file-rootname-1.4.1 -- success
+dotest: file-rootname-1.4.2 -- start
+dotest: file-rootname-1.4.2 -- success
+dotest: file-rootname-1.4.3 -- start
+dotest: file-rootname-1.4.3 -- success
+dotest: file-rootname-1.5 -- start
+dotest: file-rootname-1.5 -- success
+dotest: file-rootname-1.6 -- start
+dotest: file-rootname-1.6 -- success
+dotest: file-rootname-1.7 -- start
+dotest: file-rootname-1.7 -- success
+dotest: file-rootname-1.8 -- start
+dotest: file-rootname-1.8 -- success
+dotest: file-rootname-1.9 -- start
+dotest: file-rootname-1.9 -- success
+dotest: file-rootname-var-1.1 -- start
+dotest: file-rootname-var-1.1 -- success
+dotest: file-rootname-var-1.10 -- start
+dotest: file-rootname-var-1.10 -- success
+dotest: file-rootname-var-1.11 -- start
+dotest: file-rootname-var-1.11 -- success
+dotest: file-rootname-var-1.12 -- start
+dotest: file-rootname-var-1.12 -- success
+dotest: file-rootname-var-1.2 -- start
+dotest: file-rootname-var-1.2 -- success
+dotest: file-rootname-var-1.3 -- start
+dotest: file-rootname-var-1.3 -- success
+dotest: file-rootname-var-1.4.1 -- start
+dotest: file-rootname-var-1.4.1 -- success
+dotest: file-rootname-var-1.4.2 -- start
+dotest: file-rootname-var-1.4.2 -- success
+dotest: file-rootname-var-1.4.3 -- start
+dotest: file-rootname-var-1.4.3 -- success
+dotest: file-rootname-var-1.5 -- start
+dotest: file-rootname-var-1.5 -- success
+dotest: file-rootname-var-1.6 -- start
+dotest: file-rootname-var-1.6 -- success
+dotest: file-rootname-var-1.7 -- start
+dotest: file-rootname-var-1.7 -- success
+dotest: file-rootname-var-1.8 -- start
+dotest: file-rootname-var-1.8 -- success
+dotest: file-rootname-var-1.9 -- start
+dotest: file-rootname-var-1.9 -- success
+dotest: file-size-1.1 -- start
+dotest: file-size-1.1 -- success
+dotest: file-size-var-1.1 -- start
+dotest: file-size-var-1.1 -- success
+dotest: file-split-1.1 -- start
+dotest: file-split-1.1 -- success
+dotest: file-split-1.2 -- start
+dotest: file-split-1.2 -- success
+dotest: file-split-1.3 -- start
+dotest: file-split-1.3 -- success
+dotest: file-stat-1.1 -- start
+dotest: file-stat-1.1 -- success
+dotest: file-stat-1.2 -- start
+dotest-equal:
+   expected: 'directory'
+   got:      'symbolic'
+dotest: file-stat-1.2 -- *** FAILED ***
+
+dotest: file-strip-leading-slash-1.1 -- start
+dotest: file-strip-leading-slash-1.1 -- success
+dotest: file-strip-leading-slash-1.2 -- start
+dotest: file-strip-leading-slash-1.2 -- success
+dotest: file-strip-leading-slash-1.3 -- start
+dotest: file-strip-leading-slash-1.3 -- success
+dotest: file-strip-leading-slash-1.4 -- start
+dotest: file-strip-leading-slash-1.4 -- success
+dotest: file-strip-leading-slash-1.5 -- start
+dotest: file-strip-leading-slash-1.5 -- success
+dotest: file-strip-leading-slash-1.6 -- start
+dotest: file-strip-leading-slash-1.6 -- success
+dotest: file-strip-leading-slash-var-1.1 -- start
+dotest: file-strip-leading-slash-var-1.1 -- success
+dotest: file-strip-leading-slash-var-1.2 -- start
+dotest: file-strip-leading-slash-var-1.2 -- success
+dotest: file-strip-leading-slash-var-1.3 -- start
+dotest: file-strip-leading-slash-var-1.3 -- success
+dotest: file-strip-leading-slash-var-1.4 -- start
+dotest: file-strip-leading-slash-var-1.4 -- success
+dotest: file-strip-leading-slash-var-1.5 -- start
+dotest: file-strip-leading-slash-var-1.5 -- success
+dotest: file-strip-leading-slash-var-1.6 -- start
+dotest: file-strip-leading-slash-var-1.6 -- success
+dotest: file-strip-trailing-slash-1.1 -- start
+dotest: file-strip-trailing-slash-1.1 -- success
+dotest: file-strip-trailing-slash-1.2 -- start
+dotest: file-strip-trailing-slash-1.2 -- success
+dotest: file-strip-trailing-slash-1.3 -- start
+dotest: file-strip-trailing-slash-1.3 -- success
+dotest: file-strip-trailing-slash-1.4 -- start
+dotest: file-strip-trailing-slash-1.4 -- success
+dotest: file-strip-trailing-slash-1.5 -- start
+dotest: file-strip-trailing-slash-1.5 -- success
+dotest: file-strip-trailing-slash-1.6 -- start
+dotest: file-strip-trailing-slash-1.6 -- success
+dotest: file-strip-trailing-slash-var-1.1 -- start
+dotest: file-strip-trailing-slash-var-1.1 -- success
+dotest: file-strip-trailing-slash-var-1.2 -- start
+dotest: file-strip-trailing-slash-var-1.2 -- success
+dotest: file-strip-trailing-slash-var-1.3 -- start
+dotest: file-strip-trailing-slash-var-1.3 -- success
+dotest: file-strip-trailing-slash-var-1.4 -- start
+dotest: file-strip-trailing-slash-var-1.4 -- success
+dotest: file-strip-trailing-slash-var-1.5 -- start
+dotest: file-strip-trailing-slash-var-1.5 -- success
+dotest: file-strip-trailing-slash-var-1.6 -- start
+dotest: file-strip-trailing-slash-var-1.6 -- success
+dotest: file-subpathname-1.1 -- start
+dotest: file-subpathname-1.1 -- success
+dotest: file-subpathname-2.1 -- start
+dotest: file-subpathname-2.1 -- success
+dotest: file-subpathname-2.2 -- start
+dotest: file-subpathname-2.2 -- success
+dotest: file-subpathname-3.1 -- start
+dotest: file-subpathname-3.1 -- success
+dotest: file-subpathname-var-1.1 -- start
+dotest: file-subpathname-var-1.1 -- success
+dotest: file-subpathname-var-2.1 -- start
+dotest: file-subpathname-var-2.1 -- success
+dotest: file-subpathname-var-2.2 -- start
+dotest: file-subpathname-var-2.2 -- success
+dotest: file-subpathname-var-3.1 -- start
+dotest: file-subpathname-var-3.1 -- success
+dotest: file-tail-1.1 -- start
+dotest: file-tail-1.1 -- success
+dotest: file-tail-1.2 -- start
+dotest: file-tail-1.2 -- success
+dotest: file-tail-1.3 -- start
+dotest: file-tail-1.3 -- success
+dotest: file-tail-var-1.1 -- start
+dotest: file-tail-var-1.1 -- success
+dotest: file-tail-var-1.2 -- start
+dotest: file-tail-var-1.2 -- success
+dotest: file-tail-var-1.3 -- start
+dotest: file-tail-var-1.3 -- success
+dotest: file-tar-1.1 -- start
+dotest: file-tar-1.1 -- success
+dotest: file-tar-2.1 -- start
+dotest: file-tar-2.1 -- success
+dotest: file-write-1.1 -- start
+dotest: file-write-1.1 -- success
+
+Test file "../tests/file.test"
+	Number of executed tests: 200
+	Number of failed tests:   5
+Failed tests:
+   file-compression-lzip-1.1
+   file-compression-lzip-1.2
+   file-compression-lzip-1.3
+   file-compression-lzip-1.4
+   file-stat-1.2
+
+FAIL tests/file.test (exit status: 1)
+
+FAIL: tests/system
+==================
+
+dotest: system-group-find-entry-by-gid-1.1 -- start
+dotest: system-group-find-entry-by-gid-1.1 -- success
+dotest: system-group-find-entry-by-gid-var-1.1 -- start
+dotest: system-group-find-entry-by-gid-var-1.1 -- success
+dotest: system-group-find-entry-by-name-1.1 -- start
+dotest: system-group-find-entry-by-name-1.1 -- success
+dotest: system-group-find-entry-by-name-var-1.1 -- start
+dotest: system-group-find-entry-by-name-var-1.1 -- success
+dotest: system-group-get-user-in-group-1.1 -- start
+dotest: system-group-get-user-in-group-1.1 -- success
+dotest: system-group-get-user-in-group-var-1.1 -- start
+dotest: system-group-get-user-in-group-var-1.1 -- success
+dotest: system-group-gid-to-name-1.1 -- start
+dotest: system-group-gid-to-name-1.1 -- success
+dotest: system-group-gid-to-name-var-1.1 -- start
+./src/lib/libmbfl.sh: line 3807: local: warning: mbfl_RESULT_VARREF: circular name reference
+./src/lib/libmbfl.sh: line 3807: warning: mbfl_RESULT_VARREF: circular name reference
+./src/lib/libmbfl.sh: line 3809: warning: mbfl_RESULT_VARREF: circular name reference
+dotest-equal:
+   expected: 'root'
+   got:      ''
+dotest: system-group-gid-to-name-var-1.1 -- *** FAILED ***
+
+dotest: system-group-name-to-gid-1.1 -- start
+dotest: system-group-name-to-gid-1.1 -- success
+dotest: system-group-name-to-gid-var-1.1 -- start
+./src/lib/libmbfl.sh: line 3827: local: warning: mbfl_RESULT_VARREF: circular name reference
+./src/lib/libmbfl.sh: line 3827: warning: mbfl_RESULT_VARREF: circular name reference
+./src/lib/libmbfl.sh: line 3829: warning: mbfl_RESULT_VARREF: circular name reference
+dotest-equal:
+   expected: '0'
+   got:      ''
+dotest: system-group-name-to-gid-var-1.1 -- *** FAILED ***
+
+dotest: system-group-name-to-numerical-gid-1.1 -- start
+dotest: system-group-name-to-numerical-gid-1.1 -- success
+dotest: system-group-numerical-gid-to-name-1.1 -- start
+dotest: system-group-numerical-gid-to-name-1.1 -- success
+dotest: system-group-print-entries-raw-1.1 -- start
+dotest: system-group-print-entries-raw-1.1 -- success
+dotest: system-group-print-entries-xml-2.1 -- start
+dotest: system-group-print-entries-xml-2.1 -- success
+dotest: system-group-print-entries-xml-3.1 -- start
+dotest: system-group-print-entries-xml-3.1 -- success
+dotest: system-passwd-find-entry-by-name-1.1 -- start
+dotest: system-passwd-find-entry-by-name-1.1 -- success
+dotest: system-passwd-find-entry-by-name-var-1.1 -- start
+dotest: system-passwd-find-entry-by-name-var-1.1 -- success
+dotest: system-passwd-find-entry-by-uid-1.1 -- start
+dotest: system-passwd-find-entry-by-uid-1.1 -- success
+dotest: system-passwd-find-entry-by-uid-var-1.1 -- start
+dotest: system-passwd-find-entry-by-uid-var-1.1 -- success
+dotest: system-passwd-name-to-numerical-uid-1.1 -- start
+dotest: system-passwd-name-to-numerical-uid-1.1 -- success
+dotest: system-passwd-name-to-uid-1.1 -- start
+dotest: system-passwd-name-to-uid-1.1 -- success
+dotest: system-passwd-name-to-uid-var-1.1 -- start
+./src/lib/libmbfl.sh: line 3581: local: warning: mbfl_RESULT_VARREF: circular name reference
+./src/lib/libmbfl.sh: line 3581: warning: mbfl_RESULT_VARREF: circular name reference
+./src/lib/libmbfl.sh: line 3583: warning: mbfl_RESULT_VARREF: circular name reference
+dotest-equal:
+   expected: '0'
+   got:      ''
+dotest: system-passwd-name-to-uid-var-1.1 -- *** FAILED ***
+
+dotest: system-passwd-numerical-uid-to-name-1.1 -- start
+dotest: system-passwd-numerical-uid-to-name-1.1 -- success
+dotest: system-passwd-print-entries-raw-1.1 -- start
+dotest: system-passwd-print-entries-raw-1.1 -- success
+dotest: system-passwd-print-entries-xml-2.1 -- start
+dotest: system-passwd-print-entries-xml-2.1 -- success
+dotest: system-passwd-print-entries-xml-3.1 -- start
+dotest: system-passwd-print-entries-xml-3.1 -- success
+dotest: system-passwd-uid-to-name-1.1 -- start
+dotest: system-passwd-uid-to-name-1.1 -- success
+dotest: system-passwd-uid-to-name-var-1.1 -- start
+./src/lib/libmbfl.sh: line 3561: local: warning: mbfl_RESULT_VARREF: circular name reference
+./src/lib/libmbfl.sh: line 3561: warning: mbfl_RESULT_VARREF: circular name reference
+./src/lib/libmbfl.sh: line 3563: warning: mbfl_RESULT_VARREF: circular name reference
+dotest-equal:
+   expected: 'root'
+   got:      ''
+dotest: system-passwd-uid-to-name-var-1.1 -- *** FAILED ***
+
+dotest: system-symbolic-to-octal-1.1 -- start
+dotest: system-symbolic-to-octal-1.1 -- success
+dotest: system-symbolic-to-octal-1.2 -- start
+dotest: system-symbolic-to-octal-1.2 -- success
+dotest: system-symbolic-to-octal-1.3 -- start
+dotest: system-symbolic-to-octal-1.3 -- success
+dotest: system-symbolic-to-octal-1.4 -- start
+dotest: system-symbolic-to-octal-1.4 -- success
+
+Test file "../tests/system.test"
+	Number of executed tests: 32
+	Number of failed tests:   4
+Failed tests:
+   system-group-gid-to-name-var-1.1
+   system-group-name-to-gid-var-1.1
+   system-passwd-name-to-uid-var-1.1
+   system-passwd-uid-to-name-var-1.1
+
+FAIL tests/system.test (exit status: 1)
+
+FAIL: tests/variables
+=====================
+
+dotest: variable-alloc-1.1 -- start
+dotest: variable-alloc-1.1 -- success
+dotest: variable-colon-variable-to-array-1.1 -- start
+dotest: variable-colon-variable-to-array-1.1 -- success
+dotest: variable-colon-variable-to-array-1.2 -- start
+dotest: variable-colon-variable-to-array-1.2 -- success
+dotest: variable-colon-variable-to-array-2.1 -- start
+dotest: variable-colon-variable-to-array-2.1 -- success
+dotest: variable-element-is-in-array-1.1 -- start
+dotest: variable-element-is-in-array-1.1 -- success
+dotest: variable-element-is-in-array-1.2 -- start
+dotest: variable-element-is-in-array-1.2 -- success
+dotest: variable-find-in-array-1.1 -- start
+dotest: variable-find-in-array-1.1 -- success
+dotest: variable-find-in-array-1.2 -- start
+dotest: variable-find-in-array-1.2 -- success
+dotest: variable-find-in-array-1.3 -- start
+dotest: variable-find-in-array-1.3 -- success
+dotest: variable-find-in-array-1.4 -- start
+dotest: variable-find-in-array-1.4 -- success
+dotest: variable-find-in-array-2.1 -- start
+dotest: variable-find-in-array-2.1 -- success
+dotest: varref-global-array-1.1 -- start
+dotest: varref-global-array-1.1 -- success
+dotest: varref-global-array-1.2 -- start
+dotest: varref-global-array-1.2 -- success
+dotest: varref-global-array-2.1 -- start
+./tests/variables.test: line 320: local: warning: RV: circular name reference
+./tests/variables.test: line 320: warning: RV: circular name reference
+./tests/variables.test: line 323: warning: RV: circular name reference
+dotest-equal:
+   expected: '123'
+   got:      ''
+dotest: varref-global-array-2.1 -- *** FAILED ***
+
+dotest: varref-global-array-2.2 -- start
+./tests/variables.test: line 340: local: warning: RV: circular name reference
+./tests/variables.test: line 340: warning: RV: circular name reference
+./tests/variables.test: line 342: warning: RV: circular name reference
+dotest-equal:
+   expected: '123'
+   got:      ''
+dotest: varref-global-array-2.2 -- *** FAILED ***
+
+dotest: varref-global-array-3.1 -- start
+./tests/variables.test: line 368: local: warning: RV1: circular name reference
+./tests/variables.test: line 368: warning: RV1: circular name reference
+./tests/variables.test: line 370: local: warning: RV2: circular name reference
+./tests/variables.test: line 370: warning: RV2: circular name reference
+./tests/variables.test: line 374: warning: RV1: circular name reference
+./tests/variables.test: line 375: warning: RV2: circular name reference
+dotest-equal:
+   expected: '123'
+   got:      ''
+dotest: varref-global-array-3.1 -- *** FAILED ***
+
+dotest: varref-global-array-3.2 -- start
+./tests/variables.test: line 401: local: warning: RV1: circular name reference
+./tests/variables.test: line 401: warning: RV1: circular name reference
+./tests/variables.test: line 403: local: warning: RV2: circular name reference
+./tests/variables.test: line 403: warning: RV2: circular name reference
+./tests/variables.test: line 407: warning: RV1: circular name reference
+./tests/variables.test: line 408: warning: RV2: circular name reference
+dotest-equal:
+   expected: '123'
+   got:      ''
+dotest: varref-global-array-3.2 -- *** FAILED ***
+
+dotest: varref-global-simple-1.1 -- start
+dotest: varref-global-simple-1.1 -- success
+dotest: varref-global-simple-1.2 -- start
+dotest: varref-global-simple-1.2 -- success
+dotest: varref-global-simple-1.3 -- start
+dotest: varref-global-simple-1.3 -- success
+dotest: varref-global-simple-1.4 -- start
+dotest: varref-global-simple-1.4 -- success
+dotest: varref-global-simple-2.1 -- start
+./tests/variables.test: line 283: local: warning: RV: circular name reference
+./tests/variables.test: line 283: warning: RV: circular name reference
+./tests/variables.test: line 286: warning: RV: circular name reference
+dotest-equal:
+   expected: '123'
+   got:      ''
+dotest: varref-global-simple-2.1 -- *** FAILED ***
+
+dotest: varref-local-array-1.1 -- start
+dotest: varref-local-array-1.1 -- success
+dotest: varref-local-array-1.2 -- start
+dotest: varref-local-array-1.2 -- success
+dotest: varref-local-array-2.1 -- start
+./tests/variables.test: line 145: local: warning: RV: circular name reference
+./tests/variables.test: line 145: warning: RV: circular name reference
+./tests/variables.test: line 148: warning: RV: circular name reference
+dotest-equal:
+   expected: '123'
+   got:      ''
+dotest: varref-local-array-2.1 -- *** FAILED ***
+
+dotest: varref-local-array-2.2 -- start
+./tests/variables.test: line 165: local: warning: RV: circular name reference
+./tests/variables.test: line 165: warning: RV: circular name reference
+./tests/variables.test: line 167: warning: RV: circular name reference
+dotest-equal:
+   expected: '123'
+   got:      ''
+dotest: varref-local-array-2.2 -- *** FAILED ***
+
+dotest: varref-local-array-3.1 -- start
+./tests/variables.test: line 193: local: warning: RV1: circular name reference
+./tests/variables.test: line 193: warning: RV1: circular name reference
+./tests/variables.test: line 195: local: warning: RV2: circular name reference
+./tests/variables.test: line 195: warning: RV2: circular name reference
+./tests/variables.test: line 199: warning: RV1: circular name reference
+./tests/variables.test: line 200: warning: RV2: circular name reference
+dotest-equal:
+   expected: '123'
+   got:      ''
+dotest: varref-local-array-3.1 -- *** FAILED ***
+
+dotest: varref-local-array-3.2 -- start
+./tests/variables.test: line 226: local: warning: RV1: circular name reference
+./tests/variables.test: line 226: warning: RV1: circular name reference
+./tests/variables.test: line 228: local: warning: RV2: circular name reference
+./tests/variables.test: line 228: warning: RV2: circular name reference
+./tests/variables.test: line 232: warning: RV1: circular name reference
+./tests/variables.test: line 233: warning: RV2: circular name reference
+dotest-equal:
+   expected: '123'
+   got:      ''
+dotest: varref-local-array-3.2 -- *** FAILED ***
+
+dotest: varref-local-simple-1.1 -- start
+dotest: varref-local-simple-1.1 -- success
+dotest: varref-local-simple-1.2 -- start
+dotest: varref-local-simple-1.2 -- success
+dotest: varref-local-simple-1.3 -- start
+dotest: varref-local-simple-1.3 -- success
+dotest: varref-local-simple-1.4 -- start
+dotest: varref-local-simple-1.4 -- success
+dotest: varref-local-simple-2.1 -- start
+./tests/variables.test: line 108: local: warning: RV: circular name reference
+./tests/variables.test: line 108: warning: RV: circular name reference
+./tests/variables.test: line 111: warning: RV: circular name reference
+dotest-equal:
+   expected: '123'
+   got:      ''
+dotest: varref-local-simple-2.1 -- *** FAILED ***
+
+dotest: varref-sub-generation-1.1 -- start
+dotest: varref-sub-generation-1.1 -- success
+dotest: varref-unset-1.1 -- start
+dotest: varref-unset-1.1 -- success
+dotest: varref-unset-2.1 -- start
+dotest: varref-unset-2.1 -- success
+dotest: varref-unset-3.1 -- start
+dotest: varref-unset-3.1 -- success
+
+Test file "./tests/variables.test"
+	Number of executed tests: 37
+	Number of failed tests:   10
+Failed tests:
+   varref-global-array-2.1
+   varref-global-array-2.2
+   varref-global-array-3.1
+   varref-global-array-3.2
+   varref-global-simple-2.1
+   varref-local-array-2.1
+   varref-local-array-2.2
+   varref-local-array-3.1
+   varref-local-array-3.2
+   varref-local-simple-2.1
+
+FAIL tests/variables.test (exit status: 1)
+

@@ -1,0 +1,10 @@
+@Looks
+`hair-color='brown'`
+`hair-length=9`
+`eye-color='blue'`
+`leg-length=36`
+@Farax
+`fur-color='red'`
+`fur-adj='soft, thick'`
+`tail-length=37`
+@End

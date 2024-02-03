@@ -1,0 +1,4 @@
+@set UPDATED 17 December 2018
+@set UPDATED-MONTH December 2018
+@set EDITION 3.0.0-devel.0
+@set VERSION 3.0.0-devel.0

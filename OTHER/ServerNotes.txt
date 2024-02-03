@@ -1,0 +1,2 @@
+Command for setting up server connections:
+rclone mount house-server:HOUSE /home/deverell-manning/Public/HOUSE-test2

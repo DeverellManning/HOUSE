@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<mime-info xmlns='http://www.freedesktop.org/standards/shared-mime-info'>
+    <mime-type type="text/hp-door">
+        <comment>Door - HOUSE Project</comment>
+        <glob pattern="*.door"/>
+        <icon name="application-exit-symbolic"/>
+    </mime-type>
+</mime-info>
+

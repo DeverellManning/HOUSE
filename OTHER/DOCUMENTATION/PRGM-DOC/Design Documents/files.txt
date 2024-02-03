@@ -1,0 +1,51 @@
+OTHER 
+   Contains logs, documentaion, notes, links, and other stuff
+
+PRGM
+   The files used to run the game. THese are primarily bash 
+   scripts, and they are ran and used by EXPLORE.sh
+
+SERVER *
+   Files used by the master program, to store the overall 
+   state of the server.
+
+WORLD *
+   The characters and rooms of the Eligotextum world.
+
+CONFIG
+   Holds client-wide settings and info, such as the client's 
+   base path.
+
+EXPLORE.sh
+   The program, written in bash, that connects to the world and
+   controls your character, allowing you to explore the 
+   Eligotextum world.
+
+ABOUT.txt
+   A short description of the Eligotextum/House Project.
+
+TODO.txt
+   A occasionally update list of future updates and changes.
+
+ --------
+
+FILE NAMING CONVENTIONS
+
+(Not neccesarily applying inside the world itself)
+
+UPPERCASE names are for important, especially base files and folders.
+
+.txt files are definitely for a person to read.
+
+.sh files are bash scripts, that are used by the program to do things.
+
+ ---------
+EXTENSIONS USED IN WORLD
+
+.prop
+
+.ref
+
+.char
+
+.door

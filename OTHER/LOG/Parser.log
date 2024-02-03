@@ -1,0 +1,1822 @@
+Time: 6650, Name: Deverell.
+ String: 'look at chair'
+ Results from Parsing:
+ Verb: ./PRGM/action/look.sh
+ Direct Object: 'chair'
+     (./WORLD/ROOMS/House/Second Floor/Over Hall/Chair\n\n)
+ Direct Preposition:'at'
++Time: 6651, Name: Deverell.
+  String: 'look at white door'
+  Results from Parsing:
+  Verb: ./PRGM/action/look.sh
+  Direct Object: 'white door'
+      (./WORLD/ROOMS/House/Second Floor/Over Hall/Chair\n\n)
+  Direct Preposition:'at'
+
++Time: 6652, Name: Deverell.
+  String: 'look at me'
+  Results from Parsing:
+  Verb: ./PRGM/action/look.sh
+  Direct Object: 'me'
+      (\n\n)
+  Direct Preposition:'at'
+
++Time: 6653, Name: Deverell.
+  String: 'look around'
+  Results from Parsing:
+  Verb: ./PRGM/action/look.sh
+  Direct Object: 'around'
+      (\n\n)
+  Direct Preposition:''
+
++Time: 6654, Name: Deverell.
+  String: 'look around'
+  Results from Parsing:
+  Verb: ./PRGM/action/look.sh
+  Direct Object: 'around'
+      (\n\n)
+  Direct Preposition:''
+
++Time: 6655, Name: Deverell.
+  String: 'look around'
+  Results from Parsing:
+  Verb: ./PRGM/action/look.sh
+  Direct Object: 'around'
+      (\n\n)
+  Direct Preposition:''
+
++Time: 6656, Name: Deverell.
+  String: 'look at Blue Door'
+  Results from Parsing:
+  Verb: ./PRGM/action/look.sh
+  Direct Object: 'blue door'
+      (./WORLD/ROOMS/House/Second Floor/Over Hall/Blue Door.door\n\n)
+  Direct Preposition:'at'
+
++Time: 6657, Name: Deverell.
+  String: 'look at the Closet'
+  Results from Parsing:
+  Verb: ./PRGM/action/look.sh
+  Direct Object: 'closet'
+      (./WORLD/ROOMS/House/Second Floor/Over Hall/Closet.door\n\n)
+  Direct Preposition:'at'
+
++Time: 6658, Name: Deverell.
+  String: 'look chair'
+  Results from Parsing:
+  Verb: ./PRGM/action/look.sh
+  Direct Object: 'chair'
+      (./WORLD/ROOMS/House/Second Floor/Over Hall/Chair\n\n)
+  Direct Preposition:''
+
++Time: 6659, Name: Deverell.
+  String: 'look at white door'
+  Results from Parsing:
+  Verb: ./PRGM/action/look.sh
+  Direct Object: 'white door'
+      (./WORLD/ROOMS/House/Second Floor/Over Hall/Closet.door\n\n)
+  Direct Preposition:'at'
+
++Time: 6660, Name: Deverell.
+  String: 'look at WHite Door'
+  Results from Parsing:
+  Verb: ./PRGM/action/look.sh
+  Direct Object: 'white door'
+      (./WORLD/ROOMS/House/Second Floor/Over Hall/Closet.door\n\n)
+  Direct Preposition:'at'
+
++Time: 6664, Name: Deverell.
+  String: 'look at Blue Door'
+  Results from Parsing:
+  Verb: ./PRGM/action/look.sh
+  Direct Object: 'blue door'
+      (./WORLD/ROOMS/House/Second Floor/Over Hall/Blue Door.door\n\n)
+  Direct Preposition:'at'
+
++Time: 6665, Name: Deverell.
+  String: 'look at Red Door'
+  Results from Parsing:
+  Verb: ./PRGM/action/look.sh
+  Direct Object: 'red door'
+      (./WORLD/ROOMS/House/Second Floor/Over Hall/Red Door.door\n\n)
+  Direct Preposition:'at'
+
++Time: 6666, Name: Deverell.
+  String: 'look at Green Door'
+  Results from Parsing:
+  Verb: ./PRGM/action/look.sh
+  Direct Object: 'green door'
+      (./WORLD/ROOMS/House/Second Floor/Over Hall/Green Door.door\n\n)
+  Direct Preposition:'at'
+
++Time: 6667, Name: Deverell.
+  String: 'look at White Door'
+  Results from Parsing:
+  Verb: ./PRGM/action/look.sh
+  Direct Object: 'white door'
+      (./WORLD/ROOMS/House/Second Floor/Over Hall/Green Door.door\n\n)
+  Direct Preposition:'at'
+
++Time: 6668, Name: Deverell.
+  String: 'it'
+  Results from Parsing:
+  Verb: ./PRGM/action/data/it.sh
+  Direct Object: ''
+      ()
+  Direct Preposition:''
+
++Time: 6669, Name: Deverell.
+  String: 'look at White'
+  Results from Parsing:
+  Verb: ./PRGM/action/look.sh
+  Direct Object: 'white'
+      (./WORLD/ROOMS/House/Second Floor/Over Hall/Green Door.door\n\n)
+  Direct Preposition:'at'
+
++Time: 6670, Name: Deverell.
+  String: 'it'
+  Results from Parsing:
+  Verb: ./PRGM/action/data/it.sh
+  Direct Object: ''
+      ()
+  Direct Preposition:''
+
++Time: 6671, Name: Deverell.
+  String: 'look'
+  Results from Parsing:
+  Verb: ./PRGM/action/look.sh
+  Direct Object: ''
+      ()
+  Direct Preposition:''
+
++Time: 6672, Name: Deverell.
+  String: 'look at White door'
+  Results from Parsing:
+  Verb: ./PRGM/action/look.sh
+  Direct Object: 'white door'
+      (./WORLD/ROOMS/House/Second Floor/Over Hall/Green Door.door\n\n)
+  Direct Preposition:'at'
+
++Time: 6673, Name: Deverell.
+  String: 'look at white door'
+  Results from Parsing:
+  Verb: ./PRGM/action/look.sh
+  Direct Object: 'white door'
+      (./WORLD/ROOMS/House/Second Floor/Over Hall/Green Door.door\n\n)
+  Direct Preposition:'at'
+
++Time: 6676, Name: Deverell.
+  String: 'look at whi'
+  Results from Parsing:
+  Verb: ./PRGM/action/look.sh
+  Direct Object: 'whi'
+      (./WORLD/ROOMS/House/Second Floor/Over Hall/White Door.door\n\n)
+  Direct Preposition:'at'
+
++Time: 6677, Name: Deverell.
+  String: 'look at white'
+  Results from Parsing:
+  Verb: ./PRGM/action/look.sh
+  Direct Object: 'white'
+      (./WORLD/ROOMS/House/Second Floor/Over Hall/White Door.door\n\n)
+  Direct Preposition:'at'
+
++Time: 6678, Name: Deverell.
+  String: 'reload'
+  Results from Parsing:
+  Verb: ./PRGM/action/debug/reload.sh
+  Direct Object: ''
+      ()
+  Direct Preposition:''
+
++Time: 6679, Name: Deverell.
+  String: 'look at white'
+  Results from Parsing:
+  Verb: ./PRGM/action/look.sh
+  Direct Object: 'white'
+      (./WORLD/ROOMS/House/Second Floor/Over Hall/White Door.door\n\n)
+  Direct Preposition:'at'
+
++Time: 6682, Name: Deverell.
+  String: 'reload'
+  Results from Parsing:
+  Verb: ./PRGM/action/debug/reload.sh
+  Direct Object: ''
+      ()
+  Direct Preposition:''
+
++Time: 6683, Name: Deverell.
+  String: 'look at white'
+  Results from Parsing:
+  Verb: ./PRGM/action/look.sh
+  Direct Object: 'white'
+      (./WORLD/ROOMS/House/Second Floor/Over Hall/White Door.door\n\n)
+  Direct Preposition:'at'
+
++Time: 6685, Name: Deverell.
+  String: 'look'
+  Results from Parsing:
+  Verb: ./PRGM/action/look.sh
+  Direct Object: ''
+      ()
+  Direct Preposition:''
+
++Time: 6685, Name: Deverell.
+  String: 'look at Blue Door'
+  Results from Parsing:
+  Verb: ./PRGM/action/look.sh
+  Direct Object: 'blue door'
+      (./WORLD/ROOMS/House/Second Floor/Over Hall/Blue Door.door\n\n)
+  Direct Preposition:'at'
+
++Time: 6686, Name: Deverell.
+  String: 'look at White Door'
+  Results from Parsing:
+  Verb: ./PRGM/action/look.sh
+  Direct Object: 'white door'
+      (./WORLD/ROOMS/House/Second Floor/Over Hall/White Door.door\n\n)
+  Direct Preposition:'at'
+
++Time: 6687, Name: Deverell.
+  String: 'look at Stairs'
+  Results from Parsing:
+  Verb: ./PRGM/action/look.sh
+  Direct Object: 'stairs'
+      (./WORLD/ROOMS/House/Second Floor/Over Hall/Stairs Archway.door\n\n)
+  Direct Preposition:'at'
+
++Time: 6688, Name: Deverell.
+  String: 'White'
+  Results from Parsing:
+  Verb: 
+  Direct Object: 'white'
+      (./WORLD/ROOMS/House/Second Floor/Over Hall/White Door.door\n\n)
+  Direct Preposition:''
+
++Time: 6689, Name: Deverell.
+  String: 'look in Nightstand'
+  Results from Parsing:
+  Verb: ./PRGM/action/look.sh
+  Direct Object: 'in'
+      (\n\n)
+  Direct Preposition:'in'
+
++Time: 6690, Name: Deverell.
+  String: 'look at Nightstand'
+  Results from Parsing:
+  Verb: ./PRGM/action/look.sh
+  Direct Object: 'at'
+      (\n\n)
+  Direct Preposition:'at'
+
++Time: 6691, Name: Deverell.
+  String: 'look at Deverell'
+  Results from Parsing:
+  Verb: ./PRGM/action/look.sh
+  Direct Object: 'deverell'
+      (./WORLD/ROOMS/House/Second Floor/Master Bedroom/Deverell.char\n\n)
+  Direct Preposition:'at'
+
++Time: 6692, Name: Deverell.
+  String: 'look at Deverell'
+  Results from Parsing:
+  Verb: ./PRGM/action/look.sh
+  Direct Object: 'deverell'
+      (./WORLD/ROOMS/House/Second Floor/Master Bedroom/Deverell.char\n\n)
+  Direct Preposition:'at'
+
++Time: 6728, Name: Deverell.
+  String: 'Hall DOor'
+  Results from Parsing:
+  Verb: ./PRGM/action/door.sh
+  Direct Object: 'hall'
+      (./WORLD/ROOMS/House/Second Floor/Master Bedroom/Hall Door.door\n\n)
+  Direct Preposition:''
+
++Time: 6729, Name: Deverell.
+  String: 'Arch'
+  Results from Parsing:
+  Verb: 
+  Direct Object: 'arch'
+      (./WORLD/ROOMS/House/Second Floor/Over Hall/Stairs Archway.door\n\n)
+  Direct Preposition:''
+
++Time: 6730, Name: Deverell.
+  String: 'First'
+  Results from Parsing:
+  Verb: 
+  Direct Object: 'first'
+      (./WORLD/ROOMS/House/Stairs/First Floor.door\n\n)
+  Direct Preposition:''
+
++Time: 6731, Name: Deverell.
+  String: 'Mudroom'
+  Results from Parsing:
+  Verb: 
+  Direct Object: 'mudroom'
+      (./WORLD/ROOMS/House/First Floor/Satirn Hall/Mudroom Door.door\n\n)
+  Direct Preposition:''
+
++Time: 6732, Name: Deverell.
+  String: 'Back'
+  Results from Parsing:
+  Verb: 
+  Direct Object: 'back'
+      (./WORLD/ROOMS/House/First Floor/Mudroom/Back door.door\n\n)
+  Direct Preposition:''
+
++Time: 6735, Name: Deverell.
+  String: 'click click click'
+  Results from Parsing:
+  Verb: 
+  Direct Object: 'click click click'
+      (\n\n)
+  Direct Preposition:''
+
++Time: 6738, Name: Deverell.
+  String: 'dresser'
+  Results from Parsing:
+  Verb: 
+  Direct Object: 'dresser'
+      (./WORLD/ROOMS/House/Second Floor/Master Bedroom/Dresser\n\n)
+  Direct Preposition:''
+
++Time: 6739, Name: Deverell.
+  String: 'nightstand'
+  Results from Parsing:
+  Verb: 
+  Direct Object: ''
+      ()
+  Direct Preposition:''
+
++Time: 6740, Name: Deverell.
+  String: 'examine'
+  Results from Parsing:
+  Verb: ./PRGM/action/alias/examine.sh
+  Direct Object: ''
+      ()
+  Direct Preposition:''
+
++Time: 6741, Name: Deverell.
+  String: 'examine nightstand'
+  Results from Parsing:
+  Verb: ./PRGM/action/alias/examine.sh
+  Direct Object: ''
+      ()
+  Direct Preposition:''
+
++Time: 6742, Name: Deverell.
+  String: 'look at nightstand'
+  Results from Parsing:
+  Verb: ./PRGM/action/look.sh
+  Direct Object: 'at'
+      (\n\n)
+  Direct Preposition:'at'
+
++Time: 6743, Name: Deverell.
+  String: 'open nightstand'
+  Results from Parsing:
+  Verb: ./PRGM/action/open.sh
+  Direct Object: ''
+      ()
+  Direct Preposition:''
+
++Time: 6744, Name: Deverell.
+  String: 'eat juves cracker packer'
+  Results from Parsing:
+  Verb: ./PRGM/action/eat.sh
+  Direct Object: 'juves cracker packer'
+      (\n./WORLD/ROOMS/House/Second Floor/Master Bedroom/Nightstand/Juves Cracker Packer\n)
+  Direct Preposition:''
+
++Time: 6745, Name: Deverell.
+  String: 'look at bed'
+  Results from Parsing:
+  Verb: ./PRGM/action/look.sh
+  Direct Object: 'bed'
+      (./WORLD/ROOMS/House/Second Floor/Master Bedroom/Bed\n\n)
+  Direct Preposition:'at'
+
++Time: 6746, Name: Deverell.
+  String: 'sword'
+  Results from Parsing:
+  Verb: 
+  Direct Object: 'sword'
+      (\n\n)
+  Direct Preposition:''
+
++Time: 6747, Name: Deverell.
+  String: 'iook at shelf'
+  Results from Parsing:
+  Verb: 
+  Direct Object: 'iook at shelf'
+      (\n\n)
+  Direct Preposition:'at'
+
++Time: 6748, Name: Deverell.
+  String: 'look at sheif'
+  Results from Parsing:
+  Verb: ./PRGM/action/look.sh
+  Direct Object: 'sheif'
+      (\n\n)
+  Direct Preposition:'at'
+
++Time: 6749, Name: Deverell.
+  String: 'look at shelf'
+  Results from Parsing:
+  Verb: ./PRGM/action/look.sh
+  Direct Object: 'shelf'
+      (./WORLD/ROOMS/House/Second Floor/Master Bedroom/Shelf\n\n)
+  Direct Preposition:'at'
+
++Time: 6750, Name: Deverell.
+  String: 'butler'
+  Results from Parsing:
+  Verb: 
+  Direct Object: 'butler'
+      (\n\n)
+  Direct Preposition:''
+
++Time: 6751, Name: Deverell.
+  String: 'look'
+  Results from Parsing:
+  Verb: ./PRGM/action/look.sh
+  Direct Object: ''
+      ()
+  Direct Preposition:''
+
++Time: 6752, Name: Deverell.
+  String: 'bathroom door'
+  Results from Parsing:
+  Verb: ./PRGM/action/door.sh
+  Direct Object: 'bathroom'
+      (./WORLD/ROOMS/House/Second Floor/Master Bedroom/Bathroom door.door\n\n)
+  Direct Preposition:''
+
++Time: 6753, Name: Deverell.
+  String: 'use shower'
+  Results from Parsing:
+  Verb: ./PRGM/action/use.sh
+  Direct Object: 'shower'
+      (./WORLD/ROOMS/House/Second Floor/Master Bathroom/Shower\n\n)
+  Direct Preposition:''
+
++Time: 6757, Name: Deverell.
+  String: 'use toilet'
+  Results from Parsing:
+  Verb: ./PRGM/action/use.sh
+  Direct Object: 'toilet'
+      (./WORLD/ROOMS/House/Second Floor/Master Bathroom/Toilet.sh\n\n)
+  Direct Preposition:''
+
++Time: 6759, Name: Deverell.
+  String: 'nodebug'
+  Results from Parsing:
+  Verb: ./PRGM/action/debug/nodebug.sh
+  Direct Object: ''
+      ()
+  Direct Preposition:''
+
++Time: 6760, Name: Deverell.
+  String: 'look at mirror'
+  Results from Parsing:
+  Verb: ./PRGM/action/look.sh
+  Direct Object: 'mirror'
+      (./WORLD/ROOMS/House/Second Floor/Master Bathroom/Mirror\n\n)
+  Direct Preposition:'at'
+
++Time: 6761, Name: Deverell.
+  String: 'wash hands'
+  Results from Parsing:
+  Verb: 
+  Direct Object: 'wash'
+      (\n\n)
+  Direct Preposition:''
+
++Time: 6762, Name: Deverell.
+  String: 'open Towel Rack'
+  Results from Parsing:
+  Verb: ./PRGM/action/open.sh
+  Direct Object: 'towel rack'
+      (./WORLD/ROOMS/House/Second Floor/Master Bathroom/Towel Rack\n\n)
+  Direct Preposition:''
+
++Time: 6763, Name: Deverell.
+  String: 'leave'
+  Results from Parsing:
+  Verb: ./PRGM/action/alias/leave.sh
+  Direct Object: ''
+      ()
+  Direct Preposition:''
+
++Time: 6764, Name: Deverell.
+  String: 'wear'
+  Results from Parsing:
+  Verb: ./PRGM/action/wear.sh
+  Direct Object: ''
+      ()
+  Direct Preposition:''
+
++Time: 6765, Name: Deverell.
+  String: 'look'
+  Results from Parsing:
+  Verb: ./PRGM/action/look.sh
+  Direct Object: ''
+      ()
+  Direct Preposition:''
+
++Time: 6766, Name: Deverell.
+  String: 'Leave'
+  Results from Parsing:
+  Verb: ./PRGM/action/alias/leave.sh
+  Direct Object: ''
+      ()
+  Direct Preposition:''
+
++Time: 6767, Name: Deverell.
+  String: 'click click click'
+  Results from Parsing:
+  Verb: 
+  Direct Object: 'click click click'
+      (\n\n)
+  Direct Preposition:''
+
++Time: 6768, Name: Deverell.
+  String: 'look at clock'
+  Results from Parsing:
+  Verb: ./PRGM/action/look.sh
+  Direct Object: 'clock'
+      (./WORLD/ROOMS/House/Second Floor/Master Bedroom/Clock.txt\n\n)
+  Direct Preposition:'at'
+
++Time: 6769, Name: Deverell.
+  String: 'open shelf'
+  Results from Parsing:
+  Verb: ./PRGM/action/open.sh
+  Direct Object: 'shelf'
+      (./WORLD/ROOMS/House/Second Floor/Master Bedroom/Shelf\n\n)
+  Direct Preposition:''
+
++Time: 6770, Name: Deverell.
+  String: 'open wardrobe'
+  Results from Parsing:
+  Verb: ./PRGM/action/open.sh
+  Direct Object: 'wardrobe'
+      (./WORLD/ROOMS/House/Second Floor/Master Bedroom/Wardrobe\n\n)
+  Direct Preposition:''
+
++Time: 6771, Name: Deverell.
+  String: 'look at book'
+  Results from Parsing:
+  Verb: ./PRGM/action/look.sh
+  Direct Object: 'book'
+      (\n./WORLD/ROOMS/House/Second Floor/Master Bedroom/Wardrobe/Book.prop\n)
+  Direct Preposition:'at'
+
++Time: 6772, Name: Deverell.
+  String: 'read it'
+  Results from Parsing:
+  Verb: ./PRGM/action/read.sh
+  Direct Object: 'it'
+      (./WORLD/ROOMS/House/Second Floor/Master Bedroom/Wardrobe/Book.prop\n./WORLD/ROOMS/House/Second Floor/Master Bedroom/Wardrobe/Book.prop\n)
+  Direct Preposition:''
+
++Time: 6773, Name: Deverell.
+  String: 'look'
+  Results from Parsing:
+  Verb: ./PRGM/action/look.sh
+  Direct Object: ''
+      ()
+  Direct Preposition:''
+
++Time: 6774, Name: Deverell.
+  String: 'look at windows'
+  Results from Parsing:
+  Verb: ./PRGM/action/look.sh
+  Direct Object: 'windows'
+      (\n\n)
+  Direct Preposition:'at'
+
++Time: 6775, Name: Deverell.
+  String: 'look at window'
+  Results from Parsing:
+  Verb: ./PRGM/action/look.sh
+  Direct Object: 'window'
+      (./WORLD/ROOMS/House/Second Floor/Master Bedroom/Window\n\n)
+  Direct Preposition:'at'
+
++Time: 6776, Name: Deverell.
+  String: 'open nightstand'
+  Results from Parsing:
+  Verb: ./PRGM/action/open.sh
+  Direct Object: ''
+      ()
+  Direct Preposition:''
+
++Time: 6777, Name: Deverell.
+  String: 'hall'
+  Results from Parsing:
+  Verb: 
+  Direct Object: 'hall'
+      (./WORLD/ROOMS/House/Second Floor/Master Bedroom/Hall Door.door\n\n)
+  Direct Preposition:''
+
++Time: 6778, Name: Deverell.
+  String: 'hands'
+  Results from Parsing:
+  Verb: 
+  Direct Object: ''
+      ()
+  Direct Preposition:''
+
++Time: 6779, Name: Deverell.
+  String: 'hand\'
+  Results from Parsing:
+  Verb: 
+  Direct Object: ''
+      ()
+  Direct Preposition:''
+
++Time: 6780, Name: Deverell.
+  String: 'hand'
+  Results from Parsing:
+  Verb: 
+  Direct Object: ''
+      ()
+  Direct Preposition:''
+
++Time: 6781, Name: Deverell.
+  String: '|'
+  Results from Parsing:
+  Verb: 
+  Direct Object: '|'
+      (\n\n)
+  Direct Preposition:''
+
++Time: 6782, Name: Deverell.
+  String: ';'
+  Results from Parsing:
+  Verb: 
+  Direct Object: ';'
+      (\n\n)
+  Direct Preposition:''
+
++Time: 6783, Name: Deverell.
+  String: 'hold'
+  Results from Parsing:
+  Verb: ./PRGM/action/hold.sh
+  Direct Object: ''
+      ()
+  Direct Preposition:''
+
++Time: 6784, Name: Deverell.
+  String: 'inv'
+  Results from Parsing:
+  Verb: 
+  Direct Object: 'inv'
+      (\n\n)
+  Direct Preposition:''
+
++Time: 6785, Name: Deverell.
+  String: 'hold knife'
+  Results from Parsing:
+  Verb: ./PRGM/action/hold.sh
+  Direct Object: 'knife'
+      (\n\n./WORLD/CHARACTERS/PLAYERS/deverell/Inventory/knife.prop)
+  Direct Preposition:''
+
++Time: 6786, Name: Deverell.
+  String: 'look at knife'
+  Results from Parsing:
+  Verb: ./PRGM/action/look.sh
+  Direct Object: 'knife'
+      (\n\n./WORLD/CHARACTERS/PLAYERS/deverell/Inventory/knife.prop)
+  Direct Preposition:'at'
+
++Time: 6787, Name: Deverell.
+  String: 'use knife'
+  Results from Parsing:
+  Verb: ./PRGM/action/use.sh
+  Direct Object: 'knife'
+      (\n\n./WORLD/CHARACTERS/PLAYERS/deverell/Inventory/knife.prop)
+  Direct Preposition:''
+
++Time: 6788, Name: Deverell.
+  String: 'attack'
+  Results from Parsing:
+  Verb: ./PRGM/action/attack.sh
+  Direct Object: ''
+      ()
+  Direct Preposition:''
+
++Time: 6789, Name: Deverell.
+  String: 'look'
+  Results from Parsing:
+  Verb: ./PRGM/action/look.sh
+  Direct Object: ''
+      ()
+  Direct Preposition:''
+
++Time: 6790, Name: Deverell.
+  String: 'Closet'
+  Results from Parsing:
+  Verb: 
+  Direct Object: 'closet'
+      (./WORLD/ROOMS/House/Second Floor/Over Hall/Closet.door\n\n)
+  Direct Preposition:''
+
++Time: 6791, Name: Deverell.
+  String: 'Farther'
+  Results from Parsing:
+  Verb: 
+  Direct Object: 'farther'
+      (./WORLD/ROOMS/House/Second Floor/Closet/1/Farther.door\n\n)
+  Direct Preposition:''
+
++Time: 6792, Name: Deverell.
+  String: 'tpa'
+  Results from Parsing:
+  Verb: ./PRGM/action/teleport/tpa.sh
+  Direct Object: ''
+      ()
+  Direct Preposition:''
+
++Time: 6793, Name: Deverell.
+  String: 'look'
+  Results from Parsing:
+  Verb: ./PRGM/action/look.sh
+  Direct Object: ''
+      ()
+  Direct Preposition:''
+
++Time: 6794, Name: Deverell.
+  String: 'tpe'
+  Results from Parsing:
+  Verb: 
+  Direct Object: 'tpe'
+      (\n\n)
+  Direct Preposition:''
+
++Time: 6797, Name: Deverell.
+  String: 'Out'
+  Results from Parsing:
+  Verb: 
+  Direct Object: 'out'
+      (./WORLD/ROOMS/House/Second Floor/Closet/1/Out.door\n\n)
+  Direct Preposition:'out'
+
++Time: 6798, Name: Deverell.
+  String: 'Door Out'
+  Results from Parsing:
+  Verb: ./PRGM/action/door.sh
+  Direct Object: 'out'
+      (./WORLD/ROOMS/House/Second Floor/Closet/1/Out.door\n\n)
+  Direct Preposition:'out'
+
++Time: 6799, Name: Deverell.
+  String: 'Green Door'
+  Results from Parsing:
+  Verb: ./PRGM/action/door.sh
+  Direct Object: 'green'
+      (./WORLD/ROOMS/House/Second Floor/Over Hall/Green Door.door\n\n)
+  Direct Preposition:''
+
++Time: 6800, Name: Deverell.
+  String: 'x Bed'
+  Results from Parsing:
+  Verb: 
+  Direct Object: 'x bed'
+      (\n\n)
+  Direct Preposition:''
+
++Time: 6801, Name: Deverell.
+  String: 'examine Bed'
+  Results from Parsing:
+  Verb: ./PRGM/action/alias/examine.sh
+  Direct Object: 'bed'
+      (./WORLD/ROOMS/House/Second Floor/Green Bedroom/Bed\n\n)
+  Direct Preposition:''
+
++Time: 6802, Name: Deverell.
+  String: 'examine Bed'
+  Results from Parsing:
+  Verb: ./PRGM/action/alias/examine.sh
+  Direct Object: 'bed'
+      (./WORLD/ROOMS/House/Second Floor/Green Bedroom/Bed\n\n)
+  Direct Preposition:''
+
++Time: 6803, Name: Deverell.
+  String: 'x BEd'
+  Results from Parsing:
+  Verb: ./PRGM/action/alias/x.sh
+  Direct Object: 'bed'
+      (./WORLD/ROOMS/House/Second Floor/Green Bedroom/Bed\n\n)
+  Direct Preposition:''
+
++Time: 6804, Name: Deverell.
+  String: 'look'
+  Results from Parsing:
+  Verb: ./PRGM/action/look.sh
+  Direct Object: ''
+      ()
+  Direct Preposition:''
+
++Time: 6805, Name: Deverell.
+  String: 'Attack Bed'
+  Results from Parsing:
+  Verb: ./PRGM/action/attack.sh
+  Direct Object: 'bed'
+      (./WORLD/ROOMS/House/Second Floor/Green Bedroom/Bed\n\n)
+  Direct Preposition:''
+
++Time: 6807, Name: Deverell.
+  String: 'attack Bed'
+  Results from Parsing:
+  Verb: ./PRGM/action/attack.sh
+  Direct Object: 'bed'
+      (./WORLD/ROOMS/House/Second Floor/Green Bedroom/Bed\n\n)
+  Direct Preposition:''
+
++Time: 6808, Name: Deverell.
+  String: 'attack'
+  Results from Parsing:
+  Verb: ./PRGM/action/attack.sh
+  Direct Object: ''
+      ()
+  Direct Preposition:''
+
++Time: 6809, Name: Deverell.
+  String: 'attack Bed'
+  Results from Parsing:
+  Verb: ./PRGM/action/attack.sh
+  Direct Object: 'bed'
+      (./WORLD/ROOMS/House/Second Floor/Green Bedroom/Bed\n\n)
+  Direct Preposition:''
+
++Time: 6810, Name: Deverell.
+  String: 'attack Hall'
+  Results from Parsing:
+  Verb: ./PRGM/action/attack.sh
+  Direct Object: 'hall'
+      (./WORLD/ROOMS/House/Second Floor/Green Bedroom/Hall Door.door\n\n)
+  Direct Preposition:''
+
++Time: 6811, Name: Deverell.
+  String: 'debug'
+  Results from Parsing:
+  Verb: ./PRGM/action/debug/debug.sh
+  Direct Object: ''
+      ()
+  Direct Preposition:''
+
++Time: 6812, Name: Deverell.
+  String: 'attack Bed'
+  Results from Parsing:
+  Verb: ./PRGM/action/attack.sh
+  Direct Object: 'bed'
+      (./WORLD/ROOMS/House/Second Floor/Green Bedroom/Bed\n\n)
+  Direct Preposition:''
+
++Time: 6813, Name: Deverell.
+  String: 'qprop hitchance@Weapon $_hand'
+  Results from Parsing:
+  Verb: ./PRGM/action/debug/qprop.sh
+  Direct Object: 'hitchance@weapon'
+      (\n\n)
+  Direct Preposition:''
+
++Time: 6814, Name: Deverell.
+  String: 'drop knife'
+  Results from Parsing:
+  Verb: ./PRGM/action/drop.sh
+  Direct Object: 'knife'
+      (\n\n./WORLD/CHARACTERS/PLAYERS/deverell/Inventory/knife.prop)
+  Direct Preposition:''
+
++Time: 6815, Name: Deverell.
+  String: 'qprop hitchance@Weapon knife'
+  Results from Parsing:
+  Verb: ./PRGM/action/debug/qprop.sh
+  Direct Object: 'hitchance@weapon knife'
+      (\n\n)
+  Direct Preposition:''
+
++Time: 6818, Name: Deverell.
+  String: 'inv'
+  Results from Parsing:
+  Verb: 
+  Direct Object: 'inv'
+      (\n\n)
+  Direct Preposition:''
+
++Time: 6819, Name: Deverell.
+  String: 'use broom'
+  Results from Parsing:
+  Verb: ./PRGM/action/use.sh
+  Direct Object: 'broom'
+      (\n\n./WORLD/CHARACTERS/PLAYERS/deverell/Inventory/Broom.sh)
+  Direct Preposition:''
+
++Time: 6820, Name: Deverell.
+  String: 'use Flashlight'
+  Results from Parsing:
+  Verb: ./PRGM/action/use.sh
+  Direct Object: 'flashlight'
+      (\n\n./WORLD/CHARACTERS/PLAYERS/deverell/Inventory/Flashlight)
+  Direct Preposition:''
+
++Time: 6821, Name: Deverell.
+  String: 'take knife'
+  Results from Parsing:
+  Verb: ./PRGM/action/take.sh
+  Direct Object: 'knife'
+      (./WORLD/ROOMS/House/Second Floor/Green Bedroom/knife.prop\n\n)
+  Direct Preposition:''
+
++Time: 6822, Name: Deverell.
+  String: 'hold it'
+  Results from Parsing:
+  Verb: ./PRGM/action/hold.sh
+  Direct Object: 'it'
+      (./WORLD/CHARACTERS/PLAYERS/deverell/Inventory/knife.prop\n\n)
+  Direct Preposition:''
+
++Time: 6823, Name: Deverell.
+  String: 'hold knife'
+  Results from Parsing:
+  Verb: ./PRGM/action/hold.sh
+  Direct Object: 'knife'
+      (\n\n./WORLD/CHARACTERS/PLAYERS/deverell/Inventory/knife.prop)
+  Direct Preposition:''
+
++Time: 6824, Name: Deverell.
+  String: 'health'
+  Results from Parsing:
+  Verb: ./PRGM/action/data/health.sh
+  Direct Object: ''
+      ()
+  Direct Preposition:''
+
++Time: 6825, Name: Deverell.
+  String: 'stats'
+  Results from Parsing:
+  Verb: ./PRGM/action/data/stats.sh
+  Direct Object: ''
+      ()
+  Direct Preposition:''
+
++Time: 6826, Name: Deverell.
+  String: 'exit'
+  Results from Parsing:
+  Verb: 
+  Direct Object: 'exit'
+      (\n\n)
+  Direct Preposition:''
+
++Time: 6827, Name: Deverell.
+  String: 'l'
+  Results from Parsing:
+  Verb: 
+  Direct Object: 'l'
+      (\n\n)
+  Direct Preposition:''
+
++Time: 6828, Name: Deverell.
+  String: 'Hall Door'
+  Results from Parsing:
+  Verb: ./PRGM/action/door.sh
+  Direct Object: 'hall'
+      (./WORLD/ROOMS/House/Second Floor/Green Bedroom/Hall Door.door\n\n)
+  Direct Preposition:''
+
++Time: 6829, Name: Deverell.
+  String: 'Stairs'
+  Results from Parsing:
+  Verb: 
+  Direct Object: 'stairs'
+      (./WORLD/ROOMS/House/Second Floor/Over Hall/Stairs Archway.door\n\n)
+  Direct Preposition:''
+
++Time: 6830, Name: Deverell.
+  String: 'FIrst'
+  Results from Parsing:
+  Verb: 
+  Direct Object: 'first'
+      (./WORLD/ROOMS/House/Stairs/First Floor.door\n\n)
+  Direct Preposition:''
+
++Time: 6831, Name: Deverell.
+  String: 'Kitchen'
+  Results from Parsing:
+  Verb: 
+  Direct Object: 'kitchen'
+      (./WORLD/ROOMS/House/First Floor/Satirn Hall/Kitchen door.door\n\n)
+  Direct Preposition:''
+
++Time: 6832, Name: Deverell.
+  String: 'pantry'
+  Results from Parsing:
+  Verb: 
+  Direct Object: 'pantry'
+      (./WORLD/ROOMS/House/First Floor/Kitchen/Pantry.door\n\n)
+  Direct Preposition:''
+
++Time: 6833, Name: Deverell.
+  String: 'open shelves'
+  Results from Parsing:
+  Verb: ./PRGM/action/open.sh
+  Direct Object: 'shelves'
+      (./WORLD/ROOMS/House/First Floor/Pantry/Left Shelves
+./WORLD/ROOMS/House/First Floor/Pantry/Right Shelves\n\n)
+  Direct Preposition:''
+
++Time: 6834, Name: Deverell.
+  String: 'sleep 10'
+  Results from Parsing:
+  Verb: ./PRGM/action/sleep.sh
+  Direct Object: '10'
+      (\n\n)
+  Direct Preposition:''
+
++Time: 6836, Name: Deverell.
+  String: 'open left'
+  Results from Parsing:
+  Verb: ./PRGM/action/open.sh
+  Direct Object: 'left'
+      (./WORLD/ROOMS/House/First Floor/Pantry/Left Shelves\n./WORLD/ROOMS/House/First Floor/Pantry/Left Shelves\n)
+  Direct Preposition:''
+
++Time: 6837, Name: Deverell.
+  String: 'open right'
+  Results from Parsing:
+  Verb: ./PRGM/action/open.sh
+  Direct Object: 'right'
+      (./WORLD/ROOMS/House/First Floor/Pantry/Right Shelves\n\n)
+  Direct Preposition:''
+
++Time: 6838, Name: Deverell.
+  String: 'take carrot'
+  Results from Parsing:
+  Verb: ./PRGM/action/take.sh
+  Direct Object: 'carrot'
+      (\n./WORLD/ROOMS/House/First Floor/Pantry/Right Shelves/Carrot.prop\n)
+  Direct Preposition:''
+
++Time: 6839, Name: Deverell.
+  String: 'eat carrot'
+  Results from Parsing:
+  Verb: ./PRGM/action/eat.sh
+  Direct Object: 'carrot'
+      (\n./WORLD/ROOMS/House/First Floor/Pantry/Right Shelves/Carrot.prop\n)
+  Direct Preposition:''
+
++Time: 6840, Name: Deverell.
+  String: 'open right'
+  Results from Parsing:
+  Verb: ./PRGM/action/open.sh
+  Direct Object: 'right'
+      (./WORLD/ROOMS/House/First Floor/Pantry/Right Shelves\n./WORLD/ROOMS/House/First Floor/Pantry/Right Shelves\n)
+  Direct Preposition:''
+
++Time: 6841, Name: Deverell.
+  String: 'take apple'
+  Results from Parsing:
+  Verb: ./PRGM/action/take.sh
+  Direct Object: 'apple'
+      (\n./WORLD/ROOMS/House/First Floor/Pantry/Right Shelves/Apple.1.prop
+./WORLD/ROOMS/House/First Floor/Pantry/Right Shelves/Apple.3.prop
+./WORLD/ROOMS/House/First Floor/Pantry/Right Shelves/Apple.4.prop
+./WORLD/ROOMS/House/First Floor/Pantry/Right Shelves/Apple.prop\n)
+  Direct Preposition:''
+
++Time: 6842, Name: Deverell.
+  String: 'take banana'
+  Results from Parsing:
+  Verb: ./PRGM/action/take.sh
+  Direct Object: 'banana'
+      (\n./WORLD/ROOMS/House/First Floor/Pantry/Right Shelves/A Banana.1.prop
+./WORLD/ROOMS/House/First Floor/Pantry/Right Shelves/A Banana.2.prop
+./WORLD/ROOMS/House/First Floor/Pantry/Right Shelves/A Banana.prop\n)
+  Direct Preposition:''
+
++Time: 6843, Name: Deverell.
+  String: 'open chest'
+  Results from Parsing:
+  Verb: ./PRGM/action/open.sh
+  Direct Object: 'chest'
+      (./WORLD/ROOMS/House/First Floor/Pantry/Chest\n\n)
+  Direct Preposition:''
+
++Time: 6844, Name: Deverell.
+  String: 'out'
+  Results from Parsing:
+  Verb: 
+  Direct Object: 'out'
+      (./WORLD/ROOMS/House/First Floor/Pantry/Out.door\n\n)
+  Direct Preposition:'out'
+
++Time: 6845, Name: Deverell.
+  String: 'door out'
+  Results from Parsing:
+  Verb: ./PRGM/action/door.sh
+  Direct Object: 'out'
+      (./WORLD/ROOMS/House/First Floor/Pantry/Out.door\n\n)
+  Direct Preposition:'out'
+
++Time: 6846, Name: Deverell.
+  String: 'open firdge'
+  Results from Parsing:
+  Verb: ./PRGM/action/open.sh
+  Direct Object: 'firdge'
+      (\n\n)
+  Direct Preposition:''
+
++Time: 6847, Name: Deverell.
+  String: 'open fridge'
+  Results from Parsing:
+  Verb: ./PRGM/action/open.sh
+  Direct Object: 'fridge'
+      (./WORLD/ROOMS/House/First Floor/Kitchen/Fridge\n\n)
+  Direct Preposition:''
+
++Time: 6848, Name: Deverell.
+  String: 'take apple'
+  Results from Parsing:
+  Verb: ./PRGM/action/take.sh
+  Direct Object: 'apple'
+      (\n./WORLD/ROOMS/House/First Floor/Kitchen/Fridge/Apple.2.prop
+./WORLD/ROOMS/House/First Floor/Kitchen/Fridge/Apple.prop\n)
+  Direct Preposition:''
+
++Time: 6849, Name: Deverell.
+  String: 'nodebug'
+  Results from Parsing:
+  Verb: ./PRGM/action/debug/nodebug.sh
+  Direct Object: ''
+      ()
+  Direct Preposition:''
+
++Time: 6850, Name: Deverell.
+  String: 'take apple'
+  Results from Parsing:
+  Verb: ./PRGM/action/take.sh
+  Direct Object: 'apple'
+      (\n./WORLD/ROOMS/House/First Floor/Kitchen/Fridge/Apple.2.prop
+./WORLD/ROOMS/House/First Floor/Kitchen/Fridge/Apple.prop\n)
+  Direct Preposition:''
+
++Time: 6851, Name: Deverell.
+  String: 'debug'
+  Results from Parsing:
+  Verb: ./PRGM/action/debug/debug.sh
+  Direct Object: ''
+      ()
+  Direct Preposition:''
+
++Time: 6852, Name: Deverell.
+  String: 'take apple'
+  Results from Parsing:
+  Verb: ./PRGM/action/take.sh
+  Direct Object: 'apple'
+      (\n./WORLD/ROOMS/House/First Floor/Kitchen/Fridge/Apple.2.prop
+./WORLD/ROOMS/House/First Floor/Kitchen/Fridge/Apple.prop\n)
+  Direct Preposition:''
+
++Time: 6853, Name: Deverell.
+  String: 'take apple'
+  Results from Parsing:
+  Verb: ./PRGM/action/take.sh
+  Direct Object: 'apple'
+      (\n./WORLD/ROOMS/House/First Floor/Kitchen/Fridge/Apple.2.prop
+./WORLD/ROOMS/House/First Floor/Kitchen/Fridge/Apple.prop\n)
+  Direct Preposition:''
+
++Time: 6854, Name: Deverell.
+  String: 'nodebug'
+  Results from Parsing:
+  Verb: ./PRGM/action/debug/nodebug.sh
+  Direct Object: ''
+      ()
+  Direct Preposition:''
+
++Time: 6855, Name: Deverell.
+  String: 'take apple'
+  Results from Parsing:
+  Verb: ./PRGM/action/take.sh
+  Direct Object: 'apple'
+      (\n./WORLD/ROOMS/House/First Floor/Kitchen/Fridge/Apple.prop\n./WORLD/CHARACTERS/PLAYERS/deverell/Inventory/Apple.2.prop)
+  Direct Preposition:''
+
++Time: 6856, Name: Deverell.
+  String: 'eat apple'
+  Results from Parsing:
+  Verb: ./PRGM/action/eat.sh
+  Direct Object: 'apple'
+      (\n\n./WORLD/CHARACTERS/PLAYERS/deverell/Inventory/Apple.2.prop
+./WORLD/CHARACTERS/PLAYERS/deverell/Inventory/Apple.prop)
+  Direct Preposition:''
+
++Time: 6857, Name: Deverell.
+  String: 'stats'
+  Results from Parsing:
+  Verb: ./PRGM/action/data/stats.sh
+  Direct Object: ''
+      ()
+  Direct Preposition:''
+
++Time: 6858, Name: Deverell.
+  String: 'say hi'
+  Results from Parsing:
+  Verb: ./PRGM/action/say.sh
+  Direct Object: 'hi'
+      (\n\n)
+  Direct Preposition:''
+
++Time: 6862, Name: Deverell.
+  String: 'say hi'
+  Results from Parsing:
+  Verb: ./PRGM/action/say.sh
+  Direct Object: 'hi'
+      (\n\n)
+  Direct Preposition:''
+
++Time: 6863, Name: Deverell.
+  String: 'hug deverell'
+  Results from Parsing:
+  Verb: ./PRGM/action/hug.sh
+  Direct Object: 'deverell'
+      (./WORLD/ROOMS/House/First Floor/Kitchen/Deverell.char\n\n)
+  Direct Preposition:''
+
++Time: 6868, Name: Deverell.
+  String: 'eat Apple'
+  Results from Parsing:
+  Verb: ./PRGM/action/eat.sh
+  Direct Object: 'apple'
+      (\n\n./WORLD/CHARACTERS/PLAYERS/deverell/Inventory/Apple.prop)
+  Direct Preposition:''
+
++Time: 6869, Name: Deverell.
+  String: 'stats'
+  Results from Parsing:
+  Verb: ./PRGM/action/data/stats.sh
+  Direct Object: ''
+      ()
+  Direct Preposition:''
+
++Time: 6870, Name: Deverell.
+  String: 'stats'
+  Results from Parsing:
+  Verb: ./PRGM/action/data/stats.sh
+  Direct Object: ''
+      ()
+  Direct Preposition:''
+
++Time: 6871, Name: Deverell.
+  String: 'look'
+  Results from Parsing:
+  Verb: ./PRGM/action/look.sh
+  Direct Object: ''
+      ()
+  Direct Preposition:''
+
++Time: 6872, Name: Deverell.
+  String: 'inv'
+  Results from Parsing:
+  Verb: 
+  Direct Object: 'inv'
+      (\n\n)
+  Direct Preposition:''
+
++Time: 6873, Name: Deverell.
+  String: 'sweep'
+  Results from Parsing:
+  Verb: 
+  Direct Object: 'sweep'
+      (\n\n)
+  Direct Preposition:''
+
++Time: 6874, Name: Deverell.
+  String: 'use broom'
+  Results from Parsing:
+  Verb: ./PRGM/action/use.sh
+  Direct Object: 'broom'
+      (\n\n./WORLD/CHARACTERS/PLAYERS/deverell/Inventory/Broom.sh)
+  Direct Preposition:''
+
++Time: 6875, Name: Deverell.
+  String: 'pantry'
+  Results from Parsing:
+  Verb: 
+  Direct Object: 'pantry'
+      (./WORLD/ROOMS/House/First Floor/Kitchen/Pantry.door\n\n)
+  Direct Preposition:''
+
++Time: 6876, Name: Deverell.
+  String: 'open right'
+  Results from Parsing:
+  Verb: ./PRGM/action/open.sh
+  Direct Object: 'right'
+      (./WORLD/ROOMS/House/First Floor/Pantry/Right Shelves\n\n)
+  Direct Preposition:''
+
++Time: 6877, Name: Deverell.
+  String: 'take banana'
+  Results from Parsing:
+  Verb: ./PRGM/action/take.sh
+  Direct Object: 'banana'
+      (\n./WORLD/ROOMS/House/First Floor/Pantry/Right Shelves/A Banana.1.prop
+./WORLD/ROOMS/House/First Floor/Pantry/Right Shelves/A Banana.2.prop
+./WORLD/ROOMS/House/First Floor/Pantry/Right Shelves/A Banana.prop\n)
+  Direct Preposition:''
+
++Time: 6878, Name: Deverell.
+  String: 'eat it'
+  Results from Parsing:
+  Verb: ./PRGM/action/eat.sh
+  Direct Object: 'it'
+      (./WORLD/CHARACTERS/PLAYERS/deverell/Inventory/A Banana.1.prop\n./WORLD/CHARACTERS/PLAYERS/deverell/Inventory/A Banana.1.prop\n)
+  Direct Preposition:''
+
++Time: 6879, Name: Deverell.
+  String: 'stats'
+  Results from Parsing:
+  Verb: ./PRGM/action/data/stats.sh
+  Direct Object: ''
+      ()
+  Direct Preposition:''
+
++Time: 6880, Name: Deverell.
+  String: 'door out'
+  Results from Parsing:
+  Verb: ./PRGM/action/door.sh
+  Direct Object: 'out'
+      (./WORLD/ROOMS/House/First Floor/Pantry/Out.door\n\n)
+  Direct Preposition:'out'
+
++Time: 6881, Name: Deverell.
+  String: 'hall'
+  Results from Parsing:
+  Verb: 
+  Direct Object: 'hall'
+      (./WORLD/ROOMS/House/First Floor/Kitchen/Hall door.door\n\n)
+  Direct Preposition:''
+
++Time: 6882, Name: Deverell.
+  String: 'mudroom'
+  Results from Parsing:
+  Verb: 
+  Direct Object: 'mudroom'
+      (./WORLD/ROOMS/House/First Floor/Satirn Hall/Mudroom Door.door\n\n)
+  Direct Preposition:''
+
++Time: 6883, Name: Deverell.
+  String: 'back door'
+  Results from Parsing:
+  Verb: ./PRGM/action/door.sh
+  Direct Object: 'back'
+      (./WORLD/ROOMS/House/First Floor/Mudroom/Back door.door\n\n)
+  Direct Preposition:''
+
++Time: 6884, Name: Deverell.
+  String: 'tpy'
+  Results from Parsing:
+  Verb: ./PRGM/action/teleport/tpy.sh
+  Direct Object: ''
+      ()
+  Direct Preposition:''
+
++Time: 6885, Name: Deverell.
+  String: 'look'
+  Results from Parsing:
+  Verb: ./PRGM/action/look.sh
+  Direct Object: ''
+      ()
+  Direct Preposition:''
+
++Time: 6886, Name: Deverell.
+  String: 'click click click'
+  Results from Parsing:
+  Verb: 
+  Direct Object: 'click click click'
+      (\n\n)
+  Direct Preposition:''
+
++Time: 6887, Name: Deverell.
+  String: 'give'
+  Results from Parsing:
+  Verb: 
+  Direct Object: 'give'
+      (\n\n)
+  Direct Preposition:''
+
++Time: 6888, Name: Deverell.
+  String: 'look'
+  Results from Parsing:
+  Verb: ./PRGM/action/look.sh
+  Direct Object: ''
+      ()
+  Direct Preposition:''
+
++Time: 6889, Name: Deverell.
+  String: 'open Dresser'
+  Results from Parsing:
+  Verb: ./PRGM/action/open.sh
+  Direct Object: 'dresser'
+      (./WORLD/ROOMS/House/Second Floor/Master Bedroom/Dresser\n\n)
+  Direct Preposition:''
+
++Time: 6890, Name: Deverell.
+  String: 'take towel'
+  Results from Parsing:
+  Verb: ./PRGM/action/take.sh
+  Direct Object: 'towel'
+      (\n./WORLD/ROOMS/House/Second Floor/Master Bedroom/Dresser/towel.2.prop
+./WORLD/ROOMS/House/Second Floor/Master Bedroom/Dresser/towel.prop\n./WORLD/CHARACTERS/PLAYERS/deverell/Inventory/towel.130.prop
+./WORLD/CHARACTERS/PLAYERS/deverell/Inventory/towel.28.prop
+./WORLD/CHARACTERS/PLAYERS/deverell/Inventory/towel.34.1.prop
+./WORLD/CHARACTERS/PLAYERS/deverell/Inventory/towel.34.prop
+./WORLD/CHARACTERS/PLAYERS/deverell/Inventory/towel.prop)
+  Direct Preposition:''
+
++Time: 6892, Name: Deverell.
+  String: 'drop towel'
+  Results from Parsing:
+  Verb: ./PRGM/action/drop.sh
+  Direct Object: 'towel'
+      (\n\n./WORLD/CHARACTERS/PLAYERS/deverell/Inventory/towel.130.prop
+./WORLD/CHARACTERS/PLAYERS/deverell/Inventory/towel.1.prop
+./WORLD/CHARACTERS/PLAYERS/deverell/Inventory/towel.28.prop
+./WORLD/CHARACTERS/PLAYERS/deverell/Inventory/towel.2.prop
+./WORLD/CHARACTERS/PLAYERS/deverell/Inventory/towel.34.1.prop
+./WORLD/CHARACTERS/PLAYERS/deverell/Inventory/towel.34.prop
+./WORLD/CHARACTERS/PLAYERS/deverell/Inventory/towel.prop)
+  Direct Preposition:''
+
++Time: 6893, Name: Deverell.
+  String: 'todo'
+  Results from Parsing:
+  Verb: ./PRGM/action/todo.sh
+  Direct Object: ''
+      ()
+  Direct Preposition:''
+
++Time: 6894, Name: Deverell.
+  String: 'todo add exit, out, in, enter doors in room prop'
+  Results from Parsing:
+  Verb: ./PRGM/action/todo.sh
+  Direct Object: 'exit , out , in , enter doors in room prop'
+      (\n./WORLD/CHARACTERS/PLAYERS/deverell/Inventory/towel.prop\n)
+  Direct Preposition:'out'
+
++Time: 6895, Name: Deverell.
+  String: 'l'
+  Results from Parsing:
+  Verb: 
+  Direct Object: 'l'
+      (\n\n)
+  Direct Preposition:''
+
++Time: 6896, Name: Deverell.
+  String: 'open shelf'
+  Results from Parsing:
+  Verb: ./PRGM/action/open.sh
+  Direct Object: 'shelf'
+      (./WORLD/ROOMS/House/Second Floor/Master Bedroom/Shelf\n\n)
+  Direct Preposition:''
+
++Time: 6897, Name: Deverell.
+  String: 'take towel'
+  Results from Parsing:
+  Verb: ./PRGM/action/take.sh
+  Direct Object: 'towel'
+      (\n./WORLD/ROOMS/House/Second Floor/Master Bedroom/Shelf/towel.105.prop
+./WORLD/ROOMS/House/Second Floor/Master Bedroom/Shelf/towel.117.prop
+./WORLD/ROOMS/House/Second Floor/Master Bedroom/Shelf/towel.28.prop
+./WORLD/ROOMS/House/Second Floor/Master Bedroom/Shelf/towel.34.prop
+./WORLD/ROOMS/House/Second Floor/Master Bedroom/Shelf/towel.56.prop
+./WORLD/ROOMS/House/Second Floor/Master Bedroom/Shelf/towel.5.prop
+./WORLD/ROOMS/House/Second Floor/Master Bedroom/Shelf/towel.7.prop
+./WORLD/ROOMS/House/Second Floor/Master Bedroom/Shelf/towel.91.prop
+./WORLD/ROOMS/House/Second Floor/Master Bedroom/Shelf/towel.98.prop\n./WORLD/CHARACTERS/PLAYERS/deverell/Inventory/towel.130.prop
+./WORLD/CHARACTERS/PLAYERS/deverell/Inventory/towel.28.prop
+./WORLD/CHARACTERS/PLAYERS/deverell/Inventory/towel.2.prop
+./WORLD/CHARACTERS/PLAYERS/deverell/Inventory/towel.34.1.prop
+./WORLD/CHARACTERS/PLAYERS/deverell/Inventory/towel.34.prop
+./WORLD/CHARACTERS/PLAYERS/deverell/Inventory/towel.prop)
+  Direct Preposition:''
+
++Time: 6902, Name: Deverell.
+  String: 'l'
+  Results from Parsing:
+  Verb: 
+  Direct Object: 'l'
+      (\n\n)
+  Direct Preposition:''
+
++Time: 6903, Name: Deverell.
+  String: 'l'
+  Results from Parsing:
+  Verb: 
+  Direct Object: 'l'
+      (\n\n)
+  Direct Preposition:''
+
++Time: 6904, Name: Deverell.
+  String: 'take sed'
+  Results from Parsing:
+  Verb: ./PRGM/action/take.sh
+  Direct Object: 'sed'
+      (./WORLD/ROOMS/House/Second Floor/Master Bedroom/sed9xRJmC\n\n)
+  Direct Preposition:''
+
++Time: 6905, Name: Deverell.
+  String: 'hall'
+  Results from Parsing:
+  Verb: 
+  Direct Object: 'hall'
+      (./WORLD/ROOMS/House/Second Floor/Master Bedroom/Hall Door.door\n\n)
+  Direct Preposition:''
+
++Time: 6906, Name: Deverell.
+  String: 'stairs'
+  Results from Parsing:
+  Verb: 
+  Direct Object: 'stairs'
+      (./WORLD/ROOMS/House/Second Floor/Over Hall/Stairs Archway.door\n\n)
+  Direct Preposition:''
+
++Time: 6907, Name: Deverell.
+  String: 'inv'
+  Results from Parsing:
+  Verb: 
+  Direct Object: 'inv'
+      (\n\n)
+  Direct Preposition:''
+
++Time: 6908, Name: Deverell.
+  String: 'drop towel'
+  Results from Parsing:
+  Verb: ./PRGM/action/drop.sh
+  Direct Object: 'towel'
+      (\n\n./WORLD/CHARACTERS/PLAYERS/deverell/Inventory/towel.105.prop
+./WORLD/CHARACTERS/PLAYERS/deverell/Inventory/towel.117.prop
+./WORLD/CHARACTERS/PLAYERS/deverell/Inventory/towel.130.prop
+./WORLD/CHARACTERS/PLAYERS/deverell/Inventory/towel.28.1.prop
+./WORLD/CHARACTERS/PLAYERS/deverell/Inventory/towel.28.prop
+./WORLD/CHARACTERS/PLAYERS/deverell/Inventory/towel.2.prop
+./WORLD/CHARACTERS/PLAYERS/deverell/Inventory/towel.34.1.prop
+./WORLD/CHARACTERS/PLAYERS/deverell/Inventory/towel.34.2.prop
+./WORLD/CHARACTERS/PLAYERS/deverell/Inventory/towel.34.prop
+./WORLD/CHARACTERS/PLAYERS/deverell/Inventory/towel.56.prop
+./WORLD/CHARACTERS/PLAYERS/deverell/Inventory/towel.prop)
+  Direct Preposition:''
+
++Time: 6915, Name: Deverell.
+  String: 'look'
+  Results from Parsing:
+  Verb: ./PRGM/action/look.sh
+  Direct Object: ''
+      ()
+  Direct Preposition:''
+
++Time: 6915, Name: Deverell.
+  String: 'first'
+  Results from Parsing:
+  Verb: 
+  Direct Object: 'first'
+      (./WORLD/ROOMS/House/Stairs/First Floor.door\n\n)
+  Direct Preposition:''
+
++Time: 6917, Name: Deverell.
+  String: 'say hi'
+  Results from Parsing:
+  Verb: ./PRGM/action/say.sh
+  Direct Object: 'hi'
+      (\n\n)
+  Direct Preposition:''
+
++Time: 6918, Name: Deverell.
+  String: 'say hi'
+  Results from Parsing:
+  Verb: ./PRGM/action/say.sh
+  Direct Object: 'hi'
+      (\n\n)
+  Direct Preposition:''
+
++Time: 6921, Name: Deverell.
+  String: 'look'
+  Results from Parsing:
+  Verb: ./PRGM/action/look.sh
+  Direct Object: ''
+      ()
+  Direct Preposition:''
+
++Time: 6926, Name: Deverell.
+  String: 'kitchen'
+  Results from Parsing:
+  Verb: 
+  Direct Object: 'kitchen'
+      (./WORLD/ROOMS/House/First Floor/Satirn Hall/Kitchen door.door\n\n)
+  Direct Preposition:''
+
++Time: 6927, Name: Deverell.
+  String: 'dining'
+  Results from Parsing:
+  Verb: 
+  Direct Object: 'dining'
+      (./WORLD/ROOMS/House/First Floor/Kitchen/Dining Room Arch.door\n\n)
+  Direct Preposition:''
+
++Time: 6928, Name: Deverell.
+  String: 'look at kelly'
+  Results from Parsing:
+  Verb: ./PRGM/action/look.sh
+  Direct Object: 'kelly'
+      (./WORLD/ROOMS/House/First Floor/Dining Room/Kelly Vendor.sh\n\n)
+  Direct Preposition:'at'
+
++Time: 6929, Name: Deverell.
+  String: 'use kelly vendor'
+  Results from Parsing:
+  Verb: ./PRGM/action/use.sh
+  Direct Object: 'kelly vendor'
+      (./WORLD/ROOMS/House/First Floor/Dining Room/Kelly Vendor.sh\n\n)
+  Direct Preposition:''
+
++Time: 6930, Name: Deverell.
+  String: 'press left'
+  Results from Parsing:
+  Verb: ./PRGM/action/press.sh
+  Direct Object: 'left'
+      (\n\n)
+  Direct Preposition:''
+
++Time: 6931, Name: Deverell.
+  String: 'press down'
+  Results from Parsing:
+  Verb: ./PRGM/action/press.sh
+  Direct Object: 'down'
+      (\n\n)
+  Direct Preposition:''
+
++Time: 6932, Name: Deverell.
+  String: 'use it'
+  Results from Parsing:
+  Verb: ./PRGM/action/use.sh
+  Direct Object: 'it'
+      (./WORLD/ROOMS/House/First Floor/Dining Room/Kelly Vendor.sh\n\n)
+  Direct Preposition:''
+
++Time: 6933, Name: Deverell.
+  String: 'debug'
+  Results from Parsing:
+  Verb: ./PRGM/action/debug/debug.sh
+  Direct Object: ''
+      ()
+  Direct Preposition:''
+
++Time: 6934, Name: Deverell.
+  String: 'use it'
+  Results from Parsing:
+  Verb: ./PRGM/action/use.sh
+  Direct Object: 'it'
+      (./WORLD/ROOMS/House/First Floor/Dining Room/Kelly Vendor.sh\n\n)
+  Direct Preposition:''
+
++Time: 6935, Name: Deverell.
+  String: 'use it'
+  Results from Parsing:
+  Verb: ./PRGM/action/use.sh
+  Direct Object: 'it'
+      (./WORLD/ROOMS/House/First Floor/Dining Room/Kelly Vendor.sh\n\n)
+  Direct Preposition:''
+
++Time: 6936, Name: Deverell.
+  String: 'press left'
+  Results from Parsing:
+  Verb: ./PRGM/action/press.sh
+  Direct Object: 'left'
+      (\n\n)
+  Direct Preposition:''
+
++Time: 6938, Name: Deverell.
+  String: 'press joker'
+  Results from Parsing:
+  Verb: ./PRGM/action/press.sh
+  Direct Object: 'joker'
+      (\n\n)
+  Direct Preposition:''
+
++Time: 6939, Name: Deverell.
+  String: 'press center'
+  Results from Parsing:
+  Verb: ./PRGM/action/press.sh
+  Direct Object: 'center'
+      (\n\n)
+  Direct Preposition:''
+
++Time: 6940, Name: Deverell.
+  String: 'nodebug'
+  Results from Parsing:
+  Verb: ./PRGM/action/debug/nodebug.sh
+  Direct Object: ''
+      ()
+  Direct Preposition:''
+
++Time: 6941, Name: Deverell.
+  String: 'use kelly'
+  Results from Parsing:
+  Verb: ./PRGM/action/use.sh
+  Direct Object: 'kelly'
+      (./WORLD/ROOMS/House/First Floor/Dining Room/Kelly Vendor.sh\n\n)
+  Direct Preposition:''
+
++Time: 6942, Name: Deverell.
+  String: 'press right'
+  Results from Parsing:
+  Verb: ./PRGM/action/press.sh
+  Direct Object: 'right'
+      (\n\n)
+  Direct Preposition:''
+
++Time: 6944, Name: Deverell.
+  String: 'press center'
+  Results from Parsing:
+  Verb: ./PRGM/action/press.sh
+  Direct Object: 'center'
+      (\n\n)
+  Direct Preposition:''
+
++Time: 6946, Name: Deverell.
+  String: 'use it'
+  Results from Parsing:
+  Verb: ./PRGM/action/use.sh
+  Direct Object: 'it'
+      (./WORLD/ROOMS/House/First Floor/Dining Room/Kelly Vendor.sh\n\n)
+  Direct Preposition:''
+
++Time: 6947, Name: Deverell.
+  String: 'press back'
+  Results from Parsing:
+  Verb: ./PRGM/action/press.sh
+  Direct Object: 'back'
+      (\n\n)
+  Direct Preposition:''
+
++Time: 6948, Name: Deverell.
+  String: 'use it'
+  Results from Parsing:
+  Verb: ./PRGM/action/use.sh
+  Direct Object: 'it'
+      (./WORLD/ROOMS/House/First Floor/Dining Room/Kelly Vendor.sh\n\n)
+  Direct Preposition:''
+
++Time: 6949, Name: Deverell.
+  String: 'use it'
+  Results from Parsing:
+  Verb: ./PRGM/action/use.sh
+  Direct Object: 'it'
+      (./WORLD/ROOMS/House/First Floor/Dining Room/Kelly Vendor.sh\n\n)
+  Direct Preposition:''
+
++Time: 6950, Name: Deverell.
+  String: 'use it'
+  Results from Parsing:
+  Verb: ./PRGM/action/use.sh
+  Direct Object: 'it'
+      (./WORLD/ROOMS/House/First Floor/Dining Room/Kelly Vendor.sh\n\n)
+  Direct Preposition:''
+
++Time: 6951, Name: Deverell.
+  String: 'press right'
+  Results from Parsing:
+  Verb: ./PRGM/action/press.sh
+  Direct Object: 'right'
+      (\n\n)
+  Direct Preposition:''
+
++Time: 6952, Name: Deverell.
+  String: 'press center'
+  Results from Parsing:
+  Verb: ./PRGM/action/press.sh
+  Direct Object: 'center'
+      (\n\n)
+  Direct Preposition:''
+
++Time: 6953, Name: Deverell.
+  String: 'use it'
+  Results from Parsing:
+  Verb: ./PRGM/action/use.sh
+  Direct Object: 'it'
+      (./WORLD/ROOMS/House/First Floor/Dining Room/Kelly Vendor.sh\n\n)
+  Direct Preposition:''
+
++Time: 7086, Name: Deverell.
+  String: 'l'
+  Results from Parsing:
+  Verb: 
+  Direct Object: 'l'
+      (\n\n)
+  Direct Preposition:''
+

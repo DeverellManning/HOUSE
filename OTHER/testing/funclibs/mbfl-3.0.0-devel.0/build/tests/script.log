@@ -1,0 +1,212 @@
+dotest: script-action-1.1.1 -- start
+dotest: script-action-1.1.1 -- success
+dotest: script-action-1.1.2 -- start
+dotest: script-action-1.1.2 -- success
+dotest: script-action-1.1.3 -- start
+dotest: script-action-1.1.3 -- success
+dotest: script-action-1.2.1 -- start
+dotest: script-action-1.2.1 -- success
+dotest: script-action-1.2.2 -- start
+dotest: script-action-1.2.2 -- success
+dotest: script-action-1.2.3 -- start
+dotest: script-action-1.2.3 -- success
+dotest: script-action-1.2.4 -- start
+dotest: script-action-1.2.4 -- success
+dotest: script-action-1.3.1 -- start
+dotest: script-action-1.3.1 -- success
+dotest: script-action-1.3.2 -- start
+dotest: script-action-1.3.2 -- success
+dotest: script-action-1.3.3 -- start
+dotest: script-action-1.3.3 -- success
+dotest: script-action-1.3.4 -- start
+dotest: script-action-1.3.4 -- success
+dotest: script-action-1.4.1 -- start
+dotest: script-action-1.4.1 -- success
+dotest: script-action-1.5.1 -- start
+dotest: script-action-1.5.1 -- success
+dotest: script-action-1.6.1 -- start
+dotest: script-action-1.6.1 -- success
+dotest: script-action-1.6.2 -- start
+dotest: script-action-1.6.2 -- success
+template-actions.sh: error: expected non-empty argument for option: "b"
+dotest: script-action-1.7.1 -- start
+dotest: script-action-1.7.1 -- success
+dotest: script-action-1.7.2 -- start
+dotest: script-action-1.7.2 -- success
+template-actions.sh: error: expected non-empty argument for option: "b-opt"
+dotest: script-action-2.1.1 -- start
+dotest: script-action-2.1.1 -- success
+dotest: script-action-2.1.2 -- start
+dotest: script-action-2.1.2 -- success
+dotest: script-action-2.1.3 -- start
+dotest: script-action-2.1.3 -- success
+dotest: script-action-2.2.1 -- start
+dotest: script-action-2.2.1 -- success
+dotest: script-action-2.2.2 -- start
+dotest: script-action-2.2.2 -- success
+dotest: script-action-2.2.3 -- start
+dotest: script-action-2.2.3 -- success
+dotest: script-action-2.3.1 -- start
+dotest: script-action-2.3.1 -- success
+dotest: script-action-2.3.2 -- start
+dotest: script-action-2.3.2 -- success
+dotest: script-action-2.3.3 -- start
+dotest: script-action-2.3.3 -- success
+dotest: script-action-3.1.1 -- start
+dotest: script-action-3.1.1 -- success
+dotest: script-action-3.1.2 -- start
+dotest: script-action-3.1.2 -- success
+dotest: script-action-3.1.3 -- start
+dotest: script-action-3.1.3 -- success
+dotest: script-action-3.2.1 -- start
+dotest: script-action-3.2.1 -- success
+dotest: script-action-3.2.2 -- start
+dotest: script-action-3.2.2 -- success
+dotest: script-action-3.2.3 -- start
+dotest: script-action-3.2.3 -- success
+dotest: script-action-3.3.1 -- start
+dotest: script-action-3.3.1 -- success
+dotest: script-action-3.3.2 -- start
+dotest: script-action-3.3.2 -- success
+dotest: script-action-3.3.3 -- start
+dotest: script-action-3.3.3 -- success
+dotest: script-action-4.1.1 -- start
+dotest: script-action-4.1.1 -- success
+dotest: script-action-4.1.2 -- start
+dotest: script-action-4.1.2 -- success
+dotest: script-action-4.1.3 -- start
+dotest: script-action-4.1.3 -- success
+dotest: script-action-4.2.1 -- start
+dotest: script-action-4.2.1 -- success
+dotest: script-action-4.2.2 -- start
+dotest: script-action-4.2.2 -- success
+dotest: script-action-4.2.3 -- start
+dotest: script-action-4.2.3 -- success
+dotest: script-action-4.3.1 -- start
+dotest: script-action-4.3.1 -- success
+dotest: script-action-4.3.2 -- start
+dotest: script-action-4.3.2 -- success
+dotest: script-action-4.3.3 -- start
+dotest: script-action-4.3.3 -- success
+dotest: script-action-5.1.1 -- start
+dotest: script-action-5.1.1 -- success
+dotest: script-action-5.1.2 -- start
+dotest: script-action-5.1.2 -- success
+dotest: script-action-5.1.3 -- start
+dotest: script-action-5.1.3 -- success
+dotest: script-action-5.2.1 -- start
+dotest: script-action-5.2.1 -- success
+dotest: script-action-5.2.2 -- start
+dotest: script-action-5.2.2 -- success
+dotest: script-action-5.2.3 -- start
+dotest: script-action-5.2.3 -- success
+dotest: script-action-6.1.1 -- start
+dotest: script-action-6.1.1 -- success
+usage: template-actions.sh one green [action] [options]
+Example action tree: one green.
+
+Action commands:
+
+	solid [options] [arguments]
+		Do main action one green solid.
+
+	liquid [options] [arguments]
+		Do main action one green liquid.
+
+	gas [options] [arguments]
+		Do main action one green gas.
+
+Options:
+	No script-specific options.
+
+Usage examples:
+
+	template-actions.sh one green solid
+dotest: script-action-6.1.2 -- start
+dotest: script-action-6.1.2 -- success
+usage: template-actions.sh one [action] [options]
+Example action tree: one.
+
+Action commands:
+
+	green [options] [arguments]
+		Do main action one green.
+
+	white [options] [arguments]
+		Do main action one white.
+
+	red [options] [arguments]
+		Do main action one red.
+
+Options:
+	No script-specific options.
+
+Usage examples:
+
+	template-actions.sh one green solid
+dotest: script-template-1.1 -- start
+dotest: script-template-1.1 -- success
+dotest: script-template-1.2 -- start
+dotest: script-template-1.2 -- success
+dotest: script-template-1.3 -- start
+dotest: script-template-1.3 -- success
+dotest: script-template-1.4 -- start
+dotest: script-template-1.4 -- success
+dotest: script-template-1.5 -- start
+dotest: script-template-1.5 -- success
+dotest: script-template-1.6 -- start
+dotest: script-template-1.6 -- success
+dotest: script-template-2.1 -- start
+dotest: script-template-2.1 -- success
+dotest: script-template-2.2 -- start
+dotest: script-template-2.2 -- success
+dotest: script-template-2.3 -- start
+dotest: script-template-2.3 -- success
+dotest: script-template-2.4 -- start
+dotest: script-template-2.4 -- success
+dotest: script-template-2.5 -- start
+dotest: script-template-2.5 -- success
+dotest: script-template-2.6 -- start
+dotest: script-template-2.6 -- success
+dotest: script-template-2.7 -- start
+dotest: script-template-2.7 -- success
+dotest: script-template-3.1 -- start
+dotest: script-template-3.1 -- success
+dotest: script-template-4.1 -- start
+dotest: script-template-4.1 -- success
+dotest: script-template-4.10 -- start
+dotest: script-template-4.10 -- success
+dotest: script-template-4.2 -- start
+dotest: script-template-4.2 -- success
+dotest: script-template-4.3 -- start
+dotest: script-template-4.3 -- success
+dotest: script-template-4.4 -- start
+dotest: script-template-4.4 -- success
+dotest: script-template-4.5 -- start
+dotest: script-template-4.5 -- success
+dotest: script-template-4.6 -- start
+dotest: script-template-4.6 -- success
+dotest: script-template-4.7 -- start
+dotest: script-template-4.7 -- success
+dotest: script-template-4.8 -- start
+dotest: script-template-4.8 -- success
+dotest: script-template-4.9 -- start
+dotest: script-template-4.9 -- success
+dotest: script-template-5.1 -- start
+dotest: script-template-5.1 -- success
+dotest: script-template-5.2 -- start
+dotest: script-template-5.2 -- success
+dotest: script-template-5.3 -- start
+dotest: script-template-5.3 -- success
+dotest: script-template-5.4 -- start
+dotest: script-template-5.4 -- success
+dotest: script-template-5.5 -- start
+dotest: script-template-5.5 -- success
+dotest: script-template-5.6 -- start
+dotest: script-template-5.6 -- success
+
+Test file "../tests/script.test"
+	Number of executed tests: 82
+	Number of failed tests:   0
+
+PASS tests/script.test (exit status: 0)

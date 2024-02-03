@@ -1,0 +1,14 @@
+  move/go <direction>
+  get/take <thing>; drop/throw <thing>
+  look; look <thing>; look <direction>
+  say <message>; "<message>
+  :<message> --- shows your name, with the message after it.  Used for actions.
+  whisper <player> = <message>
+  inventory
+  news
+  @describe me = <description>
+  @password <oldpassword>=<newpassword>
+  page <player> --- tell player that you are looking for them (cost no pennies)
+  page <player> = <message> --- gives the player the message long-distance
+  gripe <message> --- Complain to the management.
+  home --- go home

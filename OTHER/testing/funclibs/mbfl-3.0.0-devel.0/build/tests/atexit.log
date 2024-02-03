@@ -1,0 +1,12 @@
+dotest: atexit-1.1 -- start
+dotest: atexit-1.1 -- success
+dotest: atexit-1.2 -- start
+dotest: atexit-1.2 -- success
+dotest: atexit-2.1 -- start
+dotest: atexit-2.1 -- success
+
+Test file "../tests/atexit.test"
+	Number of executed tests: 3
+	Number of failed tests:   0
+
+PASS tests/atexit.test (exit status: 0)

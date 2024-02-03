@@ -1,0 +1,93 @@
+
+# signal.test --
+#
+# Part of: Marco's BASH function libraries
+# Contents: tests for the signal library
+# Date: Mon Jul  7, 2003
+#
+# Abstract
+#
+#
+# Copyright (c) 2003, 2004, 2005, 2013, 2018 Marco Maggi
+# <marco.maggi-ipsu@poste.it>
+#
+# This is free  software you can redistribute it  and/or modify it under
+# the terms of  the GNU General Public License as  published by the Free
+# Software Foundation; either  version 3, or (at your  option) any later
+# version.
+#
+# This  file is  distributed in  the hope  that it  will be  useful, but
+# WITHOUT   ANY  WARRANTY;  without   even  the   implied  warranty   of
+# MERCHANTABILITY  or FITNESS  FOR A  PARTICULAR PURPOSE.   See  the GNU
+# General Public License for more details.
+#
+# You  should have received  a copy  of the  GNU General  Public License
+# along with this file; see the file COPYING.  If not, write to the Free
+# Software Foundation,  Inc., 59  Temple Place -  Suite 330,  Boston, MA
+# 02111-1307, USA.
+#
+
+#PAGE
+#### setup
+
+source setup.sh
+
+dotest-set-debug
+
+function debug-wait () {
+    local i
+    for ((i=0; $i < $(($1 * 1000)); ++i)); do :; done
+}
+
+function signaltest () {
+    local SIGSPEC="$1"
+    local i pid
+    local tmpfile="$(dotest-mkfile result.txt)"
+    local SIGNALTEST_FLAGS
+
+    # Enable job control.
+    set -m
+
+    if dotest-option-debug
+    then SIGNALTEST_FLAGS+=' --debug'
+    fi
+
+    dotest-debug "executing test script"
+    PATH="$PATH" $BASH signaltest.sh ${SIGNALTEST_FLAGS} >"$tmpfile" &
+    pid=$!
+    dotest-debug "test script pid: $pid"
+
+    # Let the process start and register its signal handlers.
+    debug-wait 30
+    dotest-debug "sending ${SIGSPEC} signal to pid '$pid'"
+    kill -${SIGSPEC} $pid
+    dotest-debug "sending SIGCONT signal to pid '$pid' to wake it up"
+    kill -SIGCONT $pid
+
+    dotest-debug "waiting for pid '$pid'"
+    wait $pid
+    dotest-debug "received finalisation of pid '$pid'"
+    dotest-equal "exiting after interruption ($SIGSPEC, 2 handlers)" "$(<${tmpfile})"
+    dotest-clean-files
+}
+
+#PAGE
+#### tests
+
+function signal-1.1 () {
+    signaltest "SIGUSR1"
+}
+function signal-1.2 () {
+    signaltest "SIGUSR2"
+}
+
+#PAGE
+#### let's go
+
+dotest signal-
+dotest-final-report
+
+### end of file
+# Local Variables:
+# mode: sh
+# End:

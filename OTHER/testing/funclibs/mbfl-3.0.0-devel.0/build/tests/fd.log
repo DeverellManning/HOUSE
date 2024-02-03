@@ -1,0 +1,24 @@
+dotest: fd-dup-fifo-read-write-1.1 -- start
+dotest: fd-dup-fifo-read-write-1.1 -- success
+dotest: fd-fifo-read-write-1.1 -- start
+dotest: fd-fifo-read-write-1.1 -- success
+dotest: fd-fifo-read-write-1.2 -- start
+dotest: fd-fifo-read-write-1.2 -- success
+dotest: fd-fifo-read-write-1.3 -- start
+dotest: fd-fifo-read-write-1.3 -- success
+dotest: fd-file-read-write-1.1 -- start
+dotest: fd-file-read-write-1.1 -- success
+dotest: fd-file-read-write-1.2 -- start
+dotest: fd-file-read-write-1.2 -- success
+dotest: fd-file-read-write-2.1 -- start
+dotest: fd-file-read-write-2.1 -- success
+dotest: fd-move-fifo-read-write-1.1 -- start
+dotest: fd-move-fifo-read-write-1.1 -- success
+dotest: fd-move-file-read-write-1.1 -- start
+dotest: fd-move-file-read-write-1.1 -- success
+
+Test file "../tests/fd.test"
+	Number of executed tests: 9
+	Number of failed tests:   0
+
+PASS tests/fd.test (exit status: 0)

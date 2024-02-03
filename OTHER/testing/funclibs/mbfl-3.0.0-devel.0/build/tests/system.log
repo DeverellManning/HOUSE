@@ -1,0 +1,103 @@
+dotest: system-group-find-entry-by-gid-1.1 -- start
+dotest: system-group-find-entry-by-gid-1.1 -- success
+dotest: system-group-find-entry-by-gid-var-1.1 -- start
+dotest: system-group-find-entry-by-gid-var-1.1 -- success
+dotest: system-group-find-entry-by-name-1.1 -- start
+dotest: system-group-find-entry-by-name-1.1 -- success
+dotest: system-group-find-entry-by-name-var-1.1 -- start
+dotest: system-group-find-entry-by-name-var-1.1 -- success
+dotest: system-group-get-user-in-group-1.1 -- start
+dotest: system-group-get-user-in-group-1.1 -- success
+dotest: system-group-get-user-in-group-var-1.1 -- start
+dotest: system-group-get-user-in-group-var-1.1 -- success
+dotest: system-group-gid-to-name-1.1 -- start
+dotest: system-group-gid-to-name-1.1 -- success
+dotest: system-group-gid-to-name-var-1.1 -- start
+./src/lib/libmbfl.sh: line 3807: local: warning: mbfl_RESULT_VARREF: circular name reference
+./src/lib/libmbfl.sh: line 3807: warning: mbfl_RESULT_VARREF: circular name reference
+./src/lib/libmbfl.sh: line 3809: warning: mbfl_RESULT_VARREF: circular name reference
+dotest-equal:
+   expected: 'root'
+   got:      ''
+dotest: system-group-gid-to-name-var-1.1 -- *** FAILED ***
+
+dotest: system-group-name-to-gid-1.1 -- start
+dotest: system-group-name-to-gid-1.1 -- success
+dotest: system-group-name-to-gid-var-1.1 -- start
+./src/lib/libmbfl.sh: line 3827: local: warning: mbfl_RESULT_VARREF: circular name reference
+./src/lib/libmbfl.sh: line 3827: warning: mbfl_RESULT_VARREF: circular name reference
+./src/lib/libmbfl.sh: line 3829: warning: mbfl_RESULT_VARREF: circular name reference
+dotest-equal:
+   expected: '0'
+   got:      ''
+dotest: system-group-name-to-gid-var-1.1 -- *** FAILED ***
+
+dotest: system-group-name-to-numerical-gid-1.1 -- start
+dotest: system-group-name-to-numerical-gid-1.1 -- success
+dotest: system-group-numerical-gid-to-name-1.1 -- start
+dotest: system-group-numerical-gid-to-name-1.1 -- success
+dotest: system-group-print-entries-raw-1.1 -- start
+dotest: system-group-print-entries-raw-1.1 -- success
+dotest: system-group-print-entries-xml-2.1 -- start
+dotest: system-group-print-entries-xml-2.1 -- success
+dotest: system-group-print-entries-xml-3.1 -- start
+dotest: system-group-print-entries-xml-3.1 -- success
+dotest: system-passwd-find-entry-by-name-1.1 -- start
+dotest: system-passwd-find-entry-by-name-1.1 -- success
+dotest: system-passwd-find-entry-by-name-var-1.1 -- start
+dotest: system-passwd-find-entry-by-name-var-1.1 -- success
+dotest: system-passwd-find-entry-by-uid-1.1 -- start
+dotest: system-passwd-find-entry-by-uid-1.1 -- success
+dotest: system-passwd-find-entry-by-uid-var-1.1 -- start
+dotest: system-passwd-find-entry-by-uid-var-1.1 -- success
+dotest: system-passwd-name-to-numerical-uid-1.1 -- start
+dotest: system-passwd-name-to-numerical-uid-1.1 -- success
+dotest: system-passwd-name-to-uid-1.1 -- start
+dotest: system-passwd-name-to-uid-1.1 -- success
+dotest: system-passwd-name-to-uid-var-1.1 -- start
+./src/lib/libmbfl.sh: line 3581: local: warning: mbfl_RESULT_VARREF: circular name reference
+./src/lib/libmbfl.sh: line 3581: warning: mbfl_RESULT_VARREF: circular name reference
+./src/lib/libmbfl.sh: line 3583: warning: mbfl_RESULT_VARREF: circular name reference
+dotest-equal:
+   expected: '0'
+   got:      ''
+dotest: system-passwd-name-to-uid-var-1.1 -- *** FAILED ***
+
+dotest: system-passwd-numerical-uid-to-name-1.1 -- start
+dotest: system-passwd-numerical-uid-to-name-1.1 -- success
+dotest: system-passwd-print-entries-raw-1.1 -- start
+dotest: system-passwd-print-entries-raw-1.1 -- success
+dotest: system-passwd-print-entries-xml-2.1 -- start
+dotest: system-passwd-print-entries-xml-2.1 -- success
+dotest: system-passwd-print-entries-xml-3.1 -- start
+dotest: system-passwd-print-entries-xml-3.1 -- success
+dotest: system-passwd-uid-to-name-1.1 -- start
+dotest: system-passwd-uid-to-name-1.1 -- success
+dotest: system-passwd-uid-to-name-var-1.1 -- start
+./src/lib/libmbfl.sh: line 3561: local: warning: mbfl_RESULT_VARREF: circular name reference
+./src/lib/libmbfl.sh: line 3561: warning: mbfl_RESULT_VARREF: circular name reference
+./src/lib/libmbfl.sh: line 3563: warning: mbfl_RESULT_VARREF: circular name reference
+dotest-equal:
+   expected: 'root'
+   got:      ''
+dotest: system-passwd-uid-to-name-var-1.1 -- *** FAILED ***
+
+dotest: system-symbolic-to-octal-1.1 -- start
+dotest: system-symbolic-to-octal-1.1 -- success
+dotest: system-symbolic-to-octal-1.2 -- start
+dotest: system-symbolic-to-octal-1.2 -- success
+dotest: system-symbolic-to-octal-1.3 -- start
+dotest: system-symbolic-to-octal-1.3 -- success
+dotest: system-symbolic-to-octal-1.4 -- start
+dotest: system-symbolic-to-octal-1.4 -- success
+
+Test file "../tests/system.test"
+	Number of executed tests: 32
+	Number of failed tests:   4
+Failed tests:
+   system-group-gid-to-name-var-1.1
+   system-group-name-to-gid-var-1.1
+   system-passwd-name-to-uid-var-1.1
+   system-passwd-uid-to-name-var-1.1
+
+FAIL tests/system.test (exit status: 1)

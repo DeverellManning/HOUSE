@@ -1,0 +1,173 @@
+dotest: variable-alloc-1.1 -- start
+dotest: variable-alloc-1.1 -- success
+dotest: variable-colon-variable-to-array-1.1 -- start
+dotest: variable-colon-variable-to-array-1.1 -- success
+dotest: variable-colon-variable-to-array-1.2 -- start
+dotest: variable-colon-variable-to-array-1.2 -- success
+dotest: variable-colon-variable-to-array-2.1 -- start
+dotest: variable-colon-variable-to-array-2.1 -- success
+dotest: variable-element-is-in-array-1.1 -- start
+dotest: variable-element-is-in-array-1.1 -- success
+dotest: variable-element-is-in-array-1.2 -- start
+dotest: variable-element-is-in-array-1.2 -- success
+dotest: variable-find-in-array-1.1 -- start
+dotest: variable-find-in-array-1.1 -- success
+dotest: variable-find-in-array-1.2 -- start
+dotest: variable-find-in-array-1.2 -- success
+dotest: variable-find-in-array-1.3 -- start
+dotest: variable-find-in-array-1.3 -- success
+dotest: variable-find-in-array-1.4 -- start
+dotest: variable-find-in-array-1.4 -- success
+dotest: variable-find-in-array-2.1 -- start
+dotest: variable-find-in-array-2.1 -- success
+dotest: varref-global-array-1.1 -- start
+dotest: varref-global-array-1.1 -- success
+dotest: varref-global-array-1.2 -- start
+dotest: varref-global-array-1.2 -- success
+dotest: varref-global-array-2.1 -- start
+./tests/variables.test: line 320: local: warning: RV: circular name reference
+./tests/variables.test: line 320: warning: RV: circular name reference
+./tests/variables.test: line 323: warning: RV: circular name reference
+dotest-equal:
+   expected: '123'
+   got:      ''
+dotest: varref-global-array-2.1 -- *** FAILED ***
+
+dotest: varref-global-array-2.2 -- start
+./tests/variables.test: line 340: local: warning: RV: circular name reference
+./tests/variables.test: line 340: warning: RV: circular name reference
+./tests/variables.test: line 342: warning: RV: circular name reference
+dotest-equal:
+   expected: '123'
+   got:      ''
+dotest: varref-global-array-2.2 -- *** FAILED ***
+
+dotest: varref-global-array-3.1 -- start
+./tests/variables.test: line 368: local: warning: RV1: circular name reference
+./tests/variables.test: line 368: warning: RV1: circular name reference
+./tests/variables.test: line 370: local: warning: RV2: circular name reference
+./tests/variables.test: line 370: warning: RV2: circular name reference
+./tests/variables.test: line 374: warning: RV1: circular name reference
+./tests/variables.test: line 375: warning: RV2: circular name reference
+dotest-equal:
+   expected: '123'
+   got:      ''
+dotest: varref-global-array-3.1 -- *** FAILED ***
+
+dotest: varref-global-array-3.2 -- start
+./tests/variables.test: line 401: local: warning: RV1: circular name reference
+./tests/variables.test: line 401: warning: RV1: circular name reference
+./tests/variables.test: line 403: local: warning: RV2: circular name reference
+./tests/variables.test: line 403: warning: RV2: circular name reference
+./tests/variables.test: line 407: warning: RV1: circular name reference
+./tests/variables.test: line 408: warning: RV2: circular name reference
+dotest-equal:
+   expected: '123'
+   got:      ''
+dotest: varref-global-array-3.2 -- *** FAILED ***
+
+dotest: varref-global-simple-1.1 -- start
+dotest: varref-global-simple-1.1 -- success
+dotest: varref-global-simple-1.2 -- start
+dotest: varref-global-simple-1.2 -- success
+dotest: varref-global-simple-1.3 -- start
+dotest: varref-global-simple-1.3 -- success
+dotest: varref-global-simple-1.4 -- start
+dotest: varref-global-simple-1.4 -- success
+dotest: varref-global-simple-2.1 -- start
+./tests/variables.test: line 283: local: warning: RV: circular name reference
+./tests/variables.test: line 283: warning: RV: circular name reference
+./tests/variables.test: line 286: warning: RV: circular name reference
+dotest-equal:
+   expected: '123'
+   got:      ''
+dotest: varref-global-simple-2.1 -- *** FAILED ***
+
+dotest: varref-local-array-1.1 -- start
+dotest: varref-local-array-1.1 -- success
+dotest: varref-local-array-1.2 -- start
+dotest: varref-local-array-1.2 -- success
+dotest: varref-local-array-2.1 -- start
+./tests/variables.test: line 145: local: warning: RV: circular name reference
+./tests/variables.test: line 145: warning: RV: circular name reference
+./tests/variables.test: line 148: warning: RV: circular name reference
+dotest-equal:
+   expected: '123'
+   got:      ''
+dotest: varref-local-array-2.1 -- *** FAILED ***
+
+dotest: varref-local-array-2.2 -- start
+./tests/variables.test: line 165: local: warning: RV: circular name reference
+./tests/variables.test: line 165: warning: RV: circular name reference
+./tests/variables.test: line 167: warning: RV: circular name reference
+dotest-equal:
+   expected: '123'
+   got:      ''
+dotest: varref-local-array-2.2 -- *** FAILED ***
+
+dotest: varref-local-array-3.1 -- start
+./tests/variables.test: line 193: local: warning: RV1: circular name reference
+./tests/variables.test: line 193: warning: RV1: circular name reference
+./tests/variables.test: line 195: local: warning: RV2: circular name reference
+./tests/variables.test: line 195: warning: RV2: circular name reference
+./tests/variables.test: line 199: warning: RV1: circular name reference
+./tests/variables.test: line 200: warning: RV2: circular name reference
+dotest-equal:
+   expected: '123'
+   got:      ''
+dotest: varref-local-array-3.1 -- *** FAILED ***
+
+dotest: varref-local-array-3.2 -- start
+./tests/variables.test: line 226: local: warning: RV1: circular name reference
+./tests/variables.test: line 226: warning: RV1: circular name reference
+./tests/variables.test: line 228: local: warning: RV2: circular name reference
+./tests/variables.test: line 228: warning: RV2: circular name reference
+./tests/variables.test: line 232: warning: RV1: circular name reference
+./tests/variables.test: line 233: warning: RV2: circular name reference
+dotest-equal:
+   expected: '123'
+   got:      ''
+dotest: varref-local-array-3.2 -- *** FAILED ***
+
+dotest: varref-local-simple-1.1 -- start
+dotest: varref-local-simple-1.1 -- success
+dotest: varref-local-simple-1.2 -- start
+dotest: varref-local-simple-1.2 -- success
+dotest: varref-local-simple-1.3 -- start
+dotest: varref-local-simple-1.3 -- success
+dotest: varref-local-simple-1.4 -- start
+dotest: varref-local-simple-1.4 -- success
+dotest: varref-local-simple-2.1 -- start
+./tests/variables.test: line 108: local: warning: RV: circular name reference
+./tests/variables.test: line 108: warning: RV: circular name reference
+./tests/variables.test: line 111: warning: RV: circular name reference
+dotest-equal:
+   expected: '123'
+   got:      ''
+dotest: varref-local-simple-2.1 -- *** FAILED ***
+
+dotest: varref-sub-generation-1.1 -- start
+dotest: varref-sub-generation-1.1 -- success
+dotest: varref-unset-1.1 -- start
+dotest: varref-unset-1.1 -- success
+dotest: varref-unset-2.1 -- start
+dotest: varref-unset-2.1 -- success
+dotest: varref-unset-3.1 -- start
+dotest: varref-unset-3.1 -- success
+
+Test file "./tests/variables.test"
+	Number of executed tests: 37
+	Number of failed tests:   10
+Failed tests:
+   varref-global-array-2.1
+   varref-global-array-2.2
+   varref-global-array-3.1
+   varref-global-array-3.2
+   varref-global-simple-2.1
+   varref-local-array-2.1
+   varref-local-array-2.2
+   varref-local-array-3.1
+   varref-local-array-3.2
+   varref-local-simple-2.1
+
+FAIL tests/variables.test (exit status: 1)

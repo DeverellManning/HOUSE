@@ -1,0 +1,172 @@
+//Plugins
+selectLeaf = {import:select-leaf-plugin}
+selectLeaves = {import:select-leaves-plugin}
+
+
+//Vars
+AName = "";
+AType = "";
+ATn = 0;
+indo = u;
+
+
+AWWPre
+  pri ^1.1
+  of
+  zmi ^0.4
+  Rix ^1.1
+  Pi
+  Fle
+  Dum
+  pre
+  par
+  shi
+  min
+
+AWWSuf
+  eit
+  t
+  shen
+  it
+  orf
+  adorf
+  dore
+  si
+  al
+
+AWWrt
+  tyt
+  loch
+  mus
+  aba
+  yeng
+  ble
+  
+AWWord
+  [AWWPre][AWWSuf]
+  [AWWPre][AWWrt][AWWSuf]
+  [AWWPre][AWWrt]
+  [AWWPre][AWWrt][AWWrt]
+  
+  
+
+
+
+AreaTypeGen
+  Indoor^0.43
+    [ATn = 4, indo = "t", ""] Room
+    [ATn = 5, indo = "t", ""] Restraunt
+    [ATn = 4, indo = "t", ""] Ward
+  Outdoor^1
+    City^0.66
+      [ATn = 1, indo = "f", ""] Metropolis
+      [ATn = 1, indo = "f", ""] Town
+    Forest^0.66
+      [ATn = 2, indo = "f", ""] Forest
+      [ATn = 2, indo = "f", ""] Grove
+    Vague^1
+      [ATn = 3, indo = "u", ""] Sector
+      [ATn = 3, indo = "u", ""] Location
+      [ATn = 3, indo = "f", ""] Landmark
+
+AreaNameGen
+  The [AWWord] [AType] ^0.4
+  [AWWord] [AType] ^2
+  The [AType] of [AWWord] 
+  
+
+Util
+  [AName = "", AName = AreaNameGen.selectOne]<br>[ALoc = MoonSun_Adj.selectOne]<br>[AType = "?What?", AType = selectLeaf(AreaTypeGen)]<br>[ATheme = MoonSun_Adj.selectOne]<br>[ATn]
+  Indoor
+    [AName = "", AName = AreaNameGen.selectOne.selectOne]<br>[ALoc = MoonSun_Adj.selectOne]<br>[AType = "", AType = selectLeaf(AreaTypeGen.Indoor)]<br>[ATheme = MoonSun_Adj.selectOne]<br>[ATn]
+
+
+MoonSun_Adj
+  {{shine|shining}|glow} in the {sun|sunshine} / {twinkle|Fade|glow} in the {moonlight|moon|moonshine}
+
+carpet
+  bare,[Matirial.lowerCase]
+  {fuzzy|soft} {carpet|rug} on the
+  mat on the
+
+Flooring
+  [carpet] floor.^10
+  {Hard|Soft^0.03}wood floor.
+  [Matirial.lowerCase] floor.
+  
+
+Color
+  Blue
+    0x0000FF
+  Red
+    0xFF0000
+  Yellow
+    0xFFFF00
+  Green
+    0x00FF00
+  Olive
+    0xFFFFFF
+  White
+    0xFFFFFF
+  Tan
+    0xEEFF88
+
+Matirial
+  Stone
+  Wood ^0.9
+  Amythest ^0.08
+  Flesh ^0.02
+  Brick ^ 0.9
+  Plaster ^1.05
+  Metal ^0.7
+  Carpet ^0.75
+
+Furniture
+  Counter
+  Table
+  Fireplace
+
+
+Object
+  
+
+
+VeiwHeadSent
+  You are in the [AName].
+  
+VeiwBodySent
+  t
+    Chairs sit on a [Flooring].
+    Furniture {lies around|Surrounds} you.  There is a [Furniture] and some [Furniture.pluralForm].
+  f
+    You are outside under the sky.
+
+
+VeiwTailSent
+  There are <i>birds</i>
+  
+
+
+VeiwPara
+  [VeiwHeadSent]  [selectLeaf(VeiwBodySent[indo])]  [VeiwTailSent]
+  [VeiwHeadSent]  [selectLeaves(VeiwBodySent[indo],2,4)]  [VeiwTailSent]
+  
+
+VeiwSentence
+  You are in the [AName].
+  The trees of around you are {short, stuby little things about your height|tall, rising High above you}, and [MoonSun_Adj].
+
+
+
+Objectli
+  [""]<li>[Object]</li>
+
+Name
+  [AName.titleCase]
+
+Veiw
+  TEMP[indo.selectOne]<br>[VeiwPara]
+
+
+
+

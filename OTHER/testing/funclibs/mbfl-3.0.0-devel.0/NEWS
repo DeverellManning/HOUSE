@@ -1,0 +1,203 @@
+-*- coding: utf-8-unix -*-
+
+	       Changes to Marco's Bash Functions Library
+	       =========================================
+
+
+Notes for revision 3.0.0-devel.0
+--------------------------------
+
+This release  has some backwards  incompatibilities.  Watch out  for the
+changes!
+
+* Officially this package now required GNU Bash at least version 4.3.
+
+* Package building and installing  infrastructure review.  The files are
+  installed under directories *without* the version part.  No pkg-config
+  module is installed.
+
+* The  way  the library  is  reliably  loaded  has been  reviewed.   The
+  preprocessor can include the needed code with a macro.
+
+* The quoting for m4 preprocessing is changed from:
+
+     m4_changequote(`[[', `]]')
+
+  to:
+
+     m4_changequote(`[[[', `]]]')
+
+* Added preprocessor macros to  automatically include the library loader
+  and automatically embed the whole library in the output script.
+
+* Added some  "_var" variants  to functions.   For example  two variants
+  exist to extract the filename extension:
+
+    mbfl_file_extension
+    mbfl_file_extension_var
+
+  the first  variant will print the  result to stdout, while  the "_var"
+  variant will store the result in a variable whose name is handed to it
+  as first argument.  Example:
+
+    mbfl_file_extension /path/to/file.ext
+    -| ext
+
+    local RV
+    mbfl_file_extension_var RV /path/to/file.ext
+    "$RV"  => ext
+
+  The "_var" variants are always a bit faster because the output variant
+  is a wrapper for the "_var" variant.
+
+* Added to the preprocessor some  facilities needed to declare variables
+  with unique names and use them as target for variable with the NAMEREF
+  attribute.  With  these facilities we  can use the "_var"  variants of
+  MBFL functions as follows:
+
+     mbfl_local_varref(RV)
+
+     mbfl_file_extension_var mbfl_varname(RV) /path/to/file.ext
+     "$RV" @result{} ext
+
+  without risking a variable name collision.
+
+* Added string functions:
+
+    mbfl_string_is_empty
+    mbfl_string_is_not_empty
+    mbfl_string_length
+    mbfl_string_length_equal_to
+    mbfl_string_equal
+    mbfl_string_not_equal
+    mbfl_string_less
+    mbfl_string_greater
+    mbfl_string_less_or_equal
+    mbfl_string_greater_or_equal
+    mbfl_string_split_blanks
+    mbfl_string_toupper_var
+    mbfl_string_tolower_var
+    mbfl_string_is_email_address
+    mbfl_string_is_network_hostname
+    mbfl_string_is_network_port
+    mbfl_string_is_network_ip_address
+    mbfl_string_is_yes
+    mbfl_string_is_no
+    mbfl_string_strip_carriage_return_var
+
+* Added times and dates module.
+
+* Added functions to the file module:
+
+    mbfl_file_realpath
+    mbfl_file_realpath_var
+
+* BACKWARDS INCOMPATIBILITY The following  functions now use the program
+  "stat":
+
+    mbfl_file_get_owner
+    mbfl_file_get_group
+    mbfl_file_get_size
+
+* Added  function "mbfl_exec_tar".   The  old  "mbfl_tar_exec" is  still
+  there but is deprecated.
+
+* BACKWARDS  INCOMPATIBILITY  The  functions  "mbfl_file_set_owner"  and
+  "mbfl_file_set_group" do  not honour  the "--verbose"  option anymore.
+  However they  accept options  to be  used on the  command line  of the
+  underlying programs.
+
+* Added support to compress/decompress with lzip and xz.
+
+* Added functions to the program module:
+
+    mbfl_program_split_path
+
+* Started arrays module.
+
+* Added  functions  to  the  system   module  to  inspect  entries  from
+  /etc/passwd and /etc/group.
+
+* BACKWARDS INCOMPATIBILITY The function "exit_because_invalid_username"
+  has been renamed to "exit_because_invalid_sudo_username".
+
+* Added locations module.
+
+* Added module "atexit" implementing atexit handlers.
+
+* Started interface to "stat" from GNU Coreutils.
+
+* Added module "fd" implementing file descriptors handlers.
+
+
+Notes for revision 2.2.0
+------------------------
+
+* Added file functions to change owner and group.
+
+
+Notes for revision 2.1b0
+------------------------
+
+* This is meant to be a beta release.
+
+* The program module now uses numeric file descriptors: when a script is
+  run  from  a  Cron  job,  it appears  no  aliases  are  available  (no
+  /dev/stdin, /dev/fd/0, et cetera).
+
+
+Notes for revision 2.1d0
+------------------------
+
+* Added functions:
+
+     mbfl_string_is_extended_identifier
+     mbfl_string_is_extended_identifier_char
+
+* Rewritten support for running programs through sudo.
+
+* For  sendmail-mbfl:  renamed  files  ".hostinfo"  and  ".authinfo"  to
+  ".mbfl-hostinfo" and ".mbfl-authinfo".
+
+
+Notes for revision 2.0b0
+------------------------
+
+* Fixed  "mbfl_string_is_*"  functions  to  accept an  empty  string  as
+  argument and return with error status.
+
+* Added function "mbfl_program_replace".
+
+
+Notes for revision 2.0d1
+------------------------
+
+* BACKWARDS  INCOMPATIBILITY The  preprocessor macros  are now  prefixed
+  with "mbfl_".
+
+* BACKWARDS INCOMPATIBILITY  The getopts  module raises  an error  if an
+  option with argument is used with an empty value.
+
+* BACKWARDS   INCOMPATIBILITY  The   predefined   command  line   option
+  "--print-action-arguments" does not exist anymore.
+
+* BACKWARDS   INCOMPATIBILITY  The   predefined  command   line  options
+  "--license", "--version", etc. do not  exit immediately in the getopts
+  module;  rather they  register a  function to  be called  by the  main
+  module.  So  the selected "after  parsing options" function  is called
+  before exiting.
+
+* BACKWARDS      INCOMPATIBILITY       The      deprecated      function
+  "mbfl_program_check()" has been removed.
+
+* The global variables: ARGC1, ARGV1,  ARGC, ARGV are no more read-only;
+  ugly, but it allows test suites to use them.
+
+* Added module "actions" implementing a tree of script actions.
+
+### end of file
+# Local Variables:
+# mode: text
+# fill-column: 72
+# paragraph-start: "*"
+# End:

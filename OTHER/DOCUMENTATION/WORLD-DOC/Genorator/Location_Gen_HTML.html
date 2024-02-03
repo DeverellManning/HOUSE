@@ -1,0 +1,108 @@
+<HTML>
+  <head>
+    <style>
+details{
+		text-align:left;
+		margin-left:30px;
+	}
+
+      details > summary {
+  padding: 4px;
+  width: 200px;
+  background-color: #eeeeee;
+  border: none;
+  box-shadow: 1px 1px 2px #bbbbbb;
+  cursor: pointer;
+}
+
+details > p {
+  background-color: #eeeeee;
+  padding: 4px;
+  margin: 0;
+  box-shadow: 1px 1px 2px #bbbbbb;
+}
+      
+	h1{
+	  	text-align:center; 
+  width:100%;
+  position:relative;
+  right:0%;
+	}
+	button{
+		border: none;
+		margin: 5px;
+		padding: 3px;
+    border:purple solid 1px;
+		background: lightgray;
+	}
+	button:hover{
+		background: Gray;
+	}
+
+    </style>
+  </head>
+
+  <body>
+  <details>[Util]</details>
+
+  <h1>Location Generators</h1>
+  
+
+  <details><summary>> Area Content</summary>
+    <button onclick="update(output1)">New Content</button>
+    <div id="output1"><div style="display:none">[Util]</div>
+	<u>Content:</u>
+	<ol>
+	[Objectli.selectMany(1,10)]
+	</ol>
+    </div>
+  </details>
+<hr>
+  <details open=""><summary>> Random Location Genorator</summary>
+    <button onclick="update(output2)">New Location</button>
+    <div id="output2"><div style="display:none">[Util]</div>
+	<u>[Name]</u>
+	<br>
+	<p>[Veiw]</p>
+	<br>
+	<u>Content:</u>
+	<ol>
+	[Objectli.selectMany(1,10)]
+	</ol>
+    </div>
+  </details>
+<hr>
+      <details open=""><summary>> Random Room Genorator</summary>
+    <button onclick="update(output3)">New Room</button>
+    <div id="output3"><div style="display:none">[Util.Indoor]</div>
+<u>[Name]</u>
+	<br>
+	<p>[Veiw]</p>
+	<br>
+	<u>Content:</u>
+	<ol>
+	[Objectli.selectMany(1,10)]
+	</ol>
+    </div>
+  </details>
+
+
+
+    <br><br>
+    <button onclick="update()">Randomize Everything!</button>
+    <hr>
+    <br>
+  </body>
+  
+</HTML>
+
+<!--
+
+  <details><summary>> Open</summary>
+    <button onclick="update(outputn)">New</button>
+    <div id="outputn">
+
+    </div>
+  </details>
+
+-->

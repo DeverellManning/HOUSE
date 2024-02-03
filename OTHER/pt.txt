@@ -1,0 +1,999 @@
+ ~ Rainbow Shirt
+ ~ Striped Zucchini
+target is ./WORLD/House/Second Floor/Master Bedroom/Dresser
+I LOVE YOU DALLEN!!!
+
+> close dresser
+
+-close-dresser--
+./PRGM/action/close.sh-dresser-
+You close the ./WORLD/House/Second Floor/Master Bedroom/Dresser.
+
+Tock
+> look
+
+-look---
+./PRGM/action/look.sh--
+
+  Master Bedroom  
+	This bedroom is peaceful and bright, so you start to 
+relax.  In the middle of the far wall, there is a double window 
+bordered by curtains.  There is a sizable bed under the window, 
+which is made up with soft blankets and a brown quilt.  The wall
+ opposite the door has wardrobe and a shelf next to each other, 
+separated by a stack of boxes.  There is also a fine, cedar 
+dresser next to the bed on the wall side.  This room has walls 
+painted a yellow-pink color, with classic trim around the door 
+and window.  The hardwood floor is covered by a thick carpet the
+ length of the room.
+ ∆ Arina
+ ∏ Bathroom door
+ ~ Bed
+ ~ Clock
+ ∆ Deverell
+ ~ Dresser
+ ∏ Hall Door
+ ∆ Mr Goosoo
+ ~ Nightstand
+ ~ Shelf
+ ~ Wardrobe
+ ~ Window
+
+> hall
+
+-hall---
+Special Noun!
+-hall-
+You walk through the door, into the
+
+  OVER HALL  
+	This hallway is long and imposing.  The floor is made of
+sheet metal, and covered with a thin carpet.  There are many 
+doors going out of the hall, and an archway at the end.
+ ∏ Blue Door
+ ~ Chair
+ ∏ Closet
+ ~ Cupcake
+ ~ Cupcake
+ ~ Cupcake
+ ~ Cupcake
+ ∏ Green Door
+ ∏ Red Door
+ ∏ Stairs Archway
+ ∏ White Door
+
+> take cupcake
+
+-take-cupcake--
+./PRGM/action/take.sh-cupcake-
+.prop
+The Cupcake has a weight of: 1
+2
+Cupcake.1.1.prop
+./WORLD/House/Second Floor/Master Bedroom/Dresser/Galcatic Pants.prop
+Move Unsuccessful!
+
+> take cupcake
+
+-take-cupcake--
+./PRGM/action/take.sh-cupcake-
+.prop
+The Cupcake has a weight of: 1
+Cupcake.2.prop
+./WORLD/House/Second Floor/Master Bedroom/Dresser/Galcatic Pants.prop
+Move Unsuccessful!
+
+> take cupcake
+
+-take-cupcake--
+./PRGM/action/take.sh-cupcake-
+.prop
+The Cupcake has a weight of: 1
+Cupcake.3.prop
+./WORLD/House/Second Floor/Master Bedroom/Dresser/Galcatic Pants.prop
+Move Unsuccessful!
+
+The metal floor creaks loudly.
+> look
+
+-look---
+./PRGM/action/look.sh--
+
+  OVER HALL  
+	This hallway is long and imposing.  The floor is made of
+sheet metal, and covered with a thin carpet.  There are many 
+doors going out of the hall, and an archway at the end.
+ ∏ Blue Door
+ ~ Chair
+ ∏ Closet
+ ~ Cupcake
+ ∏ Green Door
+ ∏ Red Door
+ ∏ Stairs Archway
+ ∏ White Door
+
+> take cupcake
+
+-take-cupcake--
+./PRGM/action/take.sh-cupcake-
+.prop
+The Cupcake has a weight of: 1
+:3:
+
+Cupcake  |  .prop
+./DYNAMIC/Player/lyda/Inventory/Cupcake.3.prop
+./DYNAMIC/Player/lyda/Inventory/Cupcake.2.prop
+./DYNAMIC/Player/lyda/Inventory/Cupcake.1.prop
+oname: Cupcake.3.prop
+now 4 from 3
+Cupcake.4.prop
+./WORLD/House/Second Floor/Master Bedroom/Dresser/Galcatic Pants.prop
+Move Unsuccessful!
+
+> look
+
+-look---
+./PRGM/action/look.sh--
+
+  OVER HALL  
+	This hallway is long and imposing.  The floor is made of
+sheet metal, and covered with a thin carpet.  There are many 
+doors going out of the hall, and an archway at the end.
+ ∏ Blue Door
+ ~ Chair
+ ∏ Closet
+ ∏ Green Door
+ ∏ Red Door
+ ∏ Stairs Archway
+ ∏ White Door
+
+> stairs
+
+-stairs---
+-stairs-
+You walk through the door, into the
+
+  Stairs  
+  You enter the tall, spacious stairwell.
+It is an odd yellow color, the stairs spirals 
+around the center.  The windows light up the dusty 
+air, making the walls feel closed in.  You feel like 
+you aren't on ANY floor, neither up nor down, 
+just somewhere inbetween...
+ ∏ Attic
+ ∏ First Floor
+ ∏ Second Floor
+
+> inv
+
+-inv---
+-inv-
+ Path: ./DYNAMIC/Player/lyda/Inventory/
+
+  Inventory  
+
+Current: 30 - Saved: 30
+
+Inventory Content:
+Cupcake.1.1.prop
+Cupcake.1.prop
+Cupcake.2.prop
+Cupcake.3.prop
+Cupcake.4.prop
+Cupcake.prop
+Pear Shirt.1.prop
+Striped Zucchini.prop
+
+
+> drop cupcake
+
+-drop-cupcake--
+./PRGM/action/drop.sh-cupcake-
+Item: 'cupcake'
+Moving item: cupcake in inventory to ./WORLD/House/Stairs
+./DYNAMIC/Player/lyda/Inventory/Cupcake.2.prop
+Cupcake.2.prop
+Move Successful!
+
+> drop cupcake
+
+-drop-cupcake--
+./PRGM/action/drop.sh-cupcake-
+Item: 'cupcake'
+Moving item: cupcake in inventory to ./WORLD/House/Stairs
+./DYNAMIC/Player/lyda/Inventory/Cupcake.4.prop
+Cupcake.4.prop
+Move Successful!
+
+> drop cupcake
+
+-drop-cupcake--
+./PRGM/action/drop.sh-cupcake-
+Item: 'cupcake'
+Moving item: cupcake in inventory to ./WORLD/House/Stairs
+./DYNAMIC/Player/lyda/Inventory/Cupcake.1.1.prop
+Cupcake.1.1.prop
+Move Successful!
+
+> inv
+
+-inv---
+-inv-
+ Path: ./DYNAMIC/Player/lyda/Inventory/
+
+  Inventory  
+
+Current: 30 - Saved: 30
+
+Inventory Content:
+Cupcake.1.prop
+Cupcake.3.prop
+Cupcake.prop
+Pear Shirt.1.prop
+Striped Zucchini.prop
+
+
+> drop pear
+
+-drop-pear--
+./PRGM/action/drop.sh-pear-
+Item: 'pear'
+Moving item: pear in inventory to ./WORLD/House/Stairs
+./DYNAMIC/Player/lyda/Inventory/Pear Shirt.1.prop
+Pear Shirt.1.prop
+Move Successful!
+
+> drop striped
+
+-drop-striped--
+./PRGM/action/drop.sh-striped-
+Item: 'striped'
+Moving item: striped in inventory to ./WORLD/House/Stairs
+./DYNAMIC/Player/lyda/Inventory/Striped Zucchini.prop
+Striped Zucchini.prop
+Move Successful!
+
+> drop cupcake
+
+-drop-cupcake--
+./PRGM/action/drop.sh-cupcake-
+Item: 'cupcake'
+Moving item: cupcake in inventory to ./WORLD/House/Stairs
+./DYNAMIC/Player/lyda/Inventory/Cupcake.3.prop
+Cupcake.3.prop
+Move Successful!
+
+> inv
+
+-inv---
+-inv-
+ Path: ./DYNAMIC/Player/lyda/Inventory/
+
+  Inventory  
+
+Current: 30 - Saved: 30
+
+Inventory Content:
+Cupcake.1.prop
+Cupcake.prop
+
+
+> drop cupcake
+
+-drop-cupcake--
+./PRGM/action/drop.sh-cupcake-
+Item: 'cupcake'
+Moving item: cupcake in inventory to ./WORLD/House/Stairs
+./DYNAMIC/Player/lyda/Inventory/Cupcake.1.prop
+Cupcake.1.prop
+Move Successful!
+
+> drop cupcake
+
+-drop-cupcake--
+./PRGM/action/drop.sh-cupcake-
+Item: 'cupcake'
+Moving item: cupcake in inventory to ./WORLD/House/Stairs
+./DYNAMIC/Player/lyda/Inventory/Cupcake.prop
+Cupcake.prop
+Move Successful!
+
+> inv
+
+-inv---
+-inv-
+ Path: ./DYNAMIC/Player/lyda/Inventory/
+
+  Inventory  
+
+Current: 30 - Saved: 30
+
+Inventory Content:
+
+
+> look
+
+-look---
+./PRGM/action/look.sh--
+
+  Stairs  
+  You enter the tall, spacious stairwell.
+It is an odd yellow color, the stairs spirals 
+around the center.  The windows light up the dusty 
+air, making the walls feel closed in.  You feel like 
+you aren't on ANY floor, neither up nor down, 
+just somewhere inbetween...
+ ∏ Attic
+ ∏ First Floor
+ ∏ Second Floor
+
+> first floor
+
+-first-floor--
+-first floor-
+You wander down the stairs, and out into the Satirn Hallway
+
+  Satirn Hall  
+	The Satirn Hall, spacious and ornate, extends the length
+of the house.  It ends on one side with an entryway, while on 
+the other end, there is an archway to the sun-lit stairwell.  
+Many doors leave this hall, going to various parts of the first 
+floor of the house. 
+ ∏ Archway
+ ∏ Bathroom Door
+ ∏ Door to Entryway
+ ∏ Kitchen door
+ ∏ Mudroom Door
+ ∏ Standing Room Door
+
+> standing room
+
+-standing-room--
+The End!
+--
+You walk through the door, into the
+
+  The Standing Room  
+	It is very light here.  A large window allows the sun's 
+rays shine through.  A table, centered in the room, receives the
+light in a dignified way.  You feel that this is a place to do 
+business.  To be cheerful, yet enterprising and diligent.  The 
+tall table is empty, and it looks like it can be used for a 
+meeting place.
+	A potted fern sits next to a bookshelf in one corner.  
+The other is occupied by a matching fern, with a filing cabinet 
+and a wooden writing desk.  An empty bulletin hangs on the
+wall opposite the window.  Hanging under it is a little wire 
+tray, holding paper notes and some pens.  A potted cactus with a
+spout on it's base sits next to one door, and the other goes out
+to the hall.
+
+ ~ Bulletin Board
+ ∏ Door near Cactus
+ ∏ Hall Door
+ ~ Wire Tray
+
+> look at bulletin board
+
+-look-at-bulletin board-
+./PRGM/action/look.sh-bulletin board-at
+The Bulletin Board is featureless.
+
+> door near cactus
+
+-door-near-cactus-
+./PRGM/action/door.sh-near cactus-
+
+Door not found? Weird.
+You pad past the cactus into the...
+
+  Sitting room  
+
+ ∏ Standing Room Door
+
+> standing roon
+
+-standing-roon--
+The End!
+--
+Item Check:  not found.
+
+> look
+
+-look---
+./PRGM/action/look.sh--
+
+  Sitting room  
+
+ ∏ Standing Room Door
+
+> standing room door
+
+-standing-room-door-
+The End!
+--
+You walk through the door, into the
+
+  The Standing Room  
+	It is very light here.  A large window allows the sun's 
+rays shine through.  A table, centered in the room, receives the
+light in a dignified way.  You feel that this is a place to do 
+business.  To be cheerful, yet enterprising and diligent.  The 
+tall table is empty, and it looks like it can be used for a 
+meeting place.
+	A potted fern sits next to a bookshelf in one corner.  
+The other is occupied by a matching fern, with a filing cabinet 
+and a wooden writing desk.  An empty bulletin hangs on the
+wall opposite the window.  Hanging under it is a little wire 
+tray, holding paper notes and some pens.  A potted cactus with a
+spout on it's base sits next to one door, and the other goes out
+to the hall.
+
+ ~ Bulletin Board
+ ∏ Door near Cactus
+ ∏ Hall Door
+ ~ Wire Tray
+
+> hall
+
+-hall---
+Special Noun!
+-hall-
+You pad out into the hall.
+
+  Satirn Hall  
+	The Satirn Hall, spacious and ornate, extends the length
+of the house.  It ends on one side with an entryway, while on 
+the other end, there is an archway to the sun-lit stairwell.  
+Many doors leave this hall, going to various parts of the first 
+floor of the house. 
+ ∏ Archway
+ ∏ Bathroom Door
+ ∏ Door to Entryway
+ ∏ Kitchen door
+ ∏ Mudroom Door
+ ∏ Standing Room Door
+
+> kitchen
+
+-kitchen---
+Special Noun!
+-kitchen-
+You walk through the door, into the
+
+  Kitchen  
+This room is oddly featurless.
+It makes you worried about deadlines and details.
+
+ ~ Cabinet
+ ~ Counter
+ ∏ Dining Room Door
+ ~ Fridge
+ ∏ Hall Door
+ ∏ Pantry
+ ~ Sink
+ ~ Stove
+
+> pantry
+
+-pantry---
+-pantry-
+You walk through the door, into the
+
+  Pantry  
+This room is oddly featurless.
+It makes you worried about deadlines and details.
+
+ ~ Chest
+ ~ Left Shelves
+ ∏ Out
+ ~ Right Shelves
+
+> left shelves
+
+-left-shelves--
+-left shelves-
+Is a Folder
+
+> look at left
+
+-look-at-left-
+./PRGM/action/look.sh-left-at
+The Left Shelves is featureless.
+
+> open left
+
+-open-left--
+./PRGM/action/open.sh-left-
+You open the .
+In the Left Shelves, there are:
+ ~ A Banana
+ ~ A Banana
+ ~ A Banana
+ ~ A Banana
+ ~ A Banana
+ ~ A Banana
+ ~ Cabbage
+ ~ Cabbage
+ ~ Cabbage
+ ~ Cabbage
+target is ./WORLD/House/First Floor/Pantry/Left Shelves
+I LOVE YOU DALLEN!!!
+
+> take 3 cabbages
+
+-take-3-cabbages-
+./PRGM/action/take.sh-3 cabbages-
+Target: './WORLD/House/First Floor/Pantry/Left Shelves'
+ | 
+There is no 3 cabbages here.
+
+You hear a loud THUD from one of the shelves.
+> look
+
+-look---
+./PRGM/action/look.sh--
+
+  Pantry  
+This room is oddly featurless.
+It makes you worried about deadlines and details.
+
+ ~ Chest
+ ∏ Out
+ ~ Right Shelves
+
+> open right
+
+-open-right--
+./PRGM/action/open.sh-right-
+You open the Left Shelves.
+In the Right Shelves, there are:
+ ~ A Banana
+ ~ A Banana
+ ~ Apple
+target is ./WORLD/House/First Floor/Pantry/Right Shelves
+I LOVE YOU DALLEN!!!
+
+> look
+
+-look---
+./PRGM/action/look.sh--
+
+  Pantry  
+This room is oddly featurless.
+It makes you worried about deadlines and details.
+
+ ~ Chest
+ ~ Left Shelves
+ ∏ Out
+
+> open chest
+
+-open-chest--
+./PRGM/action/open.sh-chest-
+You open the Right Shelves.
+In the Chest, there are:
+ ~ blue box
+ ~ coupon
+ ~ cube
+ ~ Jar of Sand
+ ~ Notes
+target is ./WORLD/House/First Floor/Pantry/Chest
+I LOVE YOU DALLEN!!!
+
+> look at notes
+
+-look-at-notes-
+./PRGM/action/look.sh-notes-at
+LookAt: No Input Path
+
+> take notes
+
+-take-notes--
+./PRGM/action/take.sh-notes-
+Target: './WORLD/House/First Floor/Pantry/Chest'
+Notes | .txt
+The Notes is weightless, and therefore, very hard to hold.
+
+> read notes
+
+-read-notes--
+./PRGM/action/read.sh-notes-
+.txt
+It says: 
+
+> sit
+
+-sit---
+Special Noun!
+-sit-
+Item Check:  not found.
+
+> look
+
+-look---
+./PRGM/action/look.sh--
+
+  Pantry  
+This room is oddly featurless.
+It makes you worried about deadlines and details.
+
+ ~ Left Shelves
+ ∏ Out
+ ~ Right Shelves
+
+> out
+
+-out---
+-out-out
+Dir Door
+You can not go that way. (2)
+
+> out
+
+-out---
+-out-out
+Dir Door
+You can not go that way. (2)
+
+You hear a loud THUD from one of the shelves.
+> look
+
+-look---
+./PRGM/action/look.sh--
+
+  Pantry  
+This room is oddly featurless.
+It makes you worried about deadlines and details.
+
+ ~ Left Shelves
+ ∏ Out
+ ~ Right Shelves
+
+> right 
+
+-right---
+-right-
+Is a Folder
+
+> open right
+
+-open-right--
+./PRGM/action/open.sh-right-
+You open the Chest.
+In the Right Shelves, there are:
+ ~ A Banana
+ ~ A Banana
+ ~ Apple
+ ~ Apple
+target is ./WORLD/House/First Floor/Pantry/Right Shelves
+I LOVE YOU DALLEN!!!
+
+You hear a loud THUD from one of the shelves.
+> open left
+
+-open-left--
+./PRGM/action/open.sh-left-
+You open the Right Shelves.
+In the Left Shelves, there are:
+ ~ A Banana
+ ~ A Banana
+ ~ A Banana
+ ~ A Banana
+ ~ A Banana
+ ~ A Banana
+ ~ A Banana
+ ~ Cabbage
+ ~ Cabbage
+ ~ Cabbage
+ ~ Cabbage
+target is ./WORLD/House/First Floor/Pantry/Left Shelves
+I LOVE YOU DALLEN!!!
+
+> take cabbage
+
+-take-cabbage--
+./PRGM/action/take.sh-cabbage-
+Target: './WORLD/House/First Floor/Pantry/Left Shelves'
+Cabbage | .prop
+The Cabbage has a weight of: 1
+Cabbage.1.prop
+./WORLD/House/First Floor/Pantry/Left Shelves/Cabbage.1.prop
+Move Unsuccessful!
+
+You hear a loud THUD from one of the shelves.
+> open left
+
+-open-left--
+./PRGM/action/open.sh-left-
+You open the Left Shelves.
+In the Left Shelves, there are:
+ ~ A Banana
+ ~ A Banana
+ ~ A Banana
+ ~ A Banana
+ ~ A Banana
+ ~ A Banana
+ ~ A Banana
+ ~ Cabbage
+ ~ Cabbage
+ ~ Cabbage
+target is ./WORLD/House/First Floor/Pantry/Left Shelves
+I LOVE YOU DALLEN!!!
+
+You hear a loud THUD from one of the shelves.
+> take cabbage
+
+-take-cabbage--
+./PRGM/action/take.sh-cabbage-
+Target: './WORLD/House/First Floor/Pantry/Left Shelves'
+Cabbage | .prop
+The Cabbage has a weight of: 1
+Cabbage.3.prop
+./WORLD/House/First Floor/Pantry/Left Shelves/Cabbage.3.prop
+Move Unsuccessful!
+
+> open left
+
+-open-left--
+./PRGM/action/open.sh-left-
+You open the Left Shelves.
+In the Left Shelves, there are:
+ ~ A Banana
+ ~ A Banana
+ ~ A Banana
+ ~ A Banana
+ ~ A Banana
+ ~ A Banana
+ ~ A Banana
+ ~ A Banana
+ ~ Cabbage
+ ~ Cabbage
+target is ./WORLD/House/First Floor/Pantry/Left Shelves
+I LOVE YOU DALLEN!!!
+
+> take banana
+
+-take-banana--
+./PRGM/action/take.sh-banana-
+Target: './WORLD/House/First Floor/Pantry/Left Shelves'
+A Banana | .prop
+The A Banana has a weight of: 1
+A Banana.10.prop
+./WORLD/House/First Floor/Pantry/Left Shelves/A Banana.10.prop
+Move Unsuccessful!
+
+You hear a loud THUD from one of the shelves.
+> take banana
+
+-take-banana--
+./PRGM/action/take.sh-banana-
+Target: './WORLD/House/First Floor/Pantry/Left Shelves'
+A Banana | .prop
+The A Banana has a weight of: 1
+A Banana.11.prop
+./WORLD/House/First Floor/Pantry/Left Shelves/A Banana.11.prop
+Move Unsuccessful!
+
+> take banana
+
+-take-banana--
+./PRGM/action/take.sh-banana-
+Target: './WORLD/House/First Floor/Pantry/Left Shelves'
+A Banana | .prop
+The A Banana has a weight of: 1
+A Banana.12.prop
+./WORLD/House/First Floor/Pantry/Left Shelves/A Banana.12.prop
+Move Unsuccessful!
+
+> take banana
+
+-take-banana--
+./PRGM/action/take.sh-banana-
+Target: './WORLD/House/First Floor/Pantry/Left Shelves'
+A Banana | .prop
+The A Banana has a weight of: 1
+A Banana.1.prop
+./WORLD/House/First Floor/Pantry/Left Shelves/A Banana.1.prop
+Move Unsuccessful!
+
+> open left
+
+-open-left--
+./PRGM/action/open.sh-left-
+You open the Left Shelves.
+In the Left Shelves, there are:
+ ~ A Banana
+ ~ A Banana
+ ~ A Banana
+ ~ A Banana
+ ~ A Banana
+ ~ Cabbage
+ ~ Cabbage
+target is ./WORLD/House/First Floor/Pantry/Left Shelves
+I LOVE YOU DALLEN!!!
+
+You hear a loud THUD from one of the shelves.
+> take banana
+
+-take-banana--
+./PRGM/action/take.sh-banana-
+Target: './WORLD/House/First Floor/Pantry/Left Shelves'
+A Banana | .prop
+The A Banana has a weight of: 1
+A Banana.2.prop
+./WORLD/House/First Floor/Pantry/Left Shelves/A Banana.2.prop
+Move Unsuccessful!
+
+> take banana
+
+-take-banana--
+./PRGM/action/take.sh-banana-
+Target: './WORLD/House/First Floor/Pantry/Left Shelves'
+A Banana | .prop
+The A Banana has a weight of: 1
+A Banana.3.prop
+./WORLD/House/First Floor/Pantry/Left Shelves/A Banana.3.prop
+Move Unsuccessful!
+
+> take banana
+
+-take-banana--
+./PRGM/action/take.sh-banana-
+Target: './WORLD/House/First Floor/Pantry/Left Shelves'
+A Banana | .prop
+The A Banana has a weight of: 1
+A Banana.4.prop
+./WORLD/House/First Floor/Pantry/Left Shelves/A Banana.4.prop
+Move Unsuccessful!
+
+> open left
+
+-open-left--
+./PRGM/action/open.sh-left-
+You open the Left Shelves.
+In the Left Shelves, there are:
+ ~ A Banana
+ ~ A Banana
+ ~ Cabbage
+ ~ Cabbage
+target is ./WORLD/House/First Floor/Pantry/Left Shelves
+I LOVE YOU DALLEN!!!
+
+> open right
+
+-open-right--
+./PRGM/action/open.sh-right-
+You open the Left Shelves.
+In the Right Shelves, there are:
+ ~ A Banana
+ ~ A Banana
+ ~ A Banana
+ ~ Apple
+ ~ Apple
+ ~ Apple
+target is ./WORLD/House/First Floor/Pantry/Right Shelves
+I LOVE YOU DALLEN!!!
+
+You hear a loud THUD from one of the shelves.
+> take banana
+
+-take-banana--
+./PRGM/action/take.sh-banana-
+Target: './WORLD/House/First Floor/Pantry/Right Shelves'
+A Banana | .prop
+The A Banana has a weight of: 1
+2
+A Banana.1.1.prop
+./WORLD/House/First Floor/Pantry/Right Shelves/A Banana.1.prop
+Move Unsuccessful!
+
+> take apple
+
+-take-apple--
+./PRGM/action/take.sh-apple-
+Target: './WORLD/House/First Floor/Pantry/Right Shelves'
+Apple | .prop
+The Apple has a weight of: 1
+Apple.1.prop
+./WORLD/House/First Floor/Pantry/Right Shelves/Apple.1.prop
+Move Unsuccessful!
+
+You hear a loud THUD from one of the shelves.
+> open right
+
+-open-right--
+./PRGM/action/open.sh-right-
+You open the Right Shelves.
+In the Right Shelves, there are:
+ ~ A Banana
+ ~ A Banana
+ ~ Apple
+ ~ Apple
+ ~ Apple
+ ~ Apple
+target is ./WORLD/House/First Floor/Pantry/Right Shelves
+I LOVE YOU DALLEN!!!
+
+> take apple
+
+-take-apple--
+./PRGM/action/take.sh-apple-
+Target: './WORLD/House/First Floor/Pantry/Right Shelves'
+Apple | .prop
+The Apple has a weight of: 1
+2
+Apple.1.1.prop
+./WORLD/House/First Floor/Pantry/Right Shelves/Apple.1.prop
+Move Unsuccessful!
+
+You hear a loud THUD from one of the shelves.
+> open left
+
+-open-left--
+./PRGM/action/open.sh-left-
+You open the Right Shelves.
+In the Left Shelves, there are:
+ ~ A Banana
+ ~ A Banana
+ ~ A Banana
+ ~ Cabbage
+ ~ Cabbage
+target is ./WORLD/House/First Floor/Pantry/Left Shelves
+I LOVE YOU DALLEN!!!
+
+> take banana
+
+-take-banana--
+./PRGM/action/take.sh-banana-
+Target: './WORLD/House/First Floor/Pantry/Left Shelves'
+A Banana | .prop
+The A Banana has a weight of: 1
+:3:
+
+A Banana.1  |  .prop
+./DYNAMIC/Player/lyda/Inventory/A Banana.1.1.prop
+oname: A Banana.1.1.prop
+now 2 from 1
+A Banana.1.2.prop
+./WORLD/House/First Floor/Pantry/Left Shelves/A Banana.1.prop
+Move Unsuccessful!
+
+> look
+
+-look---
+./PRGM/action/look.sh--
+
+  Pantry  
+This room is oddly featurless.
+It makes you worried about deadlines and details.
+
+ ~ Chest
+ ∏ Out
+ ~ Right Shelves
+
+> out
+
+-out---
+-out-out
+Dir Door
+You can not go that way. (2)
+
+> kitchen
+
+-kitchen---
+Special Noun!
+-kitchen-
+Item Check:  not found.
+
+> wear
+
+-wear---
+./PRGM/action/wear.sh--
+You are wearing:
+Nothing as a hat.
+~ Black Cape, 
+~ Blue Shirt,  as a shirt.
+~ Galcatic Pants,  as pants.
+Nothing as shoes.
+

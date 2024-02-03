@@ -1,0 +1,6 @@
+@Stat
+`maxenergy=5000`
+`maxhealth=5`
+`healspeed=1`
+`maxwater=80`
+@End

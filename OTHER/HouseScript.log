@@ -1,0 +1,16 @@
+Script started on 2023-01-20 19:13:06-07:00 [TERM="xterm-256color" TTY="/dev/pts/5" COLUMNS="110" LINES="40"]
+[?2004h]0;deverell-manning@raspberrypi: ~/Public/HOUSE[01;32mdeverell-manning@raspberrypi[00m:[01;34m~/Public/HOUSE $[00m 
+[?2004l[?2004h]0;deverell-manning@raspberrypi: ~/Public/HOUSE[01;32mdeverell-manning@raspberrypi[00m:[01;34m~/Public/HOUSE $[00m ~/Desktop/sys/./deskup*
+[?2004lDesktop Pics: 13
+Path: /home/deverell-manning/Pictures/Desktop/DSC01395.JPG
+[?2004h]0;deverell-manning@raspberrypi: ~/Public/HOUSE[01;32mdeverell-manning@raspberrypi[00m:[01;34m~/Public/HOUSE $[00m ~/Desktop/sys/./deskup*[14P./deskup*find "/home/deverell-manning/Pictures/Desktop/" -iname "*.*"="*.*"*.*"[K"[K^[[200~find "/home/deverell-manning/Pictures/Desktop"~[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./deskup*[K[2Pdeskup*scrot -q 100[K --help[K[1Pman scrot[[ 0 = 0 && 1 = 1 ]] && echo true||[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kexit
+[?2004lexit
+
+Script done on 2023-01-20 19:13:41-07:00 [COMMAND_EXIT_CODE="0"]
+Script started on 2023-01-20 19:41:51-07:00 [TERM="xterm-256color" TTY="/dev/pts/5" COLUMNS="110" LINES="40"]
+[?2004h]0;deverell-manning@raspberrypi: ~/Public/HOUSE[01;32mdeverell-manning@raspberrypi[00m:[01;34m~/Public/HOUSE $[00m ^C[?2004l[?2004h[?2004l
+[?2004h]0;deverell-manning@raspberrypi: ~/Public/HOUSE[01;32mdeverell-manning@raspberrypi[00m:[01;34m~/Public/HOUSE $[00m ^C[?2004l[?2004h[?2004l
+[?2004h]0;deverell-manning@raspberrypi: ~/Public/HOUSE[01;32mdeverell-manning@raspberrypi[00m:[01;34m~/Public/HOUSE $[00m exit
+[?2004lexit
+
+Script done on 2023-01-20 19:41:58-07:00 [COMMAND_EXIT_CODE="130"]

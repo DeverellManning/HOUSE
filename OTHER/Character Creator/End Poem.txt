@@ -1,0 +1,13 @@
+Height	(Inches)
+ - Base Height
+ - Build Height
+ - User pull
+ - Strong Adjuster
+ 
+Weight	(Pounds)
+ - Base Weight
+ - Build Weight
+ - User Pull
+ - Height Adjuster
+
+Sise	(See)

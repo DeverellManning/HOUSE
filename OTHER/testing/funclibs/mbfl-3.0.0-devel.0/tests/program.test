@@ -1,0 +1,135 @@
+
+# program.test --
+#
+# Part of: Marco's BASH Functions Library
+# Contents: tests for the program.sh functions
+# Date: Wed Feb  4, 2004
+#
+# Abstract
+#
+#
+# Copyright (c) 2004, 2005, 2012, 2013, 2014, 2018 Marco Maggi
+#
+# This is free  software you can redistribute it  and/or modify it under
+# the terms of  the GNU General Public License as  published by the Free
+# Software Foundation; either  version 3, or (at your  option) any later
+# version.
+#
+# This  file is  distributed in  the hope  that it  will be  useful, but
+# WITHOUT   ANY  WARRANTY;  without   even  the   implied  warranty   of
+# MERCHANTABILITY  or FITNESS  FOR A  PARTICULAR PURPOSE.   See  the GNU
+# General Public License for more details.
+#
+# You  should have received  a copy  of the  GNU General  Public License
+# along with this file; see the file COPYING.  If not, write to the Free
+# Software Foundation,  Inc., 59  Temple Place -  Suite 330,  Boston, MA
+# 02111-1307, USA.
+#
+
+#PAGE
+#### setup
+
+source setup.sh
+
+#page
+#### splitting path
+
+function program-split-path-1.1 () {
+    if mbfl_program_split_path
+    then
+	for ((i=0; i < ${#mbfl_split_PATH[@]}; ++i))
+	do echo "${mbfl_split_PATH[$i]}"
+	done
+    fi
+}
+
+#PAGE
+
+function program-1.1 () {
+    mbfl_program_exec echo 123 | dotest-output 123
+}
+function program-1.2 () {
+    mbfl_set_option_test
+    mbfl_program_exec echo 123 2>&1 | dotest-output "command echo 123 <&0 >&1"
+}
+function program-1.3 () {
+    mbfl_program_exec true
+}
+function program-1.4 () {
+    ! mbfl_program_exec false
+}
+
+#page
+
+function program-3.1 () {
+    {
+	mbfl_set_option_verbose
+	mbfl_message_set_channel 1
+	mbfl_message_set_progname "test"
+	mbfl_declare_program /bin/ls
+	mbfl_program_validate_declared
+	mbfl_unset_option_verbose
+    } | dotest-output 'test: found "/bin/ls": "/bin/ls"'
+}
+function program-3.2 () {
+    mbfl_declare_program unexistent
+    ! mbfl_program_validate_declared &>/dev/null
+}
+function program-3.3 () {
+    mbfl_declare_program /bin/ls
+    mbfl_program_found /bin/ls | dotest-output /bin/ls
+}
+function program-3.4 () {
+    mbfl_declare_program unexistent
+    mbfl_program_found unexistent | dotest-output
+}
+function program-3.5 () {
+    local ret=0
+
+    mbfl_set_option_verbose
+    mbfl_message_set_channel 1
+    mbfl_message_set_progname "test"
+    mbfl_declare_program unexistent
+    mbfl_program_validate_declared | dotest-output 'test: *** not found "unexistent", path: ""'
+}
+
+#page
+
+function program-4.1 () {
+    local CODE
+    mbfl_program_enable_sudo
+    mbfl_set_option_test
+    {
+	mbfl_program_declare_sudo_user root
+	echo 123 | mbfl_program_exec cat 2>&1 | \
+            dotest-output "command $mbfl_program_SUDO -u root cat <&0 >&1"
+	CODE=$?
+    }
+    mbfl_unset_option_test
+    return $CODE
+}
+function program-4.2 () {
+    local CODE
+    mbfl_program_enable_sudo
+    mbfl_set_option_test
+    {
+	mbfl_program_declare_sudo_user root
+	mbfl_program_declare_sudo_options -H VAL=val
+	echo 123 | mbfl_program_exec cat 2>&1 | \
+            dotest-output "command $mbfl_program_SUDO -H VAL=val -u root cat <&0 >&1"
+	CODE=$?
+    }
+    mbfl_unset_option_test
+    return $CODE
+}
+
+#PAGE
+#### let's go
+
+dotest program-
+dotest-final-report
+
+### end of file
+# Local Variables:
+# mode: sh
+# End:

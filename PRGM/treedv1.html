@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+ <meta name="Author" content="Made by 'tree'">
+ <meta name="GENERATOR" content="$Version: $ tree v1.8.0 (c) 1996 - 2018 by Steve Baker, Thomas Moore, Francesc Rocher, Florian Sesser, Kyosuke Tokoro $">
+ <title>Directory Tree</title>
+ <style type="text/css">
+  <!-- 
+  BODY { font-family : ariel, monospace, sans-serif; }
+  P { font-weight: normal; font-family : ariel, monospace, sans-serif; color: black; background-color: transparent;}
+  B { font-weight: normal; color: black; background-color: transparent;}
+  A:visited { font-weight : normal; text-decoration : none; background-color : transparent; margin : 0px 0px 0px 0px; padding : 0px 0px 0px 0px; display: inline; }
+  A:link    { font-weight : normal; text-decoration : none; margin : 0px 0px 0px 0px; padding : 0px 0px 0px 0px; display: inline; }
+  A:hover   { color : #000000; font-weight : normal; text-decoration : underline; background-color : yellow; margin : 0px 0px 0px 0px; padding : 0px 0px 0px 0px; display: inline; }
+  A:active  { color : #000000; font-weight: normal; background-color : transparent; margin : 0px 0px 0px 0px; padding : 0px 0px 0px 0px; display: inline; }
+  .VERSION { font-size: small; font-family : arial, sans-serif; }
+  .NORM  { color: black;  background-color: transparent;}
+  .FIFO  { color: purple; background-color: transparent;}
+  .CHAR  { color: yellow; background-color: transparent;}
+  .DIR   { color: blue;   background-color: transparent;}
+  .BLOCK { color: yellow; background-color: transparent;}
+  .LINK  { color: aqua;   background-color: transparent;}
+  .SOCK  { color: fuchsia;background-color: transparent;}
+  .EXEC  { color: green;  background-color: transparent;}
+  -->
+ </style>
+</head>
+<body>
+	<h1>Directory Tree</h1><p>
+	<a href="./">./</a><br>
+	├── <a href=".//npc/">npc</a><br>
+	│   ├── <a href=".//npc/npc_man_loop.sh">npc_man_loop.sh</a><br>
+	│   ├── <a href=".//npc/npc_manager.sh">npc_manager.sh</a><br>
+	│   ├── <a href=".//npc/DoorUtil.sh">DoorUtil.sh</a><br>
+	│   └── <a href=".//npc/ctick">ctick</a><br>
+	├── <a href=".//parser/">parser</a><br>
+	│   ├── <a href=".//parser/vocab/">vocab</a><br>
+	│   │   └── <a href=".//parser/vocab/prepositions">prepositions</a><br>
+	│   ├── <a href=".//parser/ItemCheck.sh">ItemCheck.sh</a><br>
+	│   ├── <a href=".//parser/main.sh">main.sh</a><br>
+	│   ├── <a href=".//parser/ActFind.sh">ActFind.sh</a><br>
+	│   ├── <a href=".//parser/ParserTest.sh">ParserTest.sh</a><br>
+	│   ├── <a href=".//parser/DirectClause.sh">DirectClause.sh</a><br>
+	│   └── <a href=".//parser/Alias.sh">Alias.sh</a><br>
+	├── <a href=".//transaction/">transaction</a><br>
+	│   ├── <a href=".//transaction/GoDir.sh">GoDir.sh</a><br>
+	│   ├── <a href=".//transaction/LookAt.sh">LookAt.sh</a><br>
+	│   ├── <a href=".//transaction/LookIn.sh">LookIn.sh</a><br>
+	│   └── <a href=".//transaction/GoDoor.sh">GoDoor.sh</a><br>
+	├── <a href=".//player/">player</a><br>
+	│   ├── <a href=".//player/species/">species</a><br>
+	│   │   ├── <a href=".//player/species/farax/">farax</a><br>
+	│   │   │   ├── <a href=".//player/species/farax/test/">test</a><br>
+	│   │   │   │   └── <a href=".//player/species/farax/test/looks/">looks</a><br>
+	│   │   │   │   &nbsp;&nbsp;&nbsp; └── <a href=".//player/species/farax/test/looks/looks.prop">looks.prop</a><br>
+	│   │   │   ├── <a href=".//player/species/farax/TF.sh">TF.sh</a><br>
+	│   │   │   ├── <a href=".//player/species/farax/HeightMod.sh">HeightMod.sh</a><br>
+	│   │   │   ├── <a href=".//player/species/farax/WeightMod.sh">WeightMod.sh</a><br>
+	│   │   │   ├── <a href=".//player/species/farax/test1.sh">test1.sh</a><br>
+	│   │   │   ├── <a href=".//player/species/farax/Size.sh">Size.sh</a><br>
+	│   │   │   ├── <a href=".//player/species/farax/swords.sh">swords.sh</a><br>
+	│   │   │   ├── <a href=".//player/species/farax/looks.sh">looks.sh</a><br>
+	│   │   │   ├── <a href=".//player/species/farax/Save.sh">Save.sh</a><br>
+	│   │   │   └── <a href=".//player/species/farax/stats.prop">stats.prop</a><br>
+	│   │   ├── <a href=".//player/species/human/">human</a><br>
+	│   │   │   ├── <a href=".//player/species/human/TF.sh">TF.sh</a><br>
+	│   │   │   ├── <a href=".//player/species/human/WeightMod.sh">WeightMod.sh</a><br>
+	│   │   │   ├── <a href=".//player/species/human/HeightMod.sh">HeightMod.sh</a><br>
+	│   │   │   ├── <a href=".//player/species/human/looks.sh">looks.sh</a><br>
+	│   │   │   ├── <a href=".//player/species/human/Size.sh">Size.sh</a><br>
+	│   │   │   ├── <a href=".//player/species/human/swords.sh">swords.sh</a><br>
+	│   │   │   └── <a href=".//player/species/human/stats.prop">stats.prop</a><br>
+	│   │   ├── <a href=".//player/species/kangaroo/">kangaroo</a><br>
+	│   │   ├── <a href=".//player/species/list.txt">list.txt</a><br>
+	│   │   └── <a href=".//player/species/defaultvars.sh">defaultvars.sh</a><br>
+	│   ├── <a href=".//player/NewChar.sh">NewChar.sh</a><br>
+	│   ├── <a href=".//player/NewSave.sh">NewSave.sh</a><br>
+	│   ├── <a href=".//player/transactions.sh">transactions.sh</a><br>
+	│   ├── <a href=".//player/LoadChar.sh">LoadChar.sh</a><br>
+	│   ├── <a href=".//player/SaveChar.sh">SaveChar.sh</a><br>
+	│   └── <a href=".//player/tick.sh">tick.sh</a><br>
+	├── <a href=".//master/">master</a><br>
+	│   ├── <a href=".//master/world_tick.sh">world_tick.sh</a><br>
+	│   ├── <a href=".//master/npc_tick.sh">npc_tick.sh</a><br>
+	│   └── <a href=".//master/master.sh">master.sh</a><br>
+	├── <a href=".//utility/">utility</a><br>
+	│   ├── <a href=".//utility/filters/">filters</a><br>
+	│   │   ├── <a href=".//utility/filters/BasicFilter.sh">BasicFilter.sh</a><br>
+	│   │   └── <a href=".//utility/filters/CompleteFilter.sh">CompleteFilter.sh</a><br>
+	│   ├── <a href=".//utility/ColorUtil.sh">ColorUtil.sh</a><br>
+	│   ├── <a href=".//utility/RandomUtil.sh">RandomUtil.sh</a><br>
+	│   ├── <a href=".//utility/startfunc.sh">startfunc.sh</a><br>
+	│   ├── <a href=".//utility/TRAPS.sh">TRAPS.sh</a><br>
+	│   ├── <a href=".//utility/FilesUtil.sh">FilesUtil.sh</a><br>
+	│   ├── <a href=".//utility/LineUtil.sh">LineUtil.sh</a><br>
+	│   └── <a href=".//utility/OutputUtil.sh">OutputUtil.sh</a><br>
+	├── <a href=".//data/">data</a><br>
+	│   ├── <a href=".//data/Cprop.sh">Cprop.sh</a><br>
+	│   ├── <a href=".//data/Qprop.sh">Qprop.sh</a><br>
+	│   └── <a href=".//data/PropertyUtil.sh">PropertyUtil.sh</a><br>
+	├── <a href=".//output/">output</a><br>
+	│   ├── <a href=".//output/menu/">menu</a><br>
+	│   │   └── <a href=".//output/menu/StartMenu.sh">StartMenu.sh</a><br>
+	│   ├── <a href=".//output/NPCmessagechecker.sh">NPCmessagechecker.sh</a><br>
+	│   ├── <a href=".//output/Clock.sh">Clock.sh</a><br>
+	│   ├── <a href=".//output/LC.sh">LC.sh</a><br>
+	│   ├── <a href=".//output/echotest.sh">echotest.sh</a><br>
+	│   ├── <a href=".//output/message-tick.sh">message-tick.sh</a><br>
+	│   ├── <a href=".//output/message-loop.sh">message-loop.sh</a><br>
+	│   └── <a href=".//output/ListContent.sh">ListContent.sh</a><br>
+	├── <a href=".//action/">action</a><br>
+	│   ├── <a href=".//action/data/">data</a><br>
+	│   │   ├── <a href=".//action/data/where.sh">where.sh</a><br>
+	│   │   ├── <a href=".//action/data/health.sh">health.sh</a><br>
+	│   │   ├── <a href=".//action/data/stats.sh">stats.sh</a><br>
+	│   │   └── <a href=".//action/data/time.sh">time.sh</a><br>
+	│   ├── <a href=".//action/fun/">fun</a><br>
+	│   │   ├── <a href=".//action/fun/bar.sh">bar.sh</a><br>
+	│   │   └── <a href=".//action/fun/pew.sh">pew.sh</a><br>
+	│   ├── <a href=".//action/debug/">debug</a><br>
+	│   │   ├── <a href=".//action/debug/qprop.sh">qprop.sh</a><br>
+	│   │   ├── <a href=".//action/debug/clear.sh">clear.sh</a><br>
+	│   │   ├── <a href=".//action/debug/bashy.sh">bashy.sh</a><br>
+	│   │   └── <a href=".//action/debug/reload.sh">reload.sh</a><br>
+	│   ├── <a href=".//action/teleport/">teleport</a><br>
+	│   │   ├── <a href=".//action/teleport/tpa.sh">tpa.sh</a><br>
+	│   │   ├── <a href=".//action/teleport/tpy.sh">tpy.sh</a><br>
+	│   │   ├── <a href=".//action/teleport/tpt.sh">tpt.sh</a><br>
+	│   │   └── <a href=".//action/teleport/tpk.sh">tpk.sh</a><br>
+	│   ├── <a href=".//action/alias/">alias</a><br>
+	│   │   ├── <a href=".//action/alias/hit.sh">hit.sh</a><br>
+	│   │   ├── <a href=".//action/alias/examine.sh">examine.sh</a><br>
+	│   │   ├── <a href=".//action/alias/hop.sh">hop.sh</a><br>
+	│   │   ├── <a href=".//action/alias/kill.sh">kill.sh</a><br>
+	│   │   ├── <a href=".//action/alias/leap.sh">leap.sh</a><br>
+	│   │   └── <a href=".//action/alias/toss.sh">toss.sh</a><br>
+	│   ├── <a href=".//action/dir.sh">dir.sh</a><br>
+	│   ├── <a href=".//action/_go.sh">_go.sh</a><br>
+	│   ├── <a href=".//action/close.sh">close.sh</a><br>
+	│   ├── <a href=".//action/todo.sh">todo.sh</a><br>
+	│   ├── <a href=".//action/drop.sh">drop.sh</a><br>
+	│   ├── <a href=".//action/open.sh">open.sh</a><br>
+	│   ├── <a href=".//action/sleep.sh">sleep.sh</a><br>
+	│   ├── <a href=".//action/eat.sh">eat.sh</a><br>
+	│   ├── <a href=".//action/attack.sh">attack.sh</a><br>
+	│   ├── <a href=".//action/hold.sh">hold.sh</a><br>
+	│   ├── <a href=".//action/use.sh">use.sh</a><br>
+	│   ├── <a href=".//action/read.sh">read.sh</a><br>
+	│   ├── <a href=".//action/press.sh">press.sh</a><br>
+	│   ├── <a href=".//action/wear.sh">wear.sh</a><br>
+	│   ├── <a href=".//action/hug.sh">hug.sh</a><br>
+	│   ├── <a href=".//action/take.sh">take.sh</a><br>
+	│   ├── <a href=".//action/look.sh">look.sh</a><br>
+	│   ├── <a href=".//action/door.sh">door.sh</a><br>
+	│   ├── <a href=".//action/say.sh">say.sh</a><br>
+	│   ├── <a href=".//action/jump.sh">jump.sh</a><br>
+	│   ├── <a href=".//action/dive.sh">dive.sh</a><br>
+	│   ├── <a href=".//action/write.sh">write.sh</a><br>
+	│   ├── <a href=".//action/post.sh">post.sh</a><br>
+	│   ├── <a href=".//action/throw.sh">throw.sh</a><br>
+	│   └── <a href=".//action/inventory.sh">inventory.sh</a><br>
+	├── <a href=".//start.sh">start.sh</a><br>
+	└── <a href=".//treedv1.html">treedv1.html</a><br>
+	<br><br>
+	</p>
+	<p>
+
+23 directories, 110 files
+	<br><br>
+	</p>
+	<hr>
+	<p class="VERSION">
+		 tree v1.8.0 © 1996 - 2018 by Steve Baker and Thomas Moore <br>
+		 HTML output hacked and copyleft © 1998 by Francesc Rocher <br>
+		 JSON output hacked and copyleft © 2014 by Florian Sesser <br>
+		 Charsets / OS/2 support © 2001 by Kyosuke Tokoro
+	</p>
+</body>
+</html>

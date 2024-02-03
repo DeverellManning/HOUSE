@@ -1,0 +1,478 @@
+#!/usr/bin/bash
+source setup.sh
+function variable-find-in-array-1.1 () {
+declare -a mbfl_FIELDS=(abc def ghi lmn)
+mbfl_variable_find_in_array abc mbfl_FIELDS | dotest-output 0
+}
+function variable-find-in-array-1.2 () {
+declare -a mbfl_FIELDS=(abc def ghi lmn)
+mbfl_variable_find_in_array def mbfl_FIELDS | dotest-output 1
+}
+function variable-find-in-array-1.3 () {
+declare -a mbfl_FIELDS=(abc def ghi lmn)
+mbfl_variable_find_in_array lmn mbfl_FIELDS | dotest-output 3
+}
+function variable-find-in-array-1.4 () {
+declare -a mbfl_FIELDS=("abc 123" def ghi lmn)
+mbfl_variable_find_in_array gasp mbfl_FIELDS | dotest-output
+}
+function variable-find-in-array-2.1 () {
+declare -a mbfl_FIELDS=(abc def ghi lmn)
+mbfl_variable_element_is_in_array abc
+}
+function variable-element-is-in-array-1.1 () {
+declare -a mbfl_FIELDS=(abc def ghi lmn)
+mbfl_variable_element_is_in_array lmn
+}
+function variable-element-is-in-array-1.2 () {
+declare -a mbfl_FIELDS=(abc def ghi lmn)
+! mbfl_variable_element_is_in_array gasp
+}
+function variable-colon-variable-to-array-1.1 () {
+local v=a:b:c:d:e
+local -a mbfl_FIELDS
+mbfl_variable_colon_variable_to_array v
+dotest-equal 5 "${#mbfl_FIELDS[*]}" && \
+dotest-equal a "${mbfl_FIELDS[0]}" && \
+dotest-equal b "${mbfl_FIELDS[1]}" && \
+dotest-equal c "${mbfl_FIELDS[2]}" && \
+dotest-equal d "${mbfl_FIELDS[3]}" && \
+dotest-equal e "${mbfl_FIELDS[4]}"
+}
+function variable-colon-variable-to-array-1.2 () {
+local v
+local -a mbfl_FIELDS=(a b c d e)
+mbfl_variable_array_to_colon_variable v
+dotest-equal a:b:c:d:e $v
+}
+function variable-colon-variable-to-array-2.1 () {
+local v=a:b:c:b:d:e:e
+mbfl_variable_colon_variable_drop_duplicate v
+dotest-equal a:b:c:d:e $v
+}
+function variable-alloc-1.1 () {
+local NAME
+mbfl_variable_alloc NAME
+local -n NAMEREF=$NAME
+NAMEREF=123
+dotest-equal 123 ${!NAME}
+}
+function varref-local-simple-1.1 () {
+local mbfl_a_variable_VAR
+mbfl_variable_alloc mbfl_a_variable_VAR
+local  $mbfl_a_variable_VAR
+local -n VAR=$mbfl_a_variable_VAR
+
+VAR=123
+dotest-equal 123 "$VAR"
+}
+function varref-local-simple-1.2 () {
+local mbfl_a_variable_VAR
+mbfl_variable_alloc mbfl_a_variable_VAR
+local -i $mbfl_a_variable_VAR
+local -n VAR=$mbfl_a_variable_VAR
+
+VAR=123
+dotest-equal 123 "$VAR"
+}
+function varref-local-simple-1.3 () {
+local mbfl_a_variable_VAR
+mbfl_variable_alloc mbfl_a_variable_VAR
+local -i $mbfl_a_variable_VAR
+local -n VAR=$mbfl_a_variable_VAR
+VAR=123
+dotest-equal 123 "$VAR"
+}
+function varref-local-simple-1.4 () {
+local mbfl_a_variable_VAR
+mbfl_variable_alloc mbfl_a_variable_VAR
+local  $mbfl_a_variable_VAR
+local -n VAR=$mbfl_a_variable_VAR
+VAR=123
+dotest-equal 123 "$VAR"
+}
+function varref-local-simple-2.1 () {
+local mbfl_a_variable_VAR
+mbfl_variable_alloc mbfl_a_variable_VAR
+local  $mbfl_a_variable_VAR
+local -n VAR=$mbfl_a_variable_VAR
+
+local RV
+worker-varref-local-simple-2.1 $mbfl_a_variable_VAR RV
+dotest-equal 123 "$RV" && dotest-equal 123 "$VAR"
+}
+function worker-varref-local-simple-2.1 () {
+local mbfl_a_variable_VAR=${1:?"missing variable reference parameter to '${FUNCNAME}'"}
+local -n VAR=$mbfl_a_variable_VAR
+local mbfl_a_variable_RV=${2:?"missing result variable reference parameter to '${FUNCNAME}'"}
+local -n RV=$mbfl_a_variable_RV
+dotest-debug "VARNAME=$1 VAR=$VAR"
+VAR=123
+RV="$VAR"
+}
+function varref-local-array-1.1 () {
+local mbfl_a_variable_VAR
+mbfl_variable_alloc mbfl_a_variable_VAR
+local  $mbfl_a_variable_VAR
+local -n VAR=$mbfl_a_variable_VAR
+
+VAR[KEY]=123
+dotest-equal 123 "${VAR[KEY]}"
+}
+function varref-local-array-1.2 () {
+local mbfl_a_variable_VAR
+mbfl_variable_alloc mbfl_a_variable_VAR
+local -A $mbfl_a_variable_VAR
+local -n VAR=$mbfl_a_variable_VAR
+
+VAR[KEY]=123
+dotest-equal 123 "${VAR[KEY]}"
+}
+function varref-local-array-2.1 () {
+local mbfl_a_variable_VAR
+mbfl_variable_alloc mbfl_a_variable_VAR
+local  $mbfl_a_variable_VAR
+local -n VAR=$mbfl_a_variable_VAR
+
+local RV
+worker-varref-local-array-2.1 $mbfl_a_variable_VAR RV
+dotest-equal 123 "$RV" && dotest-equal 123 "${VAR[KEY]}"
+}
+function worker-varref-local-array-2.1 () {
+local mbfl_a_variable_VAR=${1:?"missing variable reference parameter to '${FUNCNAME}'"}
+local -n VAR=$mbfl_a_variable_VAR
+local mbfl_a_variable_RV=${2:?"missing result variable reference parameter to '${FUNCNAME}'"}
+local -n RV=$mbfl_a_variable_RV
+dotest-debug "VARNAME=$1 VAR=$VAR"
+VAR[KEY]=123
+RV="${VAR[KEY]}"
+}
+function varref-local-array-2.2 () {
+local mbfl_a_variable_VAR
+mbfl_variable_alloc mbfl_a_variable_VAR
+local  $mbfl_a_variable_VAR
+local -n VAR=$mbfl_a_variable_VAR
+
+local RV
+VAR[KEY]=123
+worker-varref-local-array-2.2 $mbfl_a_variable_VAR RV
+dotest-equal 123 "$RV" && dotest-equal 123 "${VAR[KEY]}"
+}
+function worker-varref-local-array-2.2 () {
+local mbfl_a_variable_VAR=${1:?"missing variable reference parameter to '${FUNCNAME}'"}
+local -n VAR=$mbfl_a_variable_VAR
+local mbfl_a_variable_RV=${2:?"missing result variable reference parameter to '${FUNCNAME}'"}
+local -n RV=$mbfl_a_variable_RV
+dotest-debug "VARNAME=$1 VAR=$VAR"
+RV="${VAR[KEY]}"
+}
+function varref-local-array-3.1 () {
+local mbfl_a_variable_ARRY
+mbfl_variable_alloc mbfl_a_variable_ARRY
+local -A $mbfl_a_variable_ARRY
+local -n ARRY=$mbfl_a_variable_ARRY
+
+local mbfl_a_variable_VAR
+mbfl_variable_alloc mbfl_a_variable_VAR
+local  $mbfl_a_variable_VAR
+local -n VAR=$mbfl_a_variable_VAR
+
+local RV1 RV2
+ARRY[KEY]=$mbfl_a_variable_VAR
+ARRY[VAL]=456
+worker-varref-local-array-3.1 $mbfl_a_variable_ARRY RV1 RV2
+dotest-equal 123 "$VAR" && \
+dotest-equal 456 "${ARRY[VAL]}" && \
+dotest-equal 123 "$RV1" && \
+dotest-equal 456 "$RV2"
+}
+function worker-varref-local-array-3.1 () {
+local mbfl_a_variable_VAR=${1:?"missing variable reference parameter to '${FUNCNAME}'"}
+local -n VAR=$mbfl_a_variable_VAR
+local mbfl_a_variable_RV1=${2:?"missing result variable reference parameter to '${FUNCNAME}'"}
+local -n RV1=$mbfl_a_variable_RV1
+local mbfl_a_variable_RV2=${3:?"missing result variable reference parameter to '${FUNCNAME}'"}
+local -n RV2=$mbfl_a_variable_RV2
+local -n VAR=${ARRY[KEY]}
+dotest-debug "VARNAME=$1 ARRY[KEY]=${ARRY[KEY]}"
+VAR=123
+RV1=$VAR
+RV2=${ARRY[VAL]}
+}
+function varref-local-array-3.2 () {
+local mbfl_a_variable_ARRY
+mbfl_variable_alloc mbfl_a_variable_ARRY
+local -a  $mbfl_a_variable_ARRY
+local -n ARRY=$mbfl_a_variable_ARRY
+
+local mbfl_a_variable_VAR
+mbfl_variable_alloc mbfl_a_variable_VAR
+local  $mbfl_a_variable_VAR
+local -n VAR=$mbfl_a_variable_VAR
+
+local RV1 RV2
+ARRY[1]=$mbfl_a_variable_VAR
+ARRY[2]=456
+worker-varref-local-array-3.2 $mbfl_a_variable_ARRY RV1 RV2
+dotest-equal 123 "$VAR" && \
+dotest-equal 456 "${ARRY[2]}" && \
+dotest-equal 123 "$RV1" && \
+dotest-equal 456 "$RV2"
+}
+function worker-varref-local-array-3.2 () {
+local mbfl_a_variable_VAR=${1:?"missing variable reference parameter to '${FUNCNAME}'"}
+local -n VAR=$mbfl_a_variable_VAR
+local mbfl_a_variable_RV1=${2:?"missing result variable reference parameter to '${FUNCNAME}'"}
+local -n RV1=$mbfl_a_variable_RV1
+local mbfl_a_variable_RV2=${3:?"missing result variable reference parameter to '${FUNCNAME}'"}
+local -n RV2=$mbfl_a_variable_RV2
+local -n VAR=${ARRY[1]}
+dotest-debug "VARNAME=$1 ARRY[1]=${ARRY[1]}"
+VAR=123
+RV1=$VAR
+RV2=${ARRY[2]}
+}
+function varref-global-simple-1.1 () {
+local mbfl_a_variable_VAR
+mbfl_variable_alloc mbfl_a_variable_VAR
+declare -g  $mbfl_a_variable_VAR
+local   -n VAR=$mbfl_a_variable_VAR
+
+VAR=123
+dotest-equal 123 "$VAR"
+}
+function varref-global-simple-1.2 () {
+local mbfl_a_variable_VAR
+mbfl_variable_alloc mbfl_a_variable_VAR
+declare -g -i $mbfl_a_variable_VAR
+local   -n VAR=$mbfl_a_variable_VAR
+
+VAR=123
+dotest-equal 123 "$VAR"
+}
+function varref-global-simple-1.3 () {
+local mbfl_a_variable_VAR
+mbfl_variable_alloc mbfl_a_variable_VAR
+declare -g -i $mbfl_a_variable_VAR
+local   -n VAR=$mbfl_a_variable_VAR
+VAR=123
+dotest-equal 123 "$VAR"
+}
+function varref-global-simple-1.4 () {
+local mbfl_a_variable_VAR
+mbfl_variable_alloc mbfl_a_variable_VAR
+declare -g  $mbfl_a_variable_VAR
+local   -n VAR=$mbfl_a_variable_VAR
+VAR=123
+dotest-equal 123 "$VAR"
+}
+function varref-global-simple-2.1 () {
+local mbfl_a_variable_VAR
+mbfl_variable_alloc mbfl_a_variable_VAR
+declare -g  $mbfl_a_variable_VAR
+local   -n VAR=$mbfl_a_variable_VAR
+
+local RV
+worker-varref-global-simple-2.1 $mbfl_a_variable_VAR RV
+dotest-equal 123 "$RV" && dotest-equal 123 "$VAR"
+}
+function worker-varref-global-simple-2.1 () {
+local mbfl_a_variable_VAR=${1:?"missing variable reference parameter to '${FUNCNAME}'"}
+local -n VAR=$mbfl_a_variable_VAR
+local mbfl_a_variable_RV=${2:?"missing result variable reference parameter to '${FUNCNAME}'"}
+local -n RV=$mbfl_a_variable_RV
+dotest-debug "VARNAME=$1 VAR=$VAR"
+VAR=123
+RV="$VAR"
+}
+function varref-global-array-1.1 () {
+local mbfl_a_variable_VAR
+mbfl_variable_alloc mbfl_a_variable_VAR
+declare -g  $mbfl_a_variable_VAR
+local   -n VAR=$mbfl_a_variable_VAR
+
+VAR[KEY]=123
+dotest-equal 123 "${VAR[KEY]}"
+}
+function varref-global-array-1.2 () {
+local mbfl_a_variable_VAR
+mbfl_variable_alloc mbfl_a_variable_VAR
+declare -g -A $mbfl_a_variable_VAR
+local   -n VAR=$mbfl_a_variable_VAR
+
+VAR[KEY]=123
+dotest-equal 123 "${VAR[KEY]}"
+}
+function varref-global-array-2.1 () {
+local mbfl_a_variable_VAR
+mbfl_variable_alloc mbfl_a_variable_VAR
+declare -g  $mbfl_a_variable_VAR
+local   -n VAR=$mbfl_a_variable_VAR
+
+local RV
+worker-varref-global-array-2.1 $mbfl_a_variable_VAR RV
+dotest-equal 123 "$RV" && dotest-equal 123 "${VAR[KEY]}"
+}
+function worker-varref-global-array-2.1 () {
+local mbfl_a_variable_VAR=${1:?"missing variable reference parameter to '${FUNCNAME}'"}
+local -n VAR=$mbfl_a_variable_VAR
+local mbfl_a_variable_RV=${2:?"missing result variable reference parameter to '${FUNCNAME}'"}
+local -n RV=$mbfl_a_variable_RV
+dotest-debug "VARNAME=$1 VAR=$VAR"
+VAR[KEY]=123
+RV="${VAR[KEY]}"
+}
+function varref-global-array-2.2 () {
+local mbfl_a_variable_VAR
+mbfl_variable_alloc mbfl_a_variable_VAR
+declare -g  $mbfl_a_variable_VAR
+local   -n VAR=$mbfl_a_variable_VAR
+
+local RV
+VAR[KEY]=123
+worker-varref-global-array-2.2 $mbfl_a_variable_VAR RV
+dotest-equal 123 "$RV" && dotest-equal 123 "${VAR[KEY]}"
+}
+function worker-varref-global-array-2.2 () {
+local mbfl_a_variable_VAR=${1:?"missing variable reference parameter to '${FUNCNAME}'"}
+local -n VAR=$mbfl_a_variable_VAR
+local mbfl_a_variable_RV=${2:?"missing result variable reference parameter to '${FUNCNAME}'"}
+local -n RV=$mbfl_a_variable_RV
+dotest-debug "VARNAME=$1 VAR=$VAR"
+RV="${VAR[KEY]}"
+}
+function varref-global-array-3.1 () {
+local mbfl_a_variable_ARRY
+mbfl_variable_alloc mbfl_a_variable_ARRY
+declare -g -A $mbfl_a_variable_ARRY
+local   -n ARRY=$mbfl_a_variable_ARRY
+
+local mbfl_a_variable_VAR
+mbfl_variable_alloc mbfl_a_variable_VAR
+declare -g  $mbfl_a_variable_VAR
+local   -n VAR=$mbfl_a_variable_VAR
+
+local RV1 RV2
+ARRY[KEY]=$mbfl_a_variable_VAR
+ARRY[VAL]=456
+worker-varref-global-array-3.1 $mbfl_a_variable_ARRY RV1 RV2
+dotest-equal 123 "$VAR" && \
+dotest-equal 456 "${ARRY[VAL]}" && \
+dotest-equal 123 "$RV1" && \
+dotest-equal 456 "$RV2"
+}
+function worker-varref-global-array-3.1 () {
+local mbfl_a_variable_VAR=${1:?"missing variable reference parameter to '${FUNCNAME}'"}
+local -n VAR=$mbfl_a_variable_VAR
+local mbfl_a_variable_RV1=${2:?"missing result variable reference parameter to '${FUNCNAME}'"}
+local -n RV1=$mbfl_a_variable_RV1
+local mbfl_a_variable_RV2=${3:?"missing result variable reference parameter to '${FUNCNAME}'"}
+local -n RV2=$mbfl_a_variable_RV2
+local -n VAR=${ARRY[KEY]}
+dotest-debug "VARNAME=$1 ARRY[KEY]=${ARRY[KEY]}"
+VAR=123
+RV1=$VAR
+RV2=${ARRY[VAL]}
+}
+function varref-global-array-3.2 () {
+local mbfl_a_variable_ARRY
+mbfl_variable_alloc mbfl_a_variable_ARRY
+declare -g -a  $mbfl_a_variable_ARRY
+local   -n ARRY=$mbfl_a_variable_ARRY
+
+local mbfl_a_variable_VAR
+mbfl_variable_alloc mbfl_a_variable_VAR
+declare -g  $mbfl_a_variable_VAR
+local   -n VAR=$mbfl_a_variable_VAR
+
+local RV1 RV2
+ARRY[1]=$mbfl_a_variable_VAR
+ARRY[2]=456
+worker-varref-global-array-3.2 $mbfl_a_variable_ARRY RV1 RV2
+dotest-equal 123 "$VAR" && \
+dotest-equal 456 "${ARRY[2]}" && \
+dotest-equal 123 "$RV1" && \
+dotest-equal 456 "$RV2"
+}
+function worker-varref-global-array-3.2 () {
+local mbfl_a_variable_VAR=${1:?"missing variable reference parameter to '${FUNCNAME}'"}
+local -n VAR=$mbfl_a_variable_VAR
+local mbfl_a_variable_RV1=${2:?"missing result variable reference parameter to '${FUNCNAME}'"}
+local -n RV1=$mbfl_a_variable_RV1
+local mbfl_a_variable_RV2=${3:?"missing result variable reference parameter to '${FUNCNAME}'"}
+local -n RV2=$mbfl_a_variable_RV2
+local -n VAR=${ARRY[1]}
+dotest-debug "VARNAME=$1 ARRY[1]=${ARRY[1]}"
+VAR=123
+RV1=$VAR
+RV2=${ARRY[2]}
+}
+function varref-unset-1.1 () {
+local mbfl_a_variable_VAR
+mbfl_variable_alloc mbfl_a_variable_VAR
+local  $mbfl_a_variable_VAR
+local -n VAR=$mbfl_a_variable_VAR
+VAR=123
+local VAR_VAL=$VAR
+local VAR_NAM=$mbfl_a_variable_VAR
+unset -v $mbfl_a_variable_VAR
+unset -v mbfl_a_variable_VAR
+unset -v -n VAR
+unset -v VAR
+dotest-equal '' "$VAR" && \
+dotest-equal '' $(eval \$"$VAR_NAM")
+}
+function varref-unset-2.1 () {
+local mbfl_a_variable_VAR
+mbfl_variable_alloc mbfl_a_variable_VAR
+declare -g  $mbfl_a_variable_VAR
+local   -n VAR=$mbfl_a_variable_VAR
+VAR=123
+local VAR_VAL=$VAR
+local VAR_NAM=$mbfl_a_variable_VAR
+unset -v $mbfl_a_variable_VAR
+unset -v mbfl_a_variable_VAR
+unset -v -n VAR
+unset -v VAR
+dotest-equal '' "$VAR" && \
+dotest-equal '' $(eval \$"$VAR_NAM")
+}
+function varref-unset-3.1 () {
+local mbfl_a_variable_VAR
+mbfl_variable_alloc mbfl_a_variable_VAR
+declare -g  $mbfl_a_variable_VAR
+local   -n VAR=$mbfl_a_variable_VAR
+VAR=123
+local RV
+mbfl_location_enter
+{
+mbfl_location_handler "unset -v $mbfl_a_variable_VAR"
+RV=$VAR
+}
+mbfl_location_leave
+dotest-equal 123 "$RV" && dotest-equal '' $VAR
+}
+function varref-sub-generation-1.1 () {
+local VARNAME
+worker-varref-sub-generation-1.1 VARNAME
+local mbfl_a_variable_VAR=$VARNAME
+local -n VAR=$mbfl_a_variable_VAR
+dotest-equal 123 "$VAR"
+unset -v $mbfl_a_variable_VAR
+unset -v mbfl_a_variable_VAR
+unset -v -n VAR
+unset -v VAR
+}
+function worker-varref-sub-generation-1.1 () {
+local mbfl_a_variable_RV=${1:?"missing result variable name parameter to '${FUNCNAME}'"}
+local -n RV=$mbfl_a_variable_RV
+local mbfl_a_variable_VAR
+mbfl_variable_alloc mbfl_a_variable_VAR
+declare -g  $mbfl_a_variable_VAR
+local   -n VAR=$mbfl_a_variable_VAR
+VAR=123
+RV=$mbfl_a_variable_VAR
+}
+dotest variable-
+dotest varref-
+dotest-final-report

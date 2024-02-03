@@ -1,0 +1,26 @@
+dotest: encode-hex-var-1.1 -- start
+dotest: encode-hex-var-1.1 -- success
+dotest: encode-oct-var-1.1 -- start
+dotest: encode-oct-var-1.1 -- success
+dotest: decode-hex-2.1 -- start
+dotest: decode-hex-2.1 -- success
+dotest: decode-oct-1.1 -- start
+dotest: decode-oct-1.1 -- success
+dotest: decode-oct-var-1.1 -- start
+dotest: decode-oct-var-1.1 -- success
+dotest: filter-hex-1.1 -- start
+dotest: filter-hex-1.1 -- success
+dotest: filter-hex-1.2 -- start
+dotest: filter-hex-1.2 -- success
+dotest: filter-hex-var-1.1 -- start
+dotest: filter-hex-var-1.1 -- success
+dotest: filter-hex-var-1.2 -- start
+dotest: filter-hex-var-1.2 -- success
+dotest: filter-oct-var-1.1 -- start
+dotest: filter-oct-var-1.1 -- success
+
+Test file "../tests/encode.test"
+	Number of executed tests: 10
+	Number of failed tests:   0
+
+PASS tests/encode.test (exit status: 0)

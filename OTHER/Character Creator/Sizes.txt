@@ -1,0 +1,8 @@
+Sizes-Cylinder  H  by W	(Max) (If standing like a Humanoid)
+0	Mini		.5 by .5	Mouse
+1	Tiny		2  by 1		Fox
+2	Small		4  by 2		Hobbit
+3	Medium		6.5 by 3	Human
+4	Large		12 by 6 	Horse
+5	Huge		25 by 20	Elephant
+6	Gigantic	40 by 40	Big Dragon
