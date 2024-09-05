@@ -13,7 +13,8 @@ findwhere () {
 	fi
 	if [[ $1 =~ ^[Ii][Tt]$ ]]; then
 		if [[ -e $_it ]]; then
-			echo "IITT">&2
+			#Should we check here if $_it is in the player's sphere of influence?
+			decho "findwhere(): It">&2
 			out="$_it"
 			echo -e "$out"
 			return

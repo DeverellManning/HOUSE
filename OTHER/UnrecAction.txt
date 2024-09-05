@@ -564,3 +564,24 @@ d
 take applle
 go South
 walk South
+shack
+dirdoor
+dir
+cprop
+hands
+Mudrooom
+take it
+Stairs
+eamine blob
+clothes
+look at shirt
+ask butler for food
+hands
+hand
+wait
+dir
+eaxamine the record player
+Greet the Butler
+wait
+what is a butler
+attack the Kitchen

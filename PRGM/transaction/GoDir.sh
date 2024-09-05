@@ -61,7 +61,9 @@ DirDoor () {
 			dmessage="You walk through the door, into the"
 		fi
 
-		if [ -e "${_worldpath}$dwhere/Name.txt" ]; then				#Check Door Validity
+		decho "${_worldpath}$dwhere/Name.txt"
+
+		if [[ -e "${_worldpath}$dwhere/Name.txt" ]]; then			#Check Door Validity
 			echo "${dmessage@P}"
 			_energy=$((_energy-1))
 			_where="$dwhere"
