@@ -1,0 +1,101 @@
+
+List of Valid Actions:
+attack
+close
+dive
+door
+drop
+eat
+go
+hold
+hug
+inventory
+jump
+look
+open
+post
+press
+read
+say
+sleep
+take
+throw
+todo
+use
+wear
+write
+
+Inventory Content:
+30 Coins,
+Banana,
+Cupcake.8,
+Cupcake,
+Galcatic Pants,
+knife,
+
+The player is holding the knife.
+The last object refered to was the tissue box.
+The currently open container is the minifridge.
+
+Room Content:
+ ∏ Archway        
+ ∆ Butler
+ - Minifridge
+	CONTAINS:
+	 - Cup of Ice Cream
+	 - Tissue Box
+ - Rocking Chair
+ ∏ Door to Entryway
+ ∏ Kitchen door
+ ∏ Mudroom Door
+ ∏ Standing Room Door
+ - Shelf
+ - Window
+
+
+Evaluate these prompts using the context above:
+"""I go through the archway"""
+"""I attack the butler with my knife"""
+"""I examine the Butler"""
+"""I take the tissue box out of the minifridge"""
+"""I look out the window"""
+"""What time is it?"""
+"""Where am I?"""
+"""Where's the Tisue Box?"""
+"""I open the minifridge.  What's inside?"""
+"""Describe the Butler."""
+"""What do I have?"""
+"""I examine it."""
+"""I read the window"""
+"""go South"""
+"""walk South"""
+"""look at shirt"""
+"""ask butler for food"""
+"""Greet the Butler"""
+"""what is a butler"""
+"""attack the Kitchen"""
+"""yell Hello"""
+"""attack the chair"""
+"""look at chair"""
+"""wash hands"""
+"""eat Tofu Cubes"""
+"""take note7"""
+"""is there a window?"""
+"""look at window"""
+"""leave game"""
+
+For each prompt, answer these questions:
+ - Is the prompt an action, a question, or something else?
+ - What's the action?
+ - What object is being acted on?
+ - Where is the object being acted on?
+ - What object is being used, if any?
+ - How is it being used?
+ - How do the prepositions modify the action?
+ - What input is needed for the action to be performed?  What can be left out?
+ - Who is the prompt meant for?
+ - Is there any quoted text?  If so, what is it exactly?
+ - Are there any directions?
+ - Is the action possible given the context?
+
+

@@ -128,7 +128,7 @@ read -p"> " password
 
 echo "Computing Hash:"
 
-testhash=$(openssl passwd -salt "$_SALT" "$password")
+testhash=$(mkpasswd --salt $_SALT -m descrypt $password)
 
 echo "Hash is $testhash"
 echo
