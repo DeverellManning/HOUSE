@@ -1,5 +1,7 @@
 #!/bin/sh
 
+# I beleive we do not use this version of the parser anymore.
+
 #This program checks for a 
 #command called %_act% in the 
 #.\PRGM\SH\ folder.

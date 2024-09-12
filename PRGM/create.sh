@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Script to create a new account
+
 cd /home/deverell-manning/Public/HOUSE/
 _SALT=HP
 

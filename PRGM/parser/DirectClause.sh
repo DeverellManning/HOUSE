@@ -18,7 +18,7 @@ if [[ $aginck = "again" || $aginck = "repeat" || $aginck = "a" ]]; then
 		return
 	fi                     
 	. ./PRGM/parser/Alias.sh || . ./PRGM/parser/ItemCheck.sh || \
-	echo "$_in">>"./OTHER/UnrecAction.txt"
+	echo "$_in">>"./OTHER/LOG/UnrecAction.txt"
 	return
 elif [[ $aginck = "more" ]]; then
 	echo "More!"
@@ -27,7 +27,7 @@ elif [[ $aginck = "more" ]]; then
 		return
 	fi                     
 	. ./PRGM/parser/Alias.sh || . ./PRGM/parser/ItemCheck.sh || \
-	echo "$_in">>"./OTHER/UnrecAction.txt"
+	echo "$_in">>"./OTHER/LOG/UnrecAction.txt"
 	return
 fi
 
@@ -208,14 +208,14 @@ echo
 
 if [[ ${_ptest:-false} = false ]]; then
 	if [[ -e $pVerb ]]; then
-		. "$pVerb" || echo "$_bin">>"./OTHER/UnrecAction.txt"
+		. "$pVerb" || echo "$_bin">>"./OTHER/LOG/UnrecAction.txt"
 		return
 	fi
 
 	#echo "Unreconized command! Checking Aliases and Items:"
 	#Aliases                   #items                        
 	. ./PRGM/parser/Alias.sh || . ./PRGM/parser/ItemCheck.sh || \
-	echo "$_bin">>"./OTHER/UnrecAction.txt"
+	echo "$_bin">>"./OTHER/LOG/UnrecAction.txt"
 	_in=
 else
 		echo "---- ---- ----"

@@ -23,8 +23,8 @@ Look () {
 	echo -e "$ChromaTitle  $pname  $ChromaDefault"
 
 	if [ -e "$(_fwhere)/Veiw.sh" ]; then . "$(_fwhere)/Veiw.sh"
-	elif [ -e "$(_fwhere)/veiw.txt" ]; then cat "$(_fwhere)/veiw.txt"
-	elif [ -e "$(_fwhere)/Veiw.txt" ]; then cat "$(_fwhere)/Veiw.txt"
+	elif [ -e "$(_fwhere)/veiw.txt" ]; then cat "$(_fwhere)/veiw.txt" | fold -s -w 64
+	elif [ -e "$(_fwhere)/Veiw.txt" ]; then cat "$(_fwhere)/Veiw.txt" | fold -s -w 64
 	else echo -e "This room is oddly featurless.\nIt makes you worried about deadlines and details."; fi
 
 	echo

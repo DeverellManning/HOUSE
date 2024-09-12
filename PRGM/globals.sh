@@ -1,4 +1,5 @@
 #!/bin/bash
+#Global Vars for everyone!
 #This file should be sourced
 
 . ./PRGM/utility/LineUtil.sh
@@ -31,7 +32,7 @@ _reload () {
 	for i in $(seq 0 $c); do
 		l=$(_getLine "$_util_sources" $i)
 		if [[ -e $l ]]; then
-			if [[ $1 == true ]]; then echo "$l"; fi
+			if [[ $1 == true ]]; then echo "$l"; fi  #Log reload proccess if needed.
 			. "$l"
 		fi
 	done

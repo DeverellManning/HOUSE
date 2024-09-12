@@ -1,6 +1,7 @@
 #!/bin/sh
 
 aliasck=$(echo "$_bin" | tr [A-Z] [a-z] | sed -e "s/ *$//g" | sed -e "s/-//g")
+
 case "$aliasck" in
 "l")
 . ./PRGM/action/look.sh
@@ -9,6 +10,7 @@ return 0;;
 "inv")
 . ./PRGM/action/inventory.sh
 return 0;;
+
 "leave game"|"im done")
 _in=QUIT
 return 0;;
@@ -24,7 +26,7 @@ clein
 . "./PRGM/action/look.sh"
 return 0;;
 
-#*) :;;
+# *) :;;
 	#echo "'$aliasck'"
 esac
 return 1

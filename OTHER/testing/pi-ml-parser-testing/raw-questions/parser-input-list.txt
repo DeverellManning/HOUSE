@@ -1,0 +1,199 @@
+I take the apple.
+
+I take it.
+
+I pick it up.
+
+I walk north.
+
+I go through the door.
+
+I go to the kitchen.
+
+I leave the room.
+
+I go to the white door.
+
+I make the bed.
+
+I pick up all of the stuff on the table.
+
+I eat the food.
+
+i eat the cheese
+
+I return.
+
+I say "Hello, Mr. Jarvis."
+
+I say "Here, take this."
+
+I wait.
+
+wait
+
+shake the tree
+
+I take another.
+
+I take 15 apples.
+
+I attack him with my sword.
+
+I hit her with my axe.
+
+I chop her head off.
+
+I slice him ferouciously.
+
+I press the red button on the box.
+
+I press the orange button on the box.
+
+I take the remote.
+
+I post the note.
+
+Turn on debug mode.
+
+bashy
+
+Disable debug mode.
+
+jobs
+
+qprop
+
+reload
+
+clear
+
+nodebug
+
+present
+
+WHo's here?
+
+todo
+
+I press the button.
+
+I attack the haystack.
+
+tpa
+
+tpy
+
+tpk
+
+tpt
+
+take
+
+look
+
+throw
+
+inventory
+
+sleep
+
+I hug the
+
+dir
+
+wear
+
+I write "Hello world" on the note.
+
+I read the cook book.
+
+
+Statistic Report.
+
+What time is it?
+
+Where am I?
+
+What's my health?
+
+What is it?
+
+I use the broom.
+
+I dive into the pool.
+
+I jump into the air.
+
+I eat the pear.
+
+I close the trapdoor.
+
+bar
+
+quit
+
+I'm done.
+
+pew
+
+Thank you!
+
+I hold my sword tightly.
+
+I examine it.
+
+I leave the room.
+
+I examine the mailbox.
+
+I hit it with my axe.
+
+I leap off the edge.
+
+I put the turtle down.
+
+I hop over the streamlet.
+
+I kill her.
+
+I toss the lantern.
+
+I open the cabinet.
+
+I drop the cabbages I'm holding.
+
+I say "What do you know about this place?"
+
+What am I wearing?
+
+Who is here?
+
+Who is online?
+
+Who is present?
+
+I make ammends.
+
+I cut the thread with the scissors
+
+I take the scissors out of my pockets.
+
+I look in my pockets.
+
+I inspect my hands
+
+I look around.
+
+I look around more.
+
+I inspect the table.
+
+I consider the meaning of life.
+
+I ask him "what are you doing today?"
+
+"Hello, Mister!"
+
+"What are you doing here?"
+

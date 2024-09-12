@@ -122,7 +122,7 @@ write () {
 	done
 
 	tmp="$ntmp"
-	echo -e "$tmp"
+	echo -e "$tmp" | fold -s -w 64
 	
 	ntmp=
 	wmode=norm

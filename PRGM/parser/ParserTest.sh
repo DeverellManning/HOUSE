@@ -1,15 +1,19 @@
 #!/bin/bash
 
 #Load Utilities
-. "./PRGM/data/PropertyUtil.sh"
-. "./PRGM/utility/FilesUtil.sh"
-. "./PRGM/utility/RandomUtil.sh"
-. "./PRGM/utility/OutputUtil.sh"
+. "./PRGM/globals.sh"
 
-_where="./WORLD/House/Attic/South Attic"
+#. "./PRGM/data/PropertyUtil.sh"
+#. "./PRGM/utility/FilesUtil.sh"
+#. "./PRGM/utility/RandomUtil.sh"
+#. "./PRGM/utility/OutputUtil.sh"
+
+_where="/House/Attic/South Attic"
+ppath="$_charpath/PLAYERS/.mcparsertester"
 _in="I look at the Ladder."
 . ./PRGM/parser/DirectClause.sh
 _ptest=true
+
 
 #read -n1 var
 

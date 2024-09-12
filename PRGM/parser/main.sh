@@ -49,12 +49,12 @@ NounIn=
 #Modes:
 #Verb			Looking for Verb
 #DirectPrep		Looking for Preposition
-#DirectNoun		Reading Noun				Until Prep
+#DirectNoun		Reading Noun			Until Prep
 #IndirectPrep	Looking for Preposition
 #IndirectNoun	Reading Noun				Until End
 
 
-#echo "PARSER"
+
 
 _in1=$(echo "$_in" | tr "[:upper:]" "[:lower:"] | sed -e "s/[\.!,?]/ &/g" | tr -s "[:blank:]" " " )
 _in=$(echo "$_in1" | sed "s/ \+/\n/g")
@@ -224,6 +224,6 @@ fi
    #echo "Unreconized command! Checking Aliases and Items:"
    #Aliases                   #items                        
    . ./PRGM/parser/Alias.sh || . ./PRGM/parser/ItemCheck.sh || \
-   echo "$_in">>"./OTHER/UnrecAction.txt"
+   echo "$_in">>"./OTHER/LOG/UnrecAction.txt"
 
 _in=
