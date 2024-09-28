@@ -1,0 +1,14 @@
+Types of outputs from the parser:
+
+Error: "Sorry, you can't do that.  That thing isn't here or doesn't exist."
+Error: "That was just random, meaningless text"
+
+Success: "Verb: jump"
+Success: "Verb: Eat  Object: Corn (in inventory)"
+Success: "Attack  Primary Object: The Elf  Secondary Object: the knife"
+
+Verb
+  Verb Object
+    Verb Object1 Object2
+  Verb Adverb
+  Verb

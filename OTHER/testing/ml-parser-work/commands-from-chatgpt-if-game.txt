@@ -1,0 +1,162 @@
+eat leaflet
+
+enter the house
+
+n
+
+e
+
+cross the bridge
+
+enter the building
+
+examine the lantern
+
+what else is in here
+
+check the cupboard
+
+Carefully look inside the sack in the cupboard
+
+leave the room
+
+Do I have a map?
+
+Go west
+
+I take a close look at the trees
+
+go north
+
+continue north.  I need to find someone.
+
+what is inside the cabin?
+
+Greet the elderly person
+
+WHere am I?
+
+Are we underground?
+
+Okay.  I ask the old man, "What's your story?"
+
+I ask the old man: "What is around this area?  Are there any tracks, towns, outposts, or entrances?  What year is it?"
+
+No, thanks.  I hope you have a good time.
+
+By the way, whats your name?
+
+The old man's name is ChatGPT. Got it.
+
+I leave ChatGPT's house.
+
+I travel east.  What time of day is it?
+
+Do I pass near any signs before I get to the village?
+
+I continue traveling to the town.  What else happens?
+
+inventory
+
+So I don't have any money, do I?
+
+I ask someone the way to the town hall.
+
+I walk to the notice board and read it.
+
+I look around for someone I can get answers from.
+ChatGPT said:
+
+I walk over to the innkeeper and greet them.  What do they look like?
+
+What gender is the innkeeper?
+
+Okay.  I greet the innkeeper warmly and ask him about the festival.
+
+I reply to him.  "It sounds like it's gonna be a lot of fun.  How is preparation for the festival going?"
+
+I ask the innkeeper, "What does the festival celebrate?"
+
+I tell him "That sounds cool.  I'm looking forward to being there next week."
+
+  I return to the sign.  What job postings are there?
+
+What roads can I take around here?
+
+I walk down Main Street to find the General Store.
+
+I greet the store keeper.
+
+I ask her "What kind of stuff do you stock?"
+
+"That great."  I say.  "Just curious, where do you get these things from?"
+
+"Oh, so do you know this land pretty well?"  I ask her, eager for information.  I'm still confused as to where I am and how I got here.  Maybe I can learn something useful in this town.
+
+I relax somewhat, and ask her about possible part-time employment.  "I realize that I'm penniless."  I chuckle.  "I'm interested in staying here for a little bit, so I'm looking for some work.  I saw the postings on the notice board, so..."
+
+"I'll think about it.  Thanks for talking with me!"
+
+I head to the marketplace on main street.
+
+What's in my inventory?
+
+I mosey up to a business man in a stall, and ask him if this town has a bank.
+
+"No, thank-you.  Be seeing you!"  I set off to find the south road.  On my out, I look up and examine the sky.
+
+Before I enter, I estimate the time of day based on the sun.  I'd like to know if it will be dark soon.
+
+I knock on the door and prepare myself.
+
+"Hi, I'm a traveler new to this area.  I came to inquire about making make a small, short term loan."
+
+I have no money, and am looking to get a job.  I may need a ... uh ... Excuse me, but what money do we use here?  
+
+I continue, slightly confused.  "Okay, so ... How much would I need for a day's lodging and food?"
+
+I maintain my composure, and internally I think about inflation.  I say "Okay.  I'm looking to get a loan of 15 silver pieces to be repaid in a week.  I have some items I could use collateral, if needed."
+
+I present the lantern and silver key on his table.
+
+I thank him.  "Thanks.  Do you keep the collateral in this situation?"
+
+"Okay.  I'm ready to proceed with the loan."
+
+After saying goodbye, I check my inventory before leaving the building.
+
+  I leave the building.
+
+What time of day is it?  Keep track of the time of day as it gets farther into the evening.  I begin to travel north on the south road back to the village.
+
+I continue north, keeping an eye out for anything I might notice.
+
+I head toward the inn once I reach the village.
+
+I greet him.  "I would like to get a room for the night.  What are your rates?"
+
+"Thank you.  I'm not feeling quite hungry yet, but I'd be pleased to be shown to my room."  It's true, I'm not very hungry for some reason.
+
+I check my inventory
+
+How am I carrying the items in my inventory?
+
+I examine the leaflet closely.
+
+That's interesting.  i got it from a mailbox at a house some distance from here, and it's so old and faded ...  I wonder when it was printed.  Anyway, it there a mirror in here?
+
+I look deep into the mirror.  What do I see?
+
+Study the mirror closer.
+
+I stare at the mirror for 5 minutes.
+
+I look at the window.
+
+I lay down on my bed.
+
+QUIT
+
+How do I rejoin the game?
+
+RESUME

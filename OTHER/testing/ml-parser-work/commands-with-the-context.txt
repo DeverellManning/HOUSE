@@ -1,0 +1,289 @@
+#ChatGPT generated commands:
+
+go through the archway
+walk through archway
+move through the archway
+enter the archway
+run through archway
+head into the archway
+cross the archway
+attack the butler with knife
+stab the butler
+kill the butler with my knife
+hit the butler with the knife
+slice the butler with my knife
+attack butler using knife
+strike the butler
+fight the butler with my knife
+examine butler
+look at the butler
+check out the butler
+inspect the butler
+observe the butler
+look closely at butler
+stare at the butler
+study the butler
+take tissue box from minifridge
+remove tissue box from fridge
+grab the tissue box from the fridge
+get the tissue box out of the minifridge
+retrieve tissue box from fridge
+pull tissue box from fridge
+pick up tissue box from minifridge
+open the fridge
+what's inside the minifridge?
+what's in the fridge?
+look inside the fridge
+check fridge for items
+what’s in the mini fridge?
+open the mini fridge
+inspect fridge
+open fridge, what's inside?
+what's inside minifridge right now?
+take tissue box from fridge
+look out the window
+gaze out of window
+peek through window
+look through window
+stare out the window
+check the window
+peer out the window
+see outside through the window
+where am I?
+what is this place?
+tell me where I am
+current location?
+what's my location?
+where is this?
+am I in the room?
+what's this room called?
+what’s my current location?
+who am I?
+what room is this?
+where's the tissue box?
+where can I find the tissue box?
+where is the tissue box kept?
+location of the tissue box?
+is the tissue box in the fridge?
+find tissue box
+look for the tissue box
+take the ice cream from the fridge
+grab the ice cream out of the fridge
+retrieve ice cream from minifridge
+get cup of ice cream from fridge
+pull ice cream from fridge
+take cup from fridge
+fetch the ice cream from fridge
+describe the butler
+what does the butler look like?
+give me details about the butler
+can you describe the butler?
+what’s the butler’s description?
+butler appearance?
+tell me what the butler looks like
+butler description please
+inventory
+what do I have?
+show inventory
+list my items
+what's in my inventory?
+what am I holding?
+check inventory
+show me what I’m carrying
+what do I have on me?
+I look at my inventory
+check what I’m carrying
+I examine my inventory
+what’s my current inventory?
+what items do I have?
+I open inventory
+what am I carrying right now?
+I read the window
+read the inscription on the window
+is there text on the window?
+check if there’s writing on window
+inspect window for text
+go south
+walk south
+move south
+head south
+run south
+go southwards
+walk to the south
+go to southern room
+look at the chair
+check out the rocking chair
+inspect the chair
+sit on the chair
+look at the rocking chair
+rock the chair
+check the chair
+examine the chair
+ask butler for food
+talk to the butler
+request food from butler
+say to the butler "Do you have food?"
+ask butler if he has food
+butler, give me food
+talk to the butler about food
+request meal from the butler
+ask butler for something to eat
+greet the butler
+say hello to butler
+butler, hello
+wave at butler
+give butler a greeting
+say "hi" to the butler
+hello butler
+greet the butler kindly
+what’s a butler?
+what is a butler supposed to do?
+explain what a butler is
+who is the butler?
+define butler
+what’s the job of a butler?
+what does a butler do?
+attack the kitchen
+strike the kitchen
+smash the kitchen
+attack the kitchen door
+punch the kitchen
+fight the kitchen
+yell hello
+shout hello
+scream "hello"
+yell at butler
+yell to the butler
+shout to the butler
+attack the chair
+strike the chair
+hit the chair
+stab the chair with knife
+smash the chair
+destroy the chair
+look at chair
+inspect the chair
+look closely at chair
+examine chair
+check chair
+wash hands
+clean hands
+wash hands in sink
+look for a sink to wash hands
+eat ice cream
+take a bite of ice cream
+eat the ice cream from fridge
+eat Tofu Cubes
+take note7
+pick up note7
+grab the note7
+take the note7 from shelf
+retrieve note7 from fridge
+is there a window?
+look at window
+is there a window here?
+is there a window in this room?
+is window present?
+is there a view from the window?
+look at window
+examine the window
+inspect window
+leave game
+exit game
+quit the game
+stop playing
+end the game
+leave the current room
+exit to the main menu
+save game and leave
+return to main menu
+go through door to entryway
+enter kitchen door
+open mudroom door
+go to standing room door
+use knife on butler
+say hi to the butler
+push butler
+hug butler
+hold knife and stab butler
+drop knife on the floor
+throw knife
+hug butler gently
+use knife to open fridge
+read butler’s nametag
+take a nap on the chair
+sit down on the rocking chair
+look under the chair
+search the chair
+check what’s under the fridge
+peek inside the minifridge
+say "goodbye" to butler
+knock on the door to entryway
+knock on the kitchen door
+close the minifridge
+shut the fridge door
+slam the fridge door closed
+write on the window
+use knife to carve window
+press the button on the fridge
+jump on the chair
+climb on the chair
+hold the tissue box
+use knife to cut tissue box
+put tissue box on the chair
+drop the ice cream
+throw the ice cream at the butler
+hug the butler
+hold the banana
+eat the banana
+drop the banana
+post the banana
+press the banana
+use the banana on the fridge
+close the window
+shut the window
+write "hello" on the window
+jump through the archway
+climb through the archway
+take off galactic pants
+wear galactic pants
+post about the galactic pants
+use the knife to write on the window
+yell "butler!"
+say "butler"
+shout "hey butler"
+what do I do next?
+what is my goal?
+
+#Input commands:
+
+I go through the archway
+I attack the butler with my knife
+I examine the Butler
+I take the tissue box out of the minifridge
+I look out the window
+What time is it?
+Where am I?
+Where's the Tisue Box?
+I open the minifridge.  What's inside?
+Describe the Butler.
+What do I have?
+I examine it.
+I read the window
+go South
+walk South
+look at shirt
+ask butler for food
+Greet the Butler
+what is a butler
+attack the Kitchen
+yell Hello
+attack the chair
+look at chair
+wash hands
+eat Tofu Cubes
+take note7
+is there a window?
+look at window
+leave game
+
