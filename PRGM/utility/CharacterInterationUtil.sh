@@ -36,7 +36,6 @@ _MessageChar () {
 	if [[ -p /dev/stdin ]]; then
 		chars="$(cat -)"
 		
-		#echo "CIU #1"
 		for i in $(seq 0 $(_lineCount "$chars")); do
 			cl=$(_getLine "$chars" "$i")
 			if [[ ${cl:-null} = null ]]; then continue; fi

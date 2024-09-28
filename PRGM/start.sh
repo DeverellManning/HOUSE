@@ -124,18 +124,18 @@ if [[ ! -e ./SERVER/USERS/${name} ]]; then
 fi
 
 echo "Enter Password:"
-read -p"> " password
+read -s -p"> " password
 
 echo "Computing Hash:"
 
 testhash=$(mkpasswd --salt $_SALT -m descrypt $password)
 
-echo "Hash is $testhash"
+decho "Hash is $testhash"
 echo
-echo "Loading Account Info:"
+echo "Loading Account Info..."
 
 hash=$(qprop "hash@User" "./SERVER/USERS/${name}/secrets")
-echo "Loaded hash is $hash."
+decho "Loaded hash is $hash."
 
 if [[ ! $hash == $testhash ]]; then
 	_serror "That is the wrong password. Abort!"

@@ -1,6 +1,6 @@
 {
-	"path": "/home/deverell-manning/Public/HOUSE/",
-	"local_world": "/home/deverell-manning/Public/ELIGOTEXTUM",
+	"path": "/home/deverell-manning/Projects/HPE/HOUSE/",
+	"local_world": "/home/deverell-manning/Projects/HPE/ELIGOTEXTUM",
 	"use_world": 5,
 	"_comment": "1-Local World, 2-Online if Available",
 	"can_become_master": false,

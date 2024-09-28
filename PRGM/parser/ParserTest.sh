@@ -3,13 +3,9 @@
 #Load Utilities
 . "./PRGM/globals.sh"
 
-#. "./PRGM/data/PropertyUtil.sh"
-#. "./PRGM/utility/FilesUtil.sh"
-#. "./PRGM/utility/RandomUtil.sh"
-#. "./PRGM/utility/OutputUtil.sh"
-
 _where="/House/Attic/South Attic"
 ppath="$_charpath/PLAYERS/.mcparsertester"
+
 _in="I look at the Ladder."
 . ./PRGM/parser/DirectClause.sh
 _ptest=true

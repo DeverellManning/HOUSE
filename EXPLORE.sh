@@ -165,7 +165,6 @@ GameTick() {
 		#Run Parser
 		. ./PRGM/parser/DirectClause.sh
 	fi
-	
 }
 
 CharacterMenu () {

@@ -6,4 +6,14 @@ WORLD: Eligotextum (Original, The House, and Llewdlac)
 
 This is a document about the House Project.  More later.
 
+The House Project
+ - Interactive Fiction System
+ - Multiplayer
+ - Open World
+ - Mostly made by a real person
+ - AI Extended
+
+Eligotextum - the personal world of Deverell Manning.
+    From the Town of Ardey, to the depths of the Harper Cave system, to the House itself, the Eligotextum world is home to the all this and more.  It is always growing, and I'm gonna finish this later.
+
 Press 'q' to exit.

@@ -138,14 +138,13 @@ until [[ $ctick = END ]]; do
 
 	#Getting Ready
 	ctick=
-	sleep 2										#Wait 2 seconds
-	until [[ ${ctick:-null} != null ]]; do		#Wait until any one does a turn
+	sleep 2							#Wait 2 seconds
+	until [[ ${ctick:-null} != null ]]; do			#Wait until any one does a turn
 		ctick=$(< ./SERVER/tick)
 		sleep 0.05 #min: 0.01
 	done
 	
-	#Tick the Time (ASAP)
-	ttick=$((ttick + 1))
+	ttick=$((ttick + 1))					#Tick the Time (ASAP)
 		#tminute=$(((ttick / 5)%30 * 2))
 		#thour=$((((ttick / 5) / 30)%24))
 		#tDay=$((((ttick / 5) / 30) / 24))
@@ -156,7 +155,7 @@ until [[ $ctick = END ]]; do
 	echo "+____%$ctick%____+"
 	echo "|#$ttick"
 	echo
-	echo -n "">"./SERVER/tick"					#Clear Tick for next turn
+	echo -n "">"./SERVER/tick"				#Clear Tick for next turn
 	
 	
 	#Reset Some Variables
@@ -192,7 +191,7 @@ until [[ $ctick = END ]]; do
 	#Tick the World
 	. ./PRGM/master/world_tick.sh
 	
-	#Tick NPC Manager (was disabled)
+	#Tick NPC Manager
 	. ./PRGM/master/npc_tick.sh
 	
 	#Reload all utilities
