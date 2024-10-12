@@ -1,0 +1,54 @@
+skin
+hair
+head
+face
+eye
+eyes
+nose
+ear
+ears
+mouth
+lips
+hair
+scalp
+neck
+arm
+arms
+armpit
+armpits
+hand
+hands
+shoulder
+shoulders
+elbow
+elbows
+forearm
+forearms
+finger
+fingers
+finger nail
+finger nails
+body
+chest
+chest
+breast
+breasts
+upper body
+lower body
+waist
+hips
+crotch
+leg
+legs
+thigh
+thighs
+hip
+hips
+knee
+knees
+ankle
+ankles
+foot
+feet
+toe
+toes

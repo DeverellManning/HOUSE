@@ -30,10 +30,11 @@ Iname=$(inam "$Item")
 Iext=$(iext "$Item")
 
 #echo "Using the $Iname."
+#here=$(echo $Item | sed -e"s/\/tick.sh$//")
 if [[ ${Iext:=dir} = .sh ]]; then
 	. "$Item"
 elif [[ -d "$Item" ]]; then
-	if [ -e "$Item/"[Uu]se.sh ]; then
+	if [[ -e "$Item/"[Uu]se.sh ]]; then
 		. "./$Item/"[Uu]se.sh
 	fi
 else

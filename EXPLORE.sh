@@ -163,7 +163,7 @@ GameTick() {
 		kill -s SIGSTOP $_pid_messages
 		
 		#Run Parser
-		. ./PRGM/parser/DirectClause.sh
+		. ./PRGM/parser/python_parser.sh
 	fi
 }
 

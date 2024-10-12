@@ -13,7 +13,7 @@ if [[ "$1" =~ /[Dd]isc\. ]];then exit; fi
 
 if [[ "$1" = "$_where" ]]; then exit; fi
 if [[ "$1" = $ppath/Inventory ]]; then exit; fi
-if [[ "$1" = $_target ]]; then exit; fi
+if [[ "$1" = "$2" ]]; then exit; fi
 if [[ "$1" =~ ^$ppath/Clothes/[^/]*$ ]]; then exit; fi
 
 name=$(echo "$1" | grep -o "[^/]*$" -- | sed -e "s/^\.//g" | sed -e "s/\..*$//g")

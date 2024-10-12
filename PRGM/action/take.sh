@@ -37,7 +37,7 @@ NoRoom () {
 
 getWeight () {
 	weight=0
-	if [[ $(iext "$1") = .prop ]]; then
+	if [[ $(iext "$1") = .prop || $(iext "$1") = .sh ]]; then
 		#qprop weight@Prop "$1"
 		weight=$(qprop weight@Prop "$1") || weight=0
 		return

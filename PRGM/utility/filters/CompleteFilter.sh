@@ -3,7 +3,7 @@
 #Filters Files
 #Not to be sourced
 
-#Usage: echo -e "$FileList" | xargs -n1 ./PRGM/utility/GenericFilter.sh
+#Usage: echo -e "$FileList" | xargs -n1 ./PRGM/utility/CompleteFilter.sh
 
 #echo "$1"
 

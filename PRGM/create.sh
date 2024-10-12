@@ -2,7 +2,7 @@
 
 # Script to create a new account
 
-cd /home/deverell-manning/Public/HOUSE/
+cd /home/deverell-manning/Projects/HPE/HOUSE/
 _SALT=HP
 
 echo "Enter Username:"

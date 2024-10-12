@@ -1,0 +1,4 @@
+ground
+ceiling
+air
+room

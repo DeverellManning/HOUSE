@@ -8,6 +8,18 @@
 qprop='./PRGM/data/Qprop.sh'
 cprop='./PRGM/data/Cprop.sh'
 
+#Utilities
+_util_sources="$_util_sources
+./PRGM/data/PropertyUtil.sh
+./PRGM/utility/FilesUtil.sh
+./PRGM/utility/RandomUtil.sh
+./PRGM/utility/OutputUtil.sh
+./PRGM/utility/LineUtil.sh
+./PRGM/utility/CharacterInterationUtil.sh"
+
+_reload
+#End Utilities
+
 #Functions
 rand () {
 	shuf -e $(seq "$1" "$2") | head -n1
